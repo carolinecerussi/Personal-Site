@@ -1,7 +1,7 @@
 import './App.css';
 import Header from '../src/Header';
 import React from 'react';
-
+import AboutMe from '../src/AboutMe';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           Learn React
         </a>
     </div>
+    <AboutMe />
     </React.Fragment>    
   );
 }
