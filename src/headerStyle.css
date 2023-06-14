@@ -1,0 +1,30 @@
+
+
+  
+
+
+  button {
+    --clr: #ff0000;
+    --outline: 2px solid var(--clr);
+    color: var(--clr);
+    outline: var(--outline);
+    border: var(--outline);
+    outline-offset: -4px;
+    transition: outline-offset 200ms ease;
+    margin: 10pt;
+    border-radius: 50pt;
+    min-width: 10%;
+    font-family: "KiTestRings OutliNe";
+    font-size: 20pt;
+
+  }
+  
+  button:hover,
+  .button:focus {
+    outline: var(--outline);
+    outline-offset: -8px;
+    color:black;
+
+  }
+  
+  

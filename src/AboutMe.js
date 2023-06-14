@@ -3,11 +3,12 @@ import './index.css';
 
 function Header() {
     const titleStyle = {
-        color: "black",
-        fontSize: '100pt',
+        color: "red",
+        fontSize: '80pt',
         fontFamily: "KiTestRings OutliNe",
-        backgroundColor: 'transparent',
-        width: '50%',
+        backgroundColor: 'white',
+        width: '70%',
+        float: 'left',
 
     }
 
@@ -15,29 +16,32 @@ function Header() {
         color: 'red',
         fontSize: '24pt',
         fontFamily: "KiTestRings OutliNe",
-        width: '70%',
+        width: '30%',
+        textAlign: 'left',
+        float: 'left',
     }
     const linkStyle = {
-        backgroundColor: 'black',
-        color: 'white',
-        fontSize: '25pt',
+        width: '40%',
+        float: 'left',
+        marginBottom:'20pt',
+
+        
     }
 
     return (
         <React.Fragment>
 
             <div className="aboutMe" style={titleStyle}>
+
                 <h1>Me:</h1>
+                <p>Hi, Im Caroline Cerussi and I rule</p>
+       </div>
+            <div className="button" style={linkStyle} >
+                <button className="button" type="button" ><p>LinkedIn</p></button>
+                <button className="button" type="button" ><p>LinkedIn</p></button>
+                <button className="button" type="button" ><p>LinkedIn</p></button>
             </div>
-            <div className="aboutHead" style={paragraphStyle}>
-                <p>Hi, Im</p>
-            </div>
-            <div className="carolinePhoto" style={linkStyle}>
-                <h3>LinkedIn</h3>
-                <h3>LinkedIn</h3>
-                <h3>LinkedIn</h3>
-                <h3>LinkedIn</h3>
-            </div>
+
 
         </React.Fragment>
     )
