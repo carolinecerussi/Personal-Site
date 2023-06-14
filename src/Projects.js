@@ -7,27 +7,27 @@ function Header() {
 		fontSize: '80pt',
 		fontFamily: "KiTestRings OutliNe",
 		backgroundColor: 'black',
-        width: '100%',
         textAlign: 'center',
         float: 'left',
+        width:'100%',
+        marginTop: '20pt',
         }
           
     const projectDecription = {
 		color: "white",
 		fontSize: '30pt',
 		backgroundColor: 'black',
-        width: '100%',
         textAlign: 'center',
-        padding: '8%',
-        float: 'left',
+        padding: '5%',
+        float:'left',
+        margin: '2%',
+
 
 	}
     const projectPhoto = {
-		backgroundColor: 'transparent',
-        width: '40%',
+		backgroundColor: 'black',
+        width: '100%',
         textAlign: 'center',
-        marginLeft: '30%',
-
 	}
 
 
@@ -36,9 +36,10 @@ function Header() {
 
         <div className="projectTitle" style={projectTitle}>
            <h2>Code</h2>
-           <h3>Number One</h3>             
            <div className="projectPhoto" style={projectPhoto}>
-        <img src={project} alt="project" />
+           <h3>Number One</h3>             
+
+        <img src={project} alt="project" width='20%' />
                 </div>
       </div>
             <div className="projectDescription" style={projectDecription}>

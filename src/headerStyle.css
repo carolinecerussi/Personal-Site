@@ -11,11 +11,12 @@
     border: var(--outline);
     outline-offset: -4px;
     transition: outline-offset 200ms ease;
-    margin: 10pt;
+    margin: 2%;
     border-radius: 50pt;
     min-width: 10%;
     font-family: "KiTestRings OutliNe";
     font-size: 20pt;
+    padding-inline: 20pt;
 
   }
   
@@ -26,5 +27,9 @@
     color:black;
 
   }
+
+body {
+    width: 100%;
+}
   
   

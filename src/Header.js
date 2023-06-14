@@ -12,7 +12,6 @@ function Header() {
 		fontFamily: "KiTestRings OutliNe",
 		backgroundColor: 'white',
         width: '50%',
-        float: 'left',
 
         }
           
@@ -21,14 +20,13 @@ function Header() {
 		fontSize: '40pt',
 		fontFamily: "KiTestRings OutliNe",
 		backgroundColor: 'transparent',
-        width: '20%',
+        width: '50%',
         float:'left',
-        marginTop: '-8%',
+
 
 	}
     const projectPhoto = {
 float:'right',
-marginTop:'10%',
 width:'50%',
 	}
 
@@ -52,7 +50,7 @@ width:'50%',
         <img src={project} alt="project" width='50%'/>
                 </div>
             <div className="aboutHead" style={aboutHead}>
-            <h3>Front End Designer</h3>
+            <h3>Front End Designer & Developer</h3>
         </div>
 
         </React.Fragment>
