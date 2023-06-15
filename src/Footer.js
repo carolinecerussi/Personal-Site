@@ -1,22 +1,20 @@
 import React from 'react';
 
 
-function Footer() {
 
-    const footContainerStyle = {
-        marginBottom:'5%'
+function Footer() {
+    const footerStyle= {
+        backgroundColor: 'red',
     }
 
-    return (
-        <React.Fragment>
+      
+      return (
+      <React.Fragment >
+        <div className='footerStyle' style={footerStyle}>Hi</div>
 
-                <div className="FootContainer" style={footContainerStyle}>
-              <button type="submit"><p>Home</p></button><h2>Home</h2>
-               
-                </div>
 
-        </React.Fragment>
-    )
+      </React.Fragment>
+      )
 
-}
+      }
 export default Footer;

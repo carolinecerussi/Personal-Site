@@ -4,15 +4,8 @@ import "../src/headerStyle.css";
 
 function AboutMe() {
 
-    const titleStyle = {
-        color: "black",
-        fontSize: '100pt',
-        fontFamily: "Aretha Bridge",
-        backgroundColor: 'yellow',
-        width: '50%',
-        float: 'left',
 
-    }
+    
     const paragraphStyle = {
         color: "white",
         fontSize: '30pt',
@@ -56,8 +49,6 @@ marginTop: '8%'
                     <h2>Me</h2>
                 </div> */}
             <br />
-
-
 
 
         </React.Fragment>

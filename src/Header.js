@@ -17,7 +17,6 @@ function Header() {
 
     return (
         <React.Fragment>
-
                 <div className="carolineHead" >
                     <h1>Caroline Cerussi</h1>
                     <div className="aboutHead" style={aboutHead}>
@@ -32,7 +31,7 @@ function Header() {
                         <button className="button" type="button" ><p><a href='https://www.linkedin.com/in/caroline-cerussi/'>LinkedIn</a> </p></button>
                         <br />       <br />
 
-                    </div>        
+                    </div>       
                 </div>
 
         </React.Fragment>
