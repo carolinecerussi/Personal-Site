@@ -9,9 +9,10 @@ function Header() {
         fontSize: '40pt',
         fontFamily: "KiTestRings",
         backgroundColor: 'transparent',
-        width: '20%',
+        width: '100%',
         float: 'left',
-        padding:'5%',
+        padding:'2%',
+
     }
 
     return (
@@ -19,16 +20,15 @@ function Header() {
 <header>
             <div className="carolineHead" >
                 <h1>Caroline Cerussi</h1>
-            </div>
-            <div className="aboutHead" style={aboutHead}>
+                <div className="aboutHead" style={aboutHead}>
                 <h3>Front End Designer & Developer</h3>
+            </div>
                 <div>
                 <button className="button" type="button" ><p><a href='https://www.carolinecerussi.me'>Website</a> </p></button>
                 <button className="button" type="button" ><p>Code</p></button>
                 <button className="button" type="button" ><p><a href='https://www.linkedin.com/in/caroline-cerussi/'>LinkedIn</a> </p></button>
 
-            </div>
-            </div>
+            </div>          </div>
             </header>
             </React.Fragment>
                 )

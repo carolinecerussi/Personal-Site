@@ -39,22 +39,33 @@ button:hover,
 
 }
 
+.perogative {
+    margin-top: 0%;
+    width:60%;
+    font-size: 20pt;
+    padding: 40pt;
+    line-height: 35pt;
+}
 body {
-    width: 100%;
-    margin:5%;
+    margin: 2%;
+
 }
 
 .carolineHead{
     color: black;
     font-size: 100pt;
     font-family: "Aretha Bridge";
-    text-align: left;
-    float: left;
-    width:50%;
+float:left;
+    width: 50%;
+
 
 }
 div.carolineHead:hover {
     color:#ff0084;
     font-size: 100pt;
 
+}
+
+header {
+    width: 100%;
 }
