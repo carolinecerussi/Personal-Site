@@ -4,20 +4,20 @@
 
 
   button {
-    --clr: #ff0000;
+    --clr: #ff3700;
     --outline: 2px solid var(--clr);
     color: var(--clr);
     outline: var(--outline);
     border: var(--outline);
     outline-offset: -4px;
     transition: outline-offset 200ms ease;
-    margin: 2%;
-    border-radius: 50pt;
-    min-width: 10%;
+    margin: 20pt;
+    border-radius: 60pt;
+    min-width: 15%;
     font-family: "KiTestRings OutliNe";
     font-size: 20pt;
-    padding-inline: 20pt;
-
+    padding-inline: 10%;
+    float:left;
   }
   
   button:hover,

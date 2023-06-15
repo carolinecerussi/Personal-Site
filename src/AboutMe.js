@@ -1,42 +1,38 @@
 import React from 'react';
-import './index.css';
+import face from "../src/img/face.jpg";
 
-function Header() {
+
+function AboutMe() {
+
     const titleStyle = {
         color: "black",
         fontSize: '100pt',
         fontFamily: "KiTestRings OutliNe",
         backgroundColor: 'transparent',
-        width: '50%',
-        float: 'left',
-
+        width: '100%',
+        float:'left',
     }
     const paragraphStyle = {
-        marginTop: '5%',
         fontSize: '20pt',
         width: '80%',
         float: 'left',
         lineHeight: '25pt',
 
     }
+    const projectPhoto = {
+        float:'left',
+        width:'40%',
+            }
+        
 
-    const linkStyle = {
-        width: '50%',
-        float: 'right',
-    }
 
     return (
         <React.Fragment>
-            <div className="button" style={linkStyle} >
-                <button className="button" type="button" ><p>LinkedIn</p></button>
-                <button className="button" type="button" ><p>LinkedIn</p></button>
-                <button className="button" type="button" ><p>LinkedIn</p></button>
-            </div>
             <div className="aboutMe" style={titleStyle}>
                 <h2>Me</h2>
-                <br /> <p>
-
-                </p>
+                <div className="projectPhoto" alt="photo" style={projectPhoto}>
+        <img src={face} alt="project" width='40%'/>
+                </div> 
             </div>
             <div className='aboutMe' style={paragraphStyle} >
 
@@ -61,11 +57,15 @@ function Header() {
 
                     My ultimate goal is to find fulfilling work that not only allows me to further develop my front-end development skillset, but also offers a nurturing environment where I can grow and learn from a reliable and positive company. I am so eager to contribute my perspective, dedication, and collaborative spirit to projects that push the boundaries of design and technology, and in doing so, make a meaningful impact in the digital and physical realm. </p>
                 <br />
-
-
+</div>
+                <div className="button">
+                <button className="button" type="button" ><p>LinkedIn</p></button>
+                <button className="button" type="button" ><p>LinkedIn</p></button>
+                <button className="button" type="button" ><p>LinkedIn</p></button>
             </div>
+    
         </React.Fragment>
     )
 
 }
-export default Header;
+export default AboutMe;
