@@ -1,6 +1,6 @@
 import React from 'react';
 import face from "../src/img/face.jpg";
-
+import "../src/headerStyle.css";
 
 function AboutMe() {
 

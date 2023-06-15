@@ -1,9 +1,7 @@
 
 
-  
 
-
-  button {
+button {
     --clr: #ff3700;
     --outline: 2px solid var(--clr);
     color: var(--clr);
@@ -13,23 +11,34 @@
     transition: outline-offset 200ms ease;
     margin: 20pt;
     border-radius: 60pt;
-    min-width: 15%;
     font-family: "KiTestRings OutliNe";
     font-size: 20pt;
     padding-inline: 10%;
-    float:left;
-  }
-  
-  button:hover,
-  .button:focus {
+    float: left;
+}
+
+button:hover,
+.button:focus {
     outline: var(--outline);
     outline-offset: -8px;
-    color:black;
+    color: black;
 
-  }
+
+}
 
 body {
     width: 100%;
 }
-  
-  
+
+.carolineHead{
+    color: black;
+    font-size: 100pt;
+    font-family: "Aretha Bridge";
+    text-align: left;
+    float: left;
+    width:60%;
+}
+div.carolineHead:hover {
+    color:#15ff00;
+    font-size: 120pt;
+}
