@@ -23,7 +23,7 @@ function Header() {
             <div className="aboutHead" style={aboutHead}>
                 <h3>Front End Designer & Developer</h3>
                 <div>
-                <button className="button" type="button" ><p>Website</p></button>
+                <button className="button" type="button" ><p><a href='https://www.carolinecerussi.me'>Website</a> </p></button>
                 <button className="button" type="button" ><p>Code</p></button>
                 <button className="button" type="button" ><p><a href='https://www.linkedin.com/in/caroline-cerussi/'>LinkedIn</a> </p></button>
 

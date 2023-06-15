@@ -1,5 +1,13 @@
+a{
+    text-decoration: none;
+    color: black;
+}
 
-    button {
+a:hover {
+    color:#ff0084;
+}
+
+    .button {
     --clr: black;
     background-color: transparent;
     --outline: 2px solid var(--clr);
@@ -16,6 +24,7 @@
     float: left;
     width: fit-content;
     margin-bottom: 20pt;
+
   
 }
 
@@ -23,8 +32,8 @@ button:hover,
 .button:focus {
     outline: var(--outline);
     outline-offset: -8px;
-    color:#15ff00;
-    background-color:#15ff0052;
+    color:#ff0084;
+    background-color:#ffffff85;
     font-size: 30pt;
 
 
@@ -45,7 +54,7 @@ body {
 
 }
 div.carolineHead:hover {
-    color:#15ff00;
+    color:#ff0084;
     font-size: 100pt;
 
 }
