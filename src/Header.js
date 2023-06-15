@@ -3,25 +3,15 @@ import './headerStyle.css';
 
 
 function Header() {
-    const caroline = {
-        color: "black",
-        fontSize: '120pt',
-        fontFamily: "Aretha Bridge",
-        backgroundColor: '',
-        textAlign: 'left',
-        float: 'left',
-        width: '60%',
-        textAlign: 'left',
-    }
+
     const aboutHead = {
         color: "black",
-        fontSize: '30pt',
+        fontSize: '40pt',
         fontFamily: "KiTestRings",
-        backgroundColor: 'yellow',
+        backgroundColor: 'transparent',
         width: '20%',
         float: 'left',
-        marginTop: '30%',
-
+        padding:'5%',
     }
 
     return (
@@ -32,6 +22,12 @@ function Header() {
             </div>
             <div className="aboutHead" style={aboutHead}>
                 <h3>Front End Designer & Developer</h3>
+                <div>
+                <button className="button" type="button" ><p>Website</p></button>
+                <button className="button" type="button" ><p>Code</p></button>
+                <button className="button" type="button" ><p><a href='https://www.linkedin.com/in/caroline-cerussi/'>LinkedIn</a> </p></button>
+
+            </div>
             </div>
             </header>
             </React.Fragment>

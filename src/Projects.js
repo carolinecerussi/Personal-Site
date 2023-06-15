@@ -7,7 +7,7 @@ function Projects() {
     const projectTitle = {
         color: "white",
         fontSize: '80pt',
-        fontFamily: "KiTestRings OutliNe",
+        fontFamily: "Aretha Bridge",
         backgroundColor: 'black',
         textAlign: 'center',
         float: 'left',
@@ -19,10 +19,9 @@ function Projects() {
         color: "white",
         fontSize: '30pt',
         backgroundColor: 'black',
-        textAlign: 'center',
+        textAlign: 'left',
+        fontFamily: "KiTestRings",
         padding: '5%',
-        float: 'left',
-        margin: '2%',
 
 
     }
@@ -30,6 +29,7 @@ function Projects() {
         backgroundColor: 'black',
         width: '100%',
         textAlign: 'center',
+    
     }
 
 
