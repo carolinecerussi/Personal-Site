@@ -5,9 +5,9 @@ import face from "../src/img/face.jpg";
 function AboutMe() {
 
     const titleStyle = {
-        color: "black",
-        fontSize: '100pt',
-        fontFamily: "KiTestRings OutliNe",
+		color: "black",
+		fontSize: '120pt',
+		fontFamily: "Aretha Bridge",
         backgroundColor: 'transparent',
         width: '100%',
         float:'left',
@@ -21,7 +21,7 @@ function AboutMe() {
     }
     const projectPhoto = {
         float:'left',
-        width:'40%',
+        width:'100%',
             }
         
 
@@ -30,10 +30,10 @@ function AboutMe() {
         <React.Fragment>
             <div className="aboutMe" style={titleStyle}>
                 <h2>Me</h2>
+                </div>
                 <div className="projectPhoto" alt="photo" style={projectPhoto}>
-        <img src={face} alt="project" width='40%'/>
-                </div> 
-            </div>
+        <img src={face} alt="project" width='20%'/>
+                </div>
             <div className='aboutMe' style={paragraphStyle} >
 
                 <h2>Who I Am-</h2>
