@@ -19,7 +19,7 @@ function AboutMe() {
         fontFamily: "KiTestRings",
         backgroundColor: 'blue',
         float:'right',
-
+marginTop: '8%'
 
     }
     const projectPhoto = {
@@ -30,14 +30,14 @@ function AboutMe() {
         lineHeight: '1pt',
         float:'left',
         width:'50%',
-        margin:' 2%'
+        marginTop:' 10%'
 
     }
 
 
     return (
         <React.Fragment>
-
+          
             <div className='perogative'  >
                <div style={projectPhoto}> <img src={face} alt="project" width='80%' /><h2>Me</h2>
                </div> 

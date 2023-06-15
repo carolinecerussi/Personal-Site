@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import book from '../src/img/bookIcon.jpg';
 import iphone from '../src/img/iphone.png';
 import ipad from '../src/img/ipad.png';
 function Projects() {

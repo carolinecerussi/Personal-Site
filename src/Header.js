@@ -9,29 +9,33 @@ function Header() {
         fontSize: '40pt',
         fontFamily: "KiTestRings",
         backgroundColor: 'transparent',
-        width: '100%',
-        float: 'left',
-        padding:'2%',
+        width: '40%',
+        padding: '2%',
+        float:'left'
 
     }
 
     return (
         <React.Fragment>
-<header>
-            <div className="carolineHead" >
-                <h1>Caroline Cerussi</h1>
-                <div className="aboutHead" style={aboutHead}>
-                <h3>Front End Designer & Developer</h3>
-            </div>
-                <div>
-                <button className="button" type="button" ><p><a href='https://www.carolinecerussi.me'>Website</a> </p></button>
-                <button className="button" type="button" ><p>Code</p></button>
-                <button className="button" type="button" ><p><a href='https://www.linkedin.com/in/caroline-cerussi/'>LinkedIn</a> </p></button>
+            <header>
+                <div className="carolineHead" >
+                    <h1>Caroline Cerussi</h1>
+                    <div className="aboutHead" style={aboutHead}>
+                        Front End Developer  <br />     Product Designer
+                        <br /> Artist</div>
+                        <br/> 
+                        <br/> 
+                    <div>
 
-            </div>          </div>
+                        <button className="button" type="button" ><p><a href='https://www.carolinecerussi.me'>Website</a> </p></button>
+                        <button className="button" type="button" ><p>Code</p></button>
+                        <button className="button" type="button" ><p><a href='https://www.linkedin.com/in/caroline-cerussi/'>LinkedIn</a> </p></button>
+                        <br />       <br />
+
+                    </div>          </div>
             </header>
-            </React.Fragment>
-                )
+        </React.Fragment>
+    )
 
 }
-                export default Header;
+export default Header;
