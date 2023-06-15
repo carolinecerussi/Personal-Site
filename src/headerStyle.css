@@ -20,15 +20,13 @@ a:hover {
     border-radius: 80pt;
     font-family: "KiTestRings";
     font-size: 25pt;
-    padding-inline: 2%;
-    float: left;
+    padding-inline: 1%;
     width: fit-content;
-    margin-bottom: 20pt;
-
+float:left;
   
 }
 
-button:hover,
+.button:hover,
 .button:focus {
     outline: var(--outline);
     outline-offset: -8px;
@@ -56,12 +54,17 @@ body {
     font-size: 100pt;
     font-family: "Aretha Bridge";
 float:left;
-    width: 50%;
+    width: 100%;
+
 
 }
 div.carolineHead:hover {
     color:#ff0084;
     font-size: 100pt;
 
-}
+} 
 
+.carolineHead h1 {
+    width: 40%;
+    margin-bottom:1%;
+}
