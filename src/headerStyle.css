@@ -16,12 +16,12 @@ a:hover {
     border: var(--outline);
     outline-offset: -4px;
     transition: outline-offset 200ms ease;
-    margin-left: 20pt;
+    margin-right: 20pt;
     border-radius: 80pt;
     font-family: "KiTestRings";
     font-size: 25pt;
     padding-inline: 1%;
-    width: fit-content;
+    width: 10%;
 float:left;
   
 }
@@ -32,9 +32,7 @@ float:left;
     outline-offset: -8px;
     color:#ff0084;
     background-color:#ffffff85;
-    font-size: 30pt;
-
-
+    font-size: 25pt;
 }
 
 .perogative {
@@ -68,3 +66,4 @@ div.carolineHead:hover {
     width: 40%;
     margin-bottom:1%;
 }
+

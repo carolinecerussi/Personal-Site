@@ -9,20 +9,20 @@ function Projects() {
         fontSize: '80pt',
         fontFamily: "Aretha Bridge",
         backgroundColor: 'white',
-        textAlign: 'left',
-        float: 'left',
+        textAlign: 'center',
+        float: 'right',
         marginTop: '20pt',
-        marginLeft:'2%',
-        width:'100%'
+        marginLeft: '2%',
+        width: '100%'
     }
 
     const projectDecription = {
         color: "black",
         fontSize: '30pt',
         backgroundColor: 'white',
-        textAlign: 'left',
         fontFamily: "KiTestRings",
-width:'50%'
+        float:'left',
+        width:'100%'
     }
 
 
@@ -30,37 +30,51 @@ width:'50%'
         textAlign: 'left'
     }
 
+    const projectStyle = {
+        color: "black",
+        fontSize: '80pt',
+        fontFamily: "Aretha Bridge",
+        backgroundColor: 'white',
+        textAlign: 'left',
+        float: 'left',
+        marginTop: '20pt',
+        marginLeft: '2%',
+        width: '100%'
+    }
     return (
         <React.Fragment>
             <div className="projectTitle" style={projectTitle}>
                 <h2>Projects</h2>
-                    <h4>Alien Shelter</h4>
-                    <div className="projectDescription" style={projectDecription}>
-                        <p>This is my Project his is my Project his is my Project his is my Project his is my Project his is my Project his is my Project his is my Project his is my Project his is my Project his is my Projecthis is my Projecthis is my Project</p>
-                    </div>
-                    <iframe width="40%" height='900' src="https://www.loom.com/embed/4975256d56bc4c4fa1d849848ddecceb?sid=10ad3957-3a2c-493a-8a8b-b36f4c2ad26c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
-                <br />
-                <div className="projectPhoto" >
-                    <h4>Personal Website</h4>
-                    <div className="projectDescription" style={projectDecription}>
- <p>Personal Website Explanation</p>
-                    </div>
-                    <img src={iphone} alt="iphone" width="10%" style={websitePhoto} />
-                    <img src={ipad} alt="ipad" width="20%" style={websitePhoto} />
-                    <img src={macbook} alt="macbook" width="40%" style={websitePhoto} />
-
-                    <iframe width="40%" height='900' src="https://www.loom.com/embed/4073508f53ad410ea51a0c7375bf05d0?sid=8c95eace-da02-4eb9-b5c7-fa83162c4669" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <div className="projectDescription" style={projectDecription}>
-                        <p>Personal Website Explanation</p>
-                    </div>
-
             </div>
+            <div style={projectStyle}>
+                <h4>Alien Shelter</h4>
 
 
-</div>
+                <div className="projectDescription" style={projectDecription}>
+                    <p>Personal Website ExplanationExplana ExplanationExplana ExplanationExplana ExplanationExplana ExplanationExplanaExplanationExplana ExplanationExplana ExplanationExplana  ExplanationExplanation Explanation ExplanationtionExplanationExplanationExplanationExplanationExplanationExplanationExplanation</p>
+                
+           <iframe width="70%" height='1000' src="https://www.loom.com/embed/4975256d56bc4c4fa1d849848ddecceb?sid=10ad3957-3a2c-493a-8a8b-b36f4c2ad26c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+         
+                    </div>
+                    </div>
+            <br />   
+            <br />
+            <div style={projectStyle}>
+                <h4>Personal Website</h4>
 
+                <div className="projectDescription" style={projectDecription}>
+                    <p>Personal Website Explanation Personal Website Explanation Personal Website Personal Website Explanation Personal Website Explanation Personal Website Explanation Personal Website Explanation Personal Website Explanation Explanation</p>
+
+                <img src={iphone} alt="iphone" width="15%" style={websitePhoto} />
+                <img src={ipad} alt="ipad" width="30%" style={websitePhoto} />
+               <img src={macbook} alt="macbook" width="50%" style={websitePhoto} />
+               <br />
+               <iframe width="50%" height='1000' src="https://www.loom.com/embed/4073508f53ad410ea51a0c7375bf05d0?sid=8c95eace-da02-4eb9-b5c7-fa83162c4669" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+             
+<br />        
+               </div>
+        </div>
         </React.Fragment>
     )
 
