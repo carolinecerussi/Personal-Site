@@ -9,7 +9,7 @@ function Header() {
         fontSize: '40pt',
         fontFamily: "KiTestRings",
         backgroundColor: 'transparent',
-        width: '40%',
+        width: '50%',
         float: 'left'
 
     }

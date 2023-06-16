@@ -9,10 +9,8 @@ function Projects() {
         fontSize: '80pt',
         fontFamily: "Aretha Bridge",
         backgroundColor: 'white',
-        textAlign: 'center',
-        float: 'right',
-        marginTop: '20pt',
-        marginLeft: '2%',
+        textAlign: 'left',
+        float: 'left',
         width: '100%'
     }
 
@@ -22,7 +20,8 @@ function Projects() {
         backgroundColor: 'white',
         fontFamily: "KiTestRings",
         float:'left',
-        width:'100%'
+        width:'100%',
+        textAlign:'left'
     }
 
 
@@ -32,13 +31,11 @@ function Projects() {
 
     const projectStyle = {
         color: "black",
-        fontSize: '80pt',
+        fontSize: '60pt',
         fontFamily: "Aretha Bridge",
         backgroundColor: 'white',
         textAlign: 'left',
         float: 'left',
-        marginTop: '20pt',
-        marginLeft: '2%',
         width: '100%'
     }
     return (
@@ -53,8 +50,8 @@ function Projects() {
                 <div className="projectDescription" style={projectDecription}>
                     <p>Personal Website ExplanationExplana ExplanationExplana ExplanationExplana ExplanationExplana ExplanationExplanaExplanationExplana ExplanationExplana ExplanationExplana  ExplanationExplanation Explanation ExplanationtionExplanationExplanationExplanationExplanationExplanationExplanationExplanation</p>
                 
-           <iframe width="70%" height='1000' src="https://www.loom.com/embed/4975256d56bc4c4fa1d849848ddecceb?sid=10ad3957-3a2c-493a-8a8b-b36f4c2ad26c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-         
+           <iframe  width="60%" height='1000' src="https://www.loom.com/embed/4975256d56bc4c4fa1d849848ddecceb?sid=10ad3957-3a2c-493a-8a8b-b36f4c2ad26c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    
                     </div>
                     </div>
             <br />   
@@ -69,12 +66,15 @@ function Projects() {
                 <img src={ipad} alt="ipad" width="30%" style={websitePhoto} />
                <img src={macbook} alt="macbook" width="50%" style={websitePhoto} />
                <br />
-               <iframe width="50%" height='1000' src="https://www.loom.com/embed/4073508f53ad410ea51a0c7375bf05d0?sid=8c95eace-da02-4eb9-b5c7-fa83162c4669" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+               <iframe width="60%" height='1000' src="https://www.loom.com/embed/4073508f53ad410ea51a0c7375bf05d0?sid=8c95eace-da02-4eb9-b5c7-fa83162c4669" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
              
 <br />        
                </div>
         </div>
+        <br />
+        <br />
+
         </React.Fragment>
     )
 

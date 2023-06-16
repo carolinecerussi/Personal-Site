@@ -49,7 +49,7 @@ body {
 
 .carolineHead{
     color: black;
-    font-size: 100pt;
+    font-size: 120pt;
     font-family: "Aretha Bridge";
 float:left;
     width: 100%;
@@ -58,12 +58,12 @@ float:left;
 }
 div.carolineHead:hover {
     color:#ff0084;
-    font-size: 100pt;
+    font-size: 120pt;
 
 } 
 
 .carolineHead h1 {
-    width: 40%;
+    width: 50%;
     margin-bottom:1%;
 }
 

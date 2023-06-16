@@ -28,9 +28,10 @@ function AboutMe() {
     }
 
     const smallStyle = {
-        fontSize: '50pt',
+        fontSize: '45pt',
         backgroundColor: 'white',
         color: 'black',
+        lineHeight:'50pt',
     }
 
 
@@ -38,8 +39,9 @@ function AboutMe() {
         <React.Fragment>
 
             <div className='perogative'>
-                <br />   <div style={projectPhoto}> <h2>Me</h2>
-                <img src={face} alt="project" width='80%' />
+                <br />   <div style={projectPhoto}> 
+                <img src={face} alt="project" width='100%' />
+                <h2>Me</h2>
                 </div>
             </div>
             <div className='perogative' style={paragraphStyle} >
