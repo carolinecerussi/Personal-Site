@@ -67,3 +67,25 @@ div.carolineHead:hover {
     margin-bottom:1%;
 }
 
+.figure {
+    position: relative;
+    width: 360px; 
+    max-width: 100%;
+  }
+  .figure img.image-hover {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.image-hover {
+    opacity: 1;
+  }
+
+  /* .figure:hover img.image-main {
+    display: none;
+  } */

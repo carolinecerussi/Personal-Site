@@ -1,7 +1,7 @@
 import React from 'react';
 import face from "../src/img/face.jpg";
 import "../src/headerStyle.css";
-
+import iPhone from "../src/img/iphone.png";
 function AboutMe() {
 
 
@@ -37,8 +37,12 @@ function AboutMe() {
 
     return (
         <React.Fragment>
-
+            <div className="figure">
+  <img className="image-main" src={face} alt="project" width='100%' />
+  <img className="image-hover" src={iPhone} alt='iphone' width='100%' />
+</div>
             <div className='perogative'>
+
                 <br />   <div style={projectPhoto}> 
                 <img src={face} alt="project" width='100%' />
                 <h2>Me</h2>
