@@ -16,9 +16,9 @@ function Projects() {
 
     const projectDecription = {
         color: "black",
-        fontSize: '30pt',
+        fontSize: '40pt',
         backgroundColor: 'white',
-        fontFamily: "KiTestRings",
+        fontFamily: "Lao MN",
         float:'left',
         width:'100%',
         textAlign:'left'

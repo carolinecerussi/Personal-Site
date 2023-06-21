@@ -7,10 +7,10 @@ function AboutMe() {
 
 
     const paragraphStyle = {
-        color: "white",
-        fontSize: '35pt',
-        fontFamily: "KiTestRings",
-        backgroundColor: 'blue',
+        color: "blue",
+        fontSize: '25pt',
+        fontFamily: "Lao MN",
+        backgroundColor: 'white',
         float: 'right',
         marginTop: '8%'
 
@@ -23,14 +23,14 @@ function AboutMe() {
         lineHeight: '1pt',
         float: 'left',
         width: '40%',
-        marginTop: ' 10%'
+        marginTop: ' 15%'
 
     }
 
     const smallStyle = {
-        fontSize: '45pt',
+        fontSize: '35pt',
         backgroundColor: 'white',
-        color: 'black',
+        color: 'red',
         lineHeight:'50pt',
     }
 
@@ -38,9 +38,13 @@ function AboutMe() {
     return (
         <React.Fragment>
             <div className="figure">
-  <img className="image-main" src={face} alt="project" width='100%' />
-  <img className="image-hover" src={iPhone} alt='iphone' width='100%' />
+  <img className="image-main" src={face} alt="project" width='50%' />
+  <img className="image-hover" src={iPhone} alt='iphone' width='50%' />
 </div>
+<div className="figure">
+                <p className="main">DEVELOPER</p>
+                <p className="hover">CODE</p>
+                </div>
             <div className='perogative'>
 
                 <br />   <div style={projectPhoto}> 
