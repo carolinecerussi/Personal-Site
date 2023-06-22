@@ -1,13 +1,13 @@
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
 a:hover {
-    color:#ff0084;
+    color: #ff2600;
 }
 
-    .button {
+.button {
     --clr: rgb(0, 0, 0);
     background-color: transparent;
     --outline: 2px solid var(--clr);
@@ -15,91 +15,95 @@ a:hover {
     outline: var(--outline);
     border: var(--outline);
     outline-offset: -4px;
-    transition: outline-offset 200ms ease;
+    transition: outline-offset .75s ease;
     margin-right: 10pt;
     border-radius: 80pt;
     font-size: 20pt;
     padding-inline: .5%;
-    width: 10%;
+    width: 7%;
+    margin:.5%;
     font-family: "Lao MN";
-float: left;
-margin-bottom:4%;
-  
+    display:flexbox ;
+
+
 }
 
 .button:hover,
 .button:focus {
     outline: var(--outline);
     outline-offset: -8px;
-    color:#ff0084;
-    background-color:#ffffff85;
-    font-size: 25pt;
+    color: #ff2600;
+    background-color:transparent;
+    font-size: 20pt;
 }
 
 .perogative {
-    margin-top: 0%;
-    width:60%;
-    font-size: 20pt;
-    padding: 40pt;
-    line-height: 35pt;
+    font-size: 18pt;
+    background-color: white;
+    float:left;
+    width: 60%;
 }
+
 body {
-    margin: 2%;
-
+float:left;
 }
 
-.carolineHead{
+.carolineHead {
     color: black;
     font-size: 120pt;
     font-family: "Aretha Bridge";
-float:left;
     width: 100%;
-
+    background-color: transparent;
+float: left;
 
 }
+
 div.carolineHead:hover {
-    color:#ff0084;
+    color: #ff2600;
     font-size: 120pt;
+    transition: .75s ease;
 
-} 
 
-.carolineHead h1 {
-    width: 50%;
-    margin-bottom:1%;
 }
+
 
 .figure {
-    
-    width: 500px; 
+
+    width: 500px;
 
     background-color: transparent;
     height: 500px;
 
-  }
-  .figure img.image-hover {
+}
+
+.figure img.image-hover {
     position: relative;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    opacity: 0;;
+    opacity: 0;
+    ;
     object-fit: contain;
     transition: opacity .0s;
-  }
-  .figure:hover img.image-hover {
+}
+
+.figure:hover img.image-hover {
     opacity: 1;
     display: show;
-  }
 
-  .figure:hover img.image-main {
-display:none;  }
+}
+
+.figure:hover img.image-main {
+    display: none;
+
+}
 
 
 .figure p.main {
     font-size: 40pt;
     color: red;
     background-color: rgb(255, 255, 255);
-    float: right;
 }
 
 figure.p {
@@ -109,16 +113,19 @@ figure.p {
 
 .figure:hover p.hover {
     font-size: 50pt;
-    color:rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
     background-color: black;
     opacity: 1;
 }
+
 .figure:hover p.main {
-    display:none;
+    display: none;
 }
+
 .figure p.hover {
-float: right;
-    opacity: 0;;
+    float: right;
+    opacity: 0;
+    ;
     object-fit: contain;
     transition: opacity .0s;
-  }
+}

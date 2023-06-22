@@ -4,11 +4,15 @@ import React from 'react';
 import AboutMe from '../src/AboutMe';
 import Projects from '../src/Projects';
 import Footer from '../src/Footer';
+import New from '../src/New';
+
+
 function App() {
 
   
   return (
 <React.Fragment>
+<New />
   <Header />
   <AboutMe />
   <Projects />

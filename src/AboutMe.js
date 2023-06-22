@@ -1,5 +1,5 @@
 import React from 'react';
-import face from "../src/img/face.jpg";
+import face from "../src/img/face.gif";
 import "../src/headerStyle.css";
 import iPhone from "../src/img/iphone.png";
 function AboutMe() {
@@ -10,47 +10,42 @@ function AboutMe() {
         color: "blue",
         fontSize: '25pt',
         fontFamily: "Lao MN",
-        backgroundColor: 'white',
-        float: 'right',
-        marginTop: '8%'
+        float:'left'
 
     }
     const projectPhoto = {
         color: "black",
-        fontSize: '120pt',
+        fontSize: '100pt',
         fontFamily: "Aretha Bridge",
         backgroundColor: 'transparent',
-        lineHeight: '1pt',
-        float: 'left',
-        width: '40%',
-        marginTop: ' 15%'
+        float:'left'
 
     }
 
     const smallStyle = {
-        fontSize: '35pt',
+        fontSize: '30pt',
         backgroundColor: 'white',
-        color: 'red',
-        lineHeight:'50pt',
+        color: 'black',
+        lineHeight: '35pt',
+        float:'left'
     }
 
 
     return (
         <React.Fragment>
             <div className="figure">
-  <img className="image-main" src={face} alt="project" width='50%' />
-  <img className="image-hover" src={iPhone} alt='iphone' width='50%' />
-</div>
-<div className="figure">
+                <img className="image-main" src={face} alt="project" width='50%' />
+                <img className="image-hover" src={iPhone} alt='iphone' width='50%' />
+            </div>
+            {/* <div className="figure">
                 <p className="main">DEVELOPER</p>
                 <p className="hover">CODE</p>
-                </div>
-            <div className='perogative'>
+            </div> */}
 
-                <br />   <div style={projectPhoto}> 
-                <img src={face} alt="project" width='100%' />
-                <h2>Me</h2>
-                </div>
+            <div className='perogative'>
+                 <div style={projectPhoto}>
+                    <img src={face} alt="face" width='50%' />
+                    </div>
             </div>
             <div className='perogative' style={paragraphStyle} >
                 <h2>My Perogative-</h2>
