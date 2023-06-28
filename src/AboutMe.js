@@ -2,6 +2,8 @@ import React from 'react';
 import face from "../src/img/face.gif";
 import "../src/headerStyle.css";
 import iPhone from "../src/img/iphone.png";
+
+
 function AboutMe() {
 
 
@@ -9,7 +11,7 @@ function AboutMe() {
     const paragraphStyle = {
         color: "black",
         fontSize: '30pt',
-        fontFamily: "KiTeStrings ",
+        fontFamily: "Barlow ",
         float:'left',
         width:'80%',
    
@@ -33,6 +35,8 @@ function AboutMe() {
 
     return (
         <React.Fragment>
+            <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+            </link>
             <div className="figure">
                 <img className="image-main" src={face} alt="project" width='50%' />
                 <img className="image-hover" src={iPhone} alt='iphone' width='50%' />

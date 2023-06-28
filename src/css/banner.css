@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap');
+
 .blink {
     animation: 1.3s infinite blink;
     font-size: 70pt;
@@ -25,7 +27,7 @@
     background:transparent;
     padding: 20pt;
     color:black;
-    border: 3px solid #4a4a4a;
+    border: 3px transparent #4a4a4a;
     width: 100%;
     line-height: 60px;
     text-align: Left;
@@ -34,8 +36,9 @@
     transform: translateX(100%);
     -moz-animation: scroll-left 2s linear infinite;
     -webkit-animation: scroll-left 2s linear infinite;
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 30s linear infinite;
     font-size: 30pt;
+    font-family: 'Barlow';
 }
 
 @-moz-keyframes scroll-left {

@@ -23,7 +23,7 @@ function Projects() {
         backgroundColor: 'transparent',
         float: 'left',
         width: '50%',
-        fontFamily: "KiTeStrings ",
+        fontFamily: "Barlow ",
 
     }
 
@@ -41,7 +41,7 @@ function Projects() {
         float: 'left',
         width: '100%',
         paddingInline: '20pt',
-        fontFamily: "KiTeStrings Outline ",
+        fontFamily: "Barlow ",
 
 
 

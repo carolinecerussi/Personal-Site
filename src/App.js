@@ -12,10 +12,10 @@ function App() {
   return (
 <React.Fragment>
 <New />
+<Slide />
+
   <Header />
   <AboutMe />
-  <Slide />
-
   <Projects />
   <Footer />
 </React.Fragment>    
