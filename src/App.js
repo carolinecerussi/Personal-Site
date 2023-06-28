@@ -5,7 +5,7 @@ import Projects from '../src/Projects';
 import Footer from '../src/Footer';
 import New from '../src/New';
 import Slide from '../src/SlideBanner';
-
+import Attempt from './Attempt';
 function App() {
 
   
@@ -13,10 +13,10 @@ function App() {
 <React.Fragment>
 <New />
 <Slide />
-
   <Header />
   <AboutMe />
-  <Projects />
+  {/* <Projects /> */}
+  <Attempt />
   <Footer />
 </React.Fragment>    
   );

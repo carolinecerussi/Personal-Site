@@ -10,7 +10,7 @@ function Projects() {
         fontSize: '80pt',
         fontFamily: "Bubblegum",
         backgroundColor: 'transparent',
-        textAlign: 'center',
+        textAlign: 'left',
         float: 'left',
         width: '100%',
         marginTop: '20%',
@@ -54,8 +54,6 @@ function Projects() {
             </div>
             <div style={projectStyle}>
                 <h4>Alien Shelter</h4>
-
-
                 <div className="projectDescription" style={projectDecription}>
                     <p>Personal Website ExplanationExplana ExplanationExplana ExplanationExplana ExplanationExplana ExplanationExplanaExplanationExplana ExplanationExplana ExplanationExplana  ExplanationExplanation Explanation ExplanationtionExplanationExplanationExplanationExplanationExplanationExplanationExplanation</p>
 

@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
 
 a {
     text-decoration: none;
@@ -8,7 +7,7 @@ a {
 }
 
 a:hover {
-    color: #f7561c;
+    color: #ff4400;
 }
 
 .button {
@@ -23,15 +22,12 @@ a:hover {
     border-radius: 80pt;
     font-size: 20pt;
     padding-inline: .5%;
-    width: 7%;
-    margin: .5%;
+    min-width: 7%;
+    margin-right: .5%;
+    margin: 1%;
     font-family: "Barlow";
     display: flexbox;
-    float: left;
-    margin-top: 20pt;
-    margin-left: 30pt;
     margin-bottom:30pt;
-
 
 }
 
@@ -48,16 +44,14 @@ a:hover {
     font-size: 18pt;
     background-color: white;
     float: left;
-    width: 60%;
+    width: 100%;
+
 }
 
-body {
-    float: left;
-}
 
 .carolineHead {
     color: black;
-    font-size: 120pt;
+    font-size: 110pt;
     font-family: "Bubblegum";
     width: 100%;
     background-color: transparent;
@@ -67,7 +61,7 @@ body {
 
 div.carolineHead:hover {
     color: #f7561c;
-    font-size: 120pt;
+    font-size: 111pt;
     transition: .75s ease;
 
 

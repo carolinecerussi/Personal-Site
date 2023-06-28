@@ -1,22 +1,23 @@
 import React from 'react';
 import '../src/headerStyle.css';
 
-
-
 function Footer() {
 
   const footerStyle = {
-    backgroundColor: '#f7561c',
+    backgroundColor: 'green',
     float: 'left',
     width: '100%',
-    marginTop:'5%',
+    marginBottom:'0%',
+ marginTop:'15%'
 
   }
 
 
 
   return (
-    <React.Fragment >
+
+<React.Fragment >
+
       <div className='footerStyle' style={footerStyle}>
 
         <div className='buttonStyle' >
@@ -26,6 +27,7 @@ function Footer() {
           <button className="button" type="button" ><p><a href="tel:+1631-375-8024" class="icon-link">Call Me</a></p></button>
           <button className="button" type="button" ><p><a href='https://www.carolinecerussi.me'>Website</a> </p></button>
         </div>
+        
       </div>
     </React.Fragment>
   )
