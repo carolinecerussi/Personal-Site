@@ -4,26 +4,29 @@ a {
 }
 
 a:hover {
-    color: #ff2600;
+    color: #f7561c;
 }
 
 .button {
     --clr: rgb(0, 0, 0);
     background-color: transparent;
-    --outline: 2px solid var(--clr);
+    --outline: 2px dashed var(--clr);
     color: var(--clr);
     outline: var(--outline);
     border: var(--outline);
     outline-offset: -4px;
     transition: outline-offset .75s ease;
-    margin-right: 10pt;
     border-radius: 80pt;
     font-size: 20pt;
     padding-inline: .5%;
     width: 7%;
-    margin:.5%;
-    font-family: "Lao MN";
-    display:flexbox ;
+    margin: .5%;
+    font-family: "KiTeStrings";
+    display: flexbox;
+    float: left;
+    margin-top: 20pt;
+    margin-left: 30pt;
+    margin-bottom:30pt;
 
 
 }
@@ -33,33 +36,33 @@ a:hover {
     outline: var(--outline);
     outline-offset: -8px;
     color: #ff2600;
-    background-color:transparent;
+    background-color: transparent;
     font-size: 20pt;
 }
 
 .perogative {
     font-size: 18pt;
     background-color: white;
-    float:left;
+    float: left;
     width: 60%;
 }
 
 body {
-float:left;
+    float: left;
 }
 
 .carolineHead {
     color: black;
     font-size: 120pt;
-    font-family: "Aretha Bridge";
+    font-family: "Bubblegum";
     width: 100%;
     background-color: transparent;
-float: left;
+    float: left;
 
 }
 
 div.carolineHead:hover {
-    color: #ff2600;
+    color: #f7561c;
     font-size: 120pt;
     transition: .75s ease;
 
@@ -102,18 +105,20 @@ div.carolineHead:hover {
 
 .figure p.main {
     font-size: 40pt;
-    color: red;
+    color: #f7561c;
     background-color: rgb(255, 255, 255);
 }
 
 figure.p {
-    background-color: red;
+    background-color: #f7561c;
+
 
 }
 
 .figure:hover p.hover {
     font-size: 50pt;
-    color: rgb(255, 0, 0);
+    color: #f7561c;
+
     background-color: black;
     opacity: 1;
 }
@@ -123,7 +128,7 @@ figure.p {
 }
 
 .figure p.hover {
-    float: right;
+    float: left;
     opacity: 0;
     ;
     object-fit: contain;

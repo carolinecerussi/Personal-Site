@@ -7,24 +7,24 @@ function AboutMe() {
 
 
     const paragraphStyle = {
-        color: "blue",
-        fontSize: '25pt',
-        fontFamily: "Lao MN",
-        float:'left'
+        color: "black",
+        fontSize: '30pt',
+        fontFamily: "KiTeStrings ",
+        float:'left',
+        width:'80%',
+   
 
     }
     const projectPhoto = {
         color: "black",
         fontSize: '100pt',
-        fontFamily: "Aretha Bridge",
         backgroundColor: 'transparent',
-        float:'left'
 
     }
 
     const smallStyle = {
         fontSize: '30pt',
-        backgroundColor: 'white',
+        backgroundColor: 'transparent',
         color: 'black',
         lineHeight: '35pt',
         float:'left'
@@ -48,7 +48,7 @@ function AboutMe() {
                     </div>
             </div>
             <div className='perogative' style={paragraphStyle} >
-                <h2>My Perogative-</h2>
+                <h2>My Perogative</h2>
                 <br />
                 <p>As a  coder and product designer, I am driven by a deep love for creating innovative and visually captivating experiences. My journey has been shaped by a  blend of emotional and educational experiences throughout my life, which have left me with a unique perspective that I attempt to bring to anything I create. By combining my knowledge of product development and design with my newfound coding skills, I strive to craft responsive and interesting designs that seamlessly blend form and function.
 
