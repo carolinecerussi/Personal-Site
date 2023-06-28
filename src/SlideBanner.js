@@ -2,11 +2,6 @@ import React from 'react';
 import './css/banner.css';
 
 
-const slideStyle ={
-    textAlign: 'left',
-    color: 'red',
-
-}
 
 function Slide(){
     return (
@@ -17,7 +12,7 @@ function Slide(){
         <span id="now">NOW</span>
     </div>
     <div ><small>
-        <span >L︎︎KING for work!</span></small>
+        <span >LOOKING FOR WORK</span></small>
 </div>
 </div>
 
