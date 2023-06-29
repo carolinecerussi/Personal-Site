@@ -4,11 +4,11 @@ import '../src/headerStyle.css';
 function Footer() {
 
   const footerStyle = {
-    backgroundColor: 'green',
+    backgroundColor: 'pink',
     float: 'left',
     width: '100%',
     marginBottom:'0%',
- marginTop:'15%'
+ textAlign:'center',
 
   }
 

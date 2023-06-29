@@ -18,7 +18,7 @@ function Attempt() {
                 </h1>
                 <p className="portfolio__text">Take a look at the code that makes this website tick. It was built with HTML5, CSS3, and React, and features nested array mapping along with various states to manage front-end rendering.</p>
               </div>
-              <img className="portfolio__img" src={iPad} alt="faceGif"  />
+              <img className="portfolio__img" src={iPad} alt="faceGif" width='800px'  />
               </div>
             </div>
             <div className='second' >
@@ -30,10 +30,9 @@ function Attempt() {
                 </h1>
                 <p className="portfolio__text">Take a look at the code that makes this website tick. It was built with HTML5, CSS3, and React, and features nested array mapping along with various states to manage front-end rendering.</p>
               </div>
-              <img className="portfolio__img" src={iPad} alt="faceGif"  />
-              <img className="portfolio__img" src={iPad} alt="faceGif"  />
-
-              <img className="portfolio__img" src={iPad} alt="faceGif"  />
+              <img className="portfolio__img" src={iPad} alt="faceGif" width='800px'  />
+              <img className="portfolio__img" src={iPad} alt="faceGif" width='800px'  />
+              <img className="portfolio__img" src={iPad} alt="faceGif" width='800px'  />
 
               </div>
             </div>
@@ -46,7 +45,7 @@ function Attempt() {
                 </h1>
                 <p className="portfolio__text">Take a look at the code that makes this website tick. It was built with HTML5, CSS3, and React, and features nested array mapping along with various states to manage front-end rendering.</p>
               </div>
-              <img className="portfolio__img" src={iPad} alt="faceGif"  />
+              <img className="portfolio__img" src={iPad} alt="faceGif" width='800px'  />
               </div>
             </div>
           

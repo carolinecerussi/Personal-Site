@@ -1,74 +1,80 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Caprasimo&display=swap');
+
 div.portfolio__container {
-    justify-content: center;
+    /* justify-content: left; */
+    float: left;
+
   }
   
   div.portfolio__box {
     background-color: var(--container-color);
-    border: 2px solid rgba(0, 0, 0, 0.989);
-    background-color: rgba(222, 222, 233, 0.738);
-    border-radius: 2rem;
+    border: 1px dotted rgb(0, 0, 0);
+    background-color: rgba(2, 138, 242, 0.151);
+    border-radius: 1rem;
+     float: left;
+    margin: 1%;
+  }
+
+  div.portfolio__box:hover {
+    background-color: rgba(2, 138, 242, 0.06);
     transition: transform 0.3s;
-    display: flexbox;
+    border:1px solid rgba(0, 0, 0, 0.585);
+    float: left;
+
 
   }
   
   div.portfolio__group {
-    display: grid;
-    row-gap: 3%;
-    width: 90%;
-    height: 100%;
+    display:grid ;
+    padding-block: 3%;
+    padding-top: 3%;
+    width:50%;
+    background-color: transparent;
+    float: left;
   }
   
   .portfolio__title {
-    font-size: 40pt;
+    font-size: 50pt;
     margin-bottom: var(--mb-0-5);
     color: rgb(0, 0, 0);
     text-align: left;
-    font-family: 'Belanosima';
+    font-family: 'Bagel Fat One';
     padding: 2%;
+    float: left;
 
     
   }
   
-  .portfolio__subtitle {
-    font-size: 20pt;
-    font-weight: var(--font-normal);
-    margin-bottom: var(--mb-0-5);
-    color: black;  
-      text-align: left;
-      padding: 2%;
-
-      font-family: 'Barlow';
-  }
   
   .portfolio__text {
     font-size: 20pt;
     color: rgb(0, 0, 0);    margin-top: 0.9rem;
-    margin-bottom: 1.2rem;
     font-family: 'Barlow';
-    width: 100%;
-    padding: 2%;
+    padding: 5%;
+    text-align: left;
+    float: left;
+
+
   }
   
   .portfolio__img {
-    display: inline-flex;
+    display:flex;
+    width: 500px;
+    float: left;
+
   }
   
   .portfolio__link {
     width: 100%;
-    padding: 0px;
+    padding: 2%;
   }
   
   .portfolio__text-section {
-    position: relative;
     z-index: 10;
-    width: 50%;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    width: 100%;
+   
 
   }
   
@@ -76,5 +82,5 @@ div.portfolio__container {
 
   .video {
     height: 1000px;
-    display: inline;
+    display: flex;
   }

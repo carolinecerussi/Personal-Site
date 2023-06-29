@@ -8,10 +8,9 @@ function Projects() {
     const projectTitle = {
         color: "#f7561c",
         fontSize: '80pt',
-        fontFamily: "Bubblegum",
+        fontFamily: 'Bagel Fat One',
         backgroundColor: 'transparent',
-        textAlign: 'left',
-        float: 'left',
+        textAlign: 'center',
         width: '100%',
         marginTop: '20%',
 
@@ -21,7 +20,6 @@ function Projects() {
         color: "black",
         fontSize: '25pt',
         backgroundColor: 'transparent',
-        float: 'left',
         width: '50%',
         fontFamily: "Barlow ",
 
@@ -30,15 +28,13 @@ function Projects() {
 
     const websitePhoto = {
         textAlign: 'center',
-        float: 'left'
     }
 
     const projectStyle = {
         color: "black",
         fontSize: '60pt',
         backgroundColor: 'transparent',
-        textAlign: 'left',
-        float: 'left',
+        textAlign: 'center',
         width: '100%',
         paddingInline: '20pt',
         fontFamily: "Barlow ",

@@ -28,6 +28,7 @@ a:hover {
     font-family: "KiTestRings";
     display: flexbox;
     margin-bottom:30pt;
+    text-align: center;
 
 }
 
@@ -35,40 +36,39 @@ a:hover {
 .button:focus {
     outline: var(--outline);
     outline-offset: -8px;
-    color: #ff2600;
+    color: #ff4d00;
     background-color: transparent;
     font-size: 20pt;
 }
 
 .perogative {
-    font-size: 15pt;
     background-color:transparent;
-    float: left;
-    width: 100%;
+    width: 30%;
+    float:left;
 
 }
 
 
 .carolineHead {
     color: black;
-    font-size: 80pt;
-    font-family: "Bubblegum";
+    font-size: 100pt;
+    font-family: "Bagel Fat One";
     width: 100%;
     background-color: transparent;
     float: left;
+    text-align: center;
 
 }
 
 div.carolineHead:hover {
     color: #f7561c;
-    font-size: 80pt;
     transition: 1s ease;
 
 
 }
 
 
-.figure {
+/* .figure {
 
     width: 500px;
     background-color: transparent;
@@ -132,13 +132,13 @@ figure.p {
     transition: opacity .0s;
 }
 
-
+ */
 
 
   
   nav{
     width: 100%;
-    height: 50px; 
+    height: 60px; 
     position: fixed;
     top: 0;
     left:0;
@@ -165,7 +165,9 @@ figure.p {
     display: block;
     float: left;
     text-align: center;
-    width: 25%;
+    width: 100%;
+    font-size: 50pt;
+
     height: 100%;
     transition: all ease-in-out .2s;
   }
@@ -173,13 +175,14 @@ figure.p {
     display: block;
     float: left;
     color: rgb(0, 0, 0);
-    font-size: 15pt;
     width: 100%;
-    padding: 0 .5em;
-    line-height: 50px;
+    padding: .5em;
+    line-height: 0px;
     text-decoration: none;
     font-weight: bold;
-    font-family: 'KiTestRings';
+    font-family: 'Barlow';
+    font-size: 30pt;
+
   }
   li.different{
     border:none;

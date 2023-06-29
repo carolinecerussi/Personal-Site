@@ -1,26 +1,21 @@
 .circle-wrapper {
-position: relative; 
-  width: 150px;
-    height: 150px;
-    padding: 5%;
+	width: 100%;
+	margin-bottom: 2%;
+	text-align: center;
+	float: left;
+
   }
   
   .icon {
-    color: transparent;
-    font-size: 55px;
-    top: 55px;
-    left: 55px;
     transform: translate(-50%, -50%);
   }
   
   .circle {
     display: inline-block;
-    width: 100%;
-    height: 100%;
     border-radius: 50%;
-    padding: 30px;
+    padding: 10%;
     background-image: url(../img/me.jpg)  ;
-    background-size: contain;
+    background-size: cover;
     animation: spin 20s linear infinite;
   }
   
@@ -31,7 +26,7 @@ position: relative;
   .success {
     background-color: transparent
     ;
-    border: 2px dotted #020202;
+    border:px dotted #020202;
   }
   
   @keyframes spin {

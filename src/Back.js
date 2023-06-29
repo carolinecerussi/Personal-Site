@@ -3,7 +3,7 @@ import "../src/css/new.css";
 import React from 'react';
 
 
-function New() {
+function Back() {
 
 
     return (
@@ -13,4 +13,4 @@ function New() {
     )
 
 }
-export default New;
+export default Back;

@@ -7,16 +7,26 @@ function AboutMe() {
 
   const paragraphStyle = {
     color: "black",
-    fontSize: '20pt',
-    fontFamily: "Barlow ",
-    width: '60%',
-    paddingRight:'5%',
+    fontSize: '30pt',
+    fontFamily: "Bagel Fat One ",
+    width: '100%',
     backgroundColor: 'transparent',
+    textAlign: 'center',
+    backgroundColor:'transparent',
 
 
   }
 
+const smallFont = {
+  width:'50%',
+  float:'left',
+  textAlign:'left',
+  fontSize: '20pt',
+  fontFamily: "Barlow ",
 
+
+
+}
 
 
   return (
@@ -33,10 +43,10 @@ function AboutMe() {
 
       <div className='perogative' style={paragraphStyle} >
       <div className='perogative'>
-          <h1>My Perogative --</h1>
+          <h1>My Perogative</h1>
           <br />
         </div>
-        <div className='smallerInfo' >
+        <div className='smallerInfo' style={smallFont} >
           <p>As a  coder and product designer, I am driven by a deep love for creating innovative and visually captivating experiences. My journey has been shaped by a  blend of emotional and educational experiences throughout my life, which have left me with a unique perspective that I attempt to bring to anything I create. By combining my knowledge of product development and design with my newfound coding skills, I strive to craft responsive and interesting designs that seamlessly blend form and function.
             My ultimate goal is to find fulfilling work that not only allows me to further develop my front-end development skillset, but also offers a nurturing environment where I can grow and learn from a reliable and positive company. I am so eager to contribute my perspective, dedication, and collaborative spirit to projects that push the boundaries of design and technology, and in doing so, make a meaningful impact in the digital and physical realm. </p>
           <br />

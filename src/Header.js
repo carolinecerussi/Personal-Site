@@ -8,19 +8,18 @@ function Header() {
         color: "black",
         fontSize: '40pt',
         fontFamily: "KiTestRings Outline",
+        textAlign: 'center'
         
     }
 
     return (
         <React.Fragment>
-            <Slide />
             <header>
   <nav>
   <div  id="options-wrapper">
     <ul>
-      <li class="different"><a href="">Developer</a></li>
-      <li class="different"><a href="">Designer</a></li>
-      <li class="different"><a href="">HOME</a></li>
+        <br />
+      <li class="different"><a href="">☺</a></li>
     </ul>
   </div>
 </nav>
