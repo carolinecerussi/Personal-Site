@@ -7,7 +7,7 @@ a {
 }
 
 a:hover {
-    color: #ff4400;
+    color: #ff5e00;
 }
 
 .button {
@@ -17,15 +17,15 @@ a:hover {
     color: var(--clr);
     outline: var(--outline);
     border: var(--outline);
-    outline-offset: -4px;
+    outline-offset: -2px;
     transition: outline-offset .75s ease;
-    border-radius: 80pt;
+    border-radius: 100pt;
     font-size: 20pt;
-    padding-inline: .5%;
+    padding-inline: 1%;
     min-width: 7%;
     margin-right: .5%;
     margin: 1%;
-    font-family: "Barlow";
+    font-family: "KiTestRings";
     display: flexbox;
     margin-bottom:30pt;
 
@@ -41,8 +41,8 @@ a:hover {
 }
 
 .perogative {
-    font-size: 18pt;
-    background-color: white;
+    font-size: 15pt;
+    background-color:transparent;
     float: left;
     width: 100%;
 
@@ -51,7 +51,7 @@ a:hover {
 
 .carolineHead {
     color: black;
-    font-size: 110pt;
+    font-size: 80pt;
     font-family: "Bubblegum";
     width: 100%;
     background-color: transparent;
@@ -61,8 +61,8 @@ a:hover {
 
 div.carolineHead:hover {
     color: #f7561c;
-    font-size: 111pt;
-    transition: .75s ease;
+    font-size: 80pt;
+    transition: 1s ease;
 
 
 }
@@ -71,7 +71,6 @@ div.carolineHead:hover {
 .figure {
 
     width: 500px;
-
     background-color: transparent;
     height: 500px;
 
@@ -132,3 +131,87 @@ figure.p {
     object-fit: contain;
     transition: opacity .0s;
 }
+
+
+
+
+  
+  nav{
+    width: 100%;
+    height: 50px; 
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: transparent;
+  }
+  
+  #options-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    float: left;
+  }
+  
+  #options-wrapper ul{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+  }
+  
+  #options-wrapper li{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    transition: all ease-in-out .2s;
+  }
+  #options-wrapper a{
+    display: block;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 15pt;
+    width: 100%;
+    padding: 0 .5em;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'KiTestRings';
+  }
+  li.different{
+    border:none;
+    position: relative;
+  }
+
+  .different::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    left: 50%;
+    bottom:0;
+    background-color:  #ff6a00;
+    transition: all ease-in-out .3s;
+  }
+  .different:hover::after{
+    width: 100%;
+    left: 0;
+  }
+
+
+
+
+/* @keyframes image_animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+}
+50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+}
+100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+}
+} */

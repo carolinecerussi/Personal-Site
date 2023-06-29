@@ -3,7 +3,7 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    font-size: 70pt;
+    font-size: 50pt;
     font-family: 'Bubblegum';
     color: #fd5501;
 
@@ -29,7 +29,7 @@
     color:black;
     border: 3px transparent #4a4a4a;
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
     text-align: Left;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
@@ -37,7 +37,7 @@
     -moz-animation: scroll-left 2s linear infinite;
     -webkit-animation: scroll-left 2s linear infinite;
     animation: scroll-left 30s linear infinite;
-    font-size: 30pt;
+    font-size: 25pt;
     font-family: 'Barlow';
 }
 

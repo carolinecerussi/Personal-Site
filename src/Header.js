@@ -1,6 +1,6 @@
 import React from 'react';
 import './headerStyle.css';
-
+import Slide from './SlideBanner';
 
 function Header() {
 
@@ -13,13 +13,22 @@ function Header() {
 
     return (
         <React.Fragment>
+            <Slide />
             <header>
-
+  <nav>
+  <div  id="options-wrapper">
+    <ul>
+      <li class="different"><a href="">Developer</a></li>
+      <li class="different"><a href="">Designer</a></li>
+      <li class="different"><a href="">HOME</a></li>
+    </ul>
+  </div>
+</nav>
                 <div className="carolineHead" >
                 <h1>Caroline Cerussi</h1>
-                <span style={aboutHead}><p>Developer <br/> Designer <br /> Artist</p></span>
+                <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
                 </div>
-
+              
 
                 <div className='buttonStyle' >
                     <button className="button" type="button" ><p><a href="https://www.linkedin.com/in/caroline-cerussi/" target="_blank" class="icon-link">LinkedIn</a></p></button>

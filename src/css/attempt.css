@@ -1,33 +1,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
 div.portfolio__container {
-    grid-template-columns: repeat(2);
     justify-content: center;
   }
   
   div.portfolio__box {
     background-color: var(--container-color);
-    border: 3px dotted rgba(8, 8, 8, 0.989);
-    border-radius: 5rem;
+    border: 2px solid rgba(0, 0, 0, 0.989);
+    background-color: rgba(222, 222, 233, 0.738);
+    border-radius: 2rem;
     transition: transform 0.3s;
-    display: flex;
+    display: flexbox;
 
   }
   
   div.portfolio__group {
     display: grid;
-    align-items: justify-start !important;
     row-gap: 3%;
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
   
   .portfolio__title {
-    font-size: 60pt;
+    font-size: 40pt;
     margin-bottom: var(--mb-0-5);
-    color: grey;
+    color: rgb(0, 0, 0);
     text-align: left;
     font-family: 'Belanosima';
+    padding: 2%;
+
     
   }
   
@@ -37,6 +38,8 @@ div.portfolio__container {
     margin-bottom: var(--mb-0-5);
     color: black;  
       text-align: left;
+      padding: 2%;
+
       font-family: 'Barlow';
   }
   
@@ -46,10 +49,10 @@ div.portfolio__container {
     margin-bottom: 1.2rem;
     font-family: 'Barlow';
     width: 100%;
+    padding: 2%;
   }
   
   .portfolio__img {
-    width: 50%;
     display: inline-flex;
   }
   
