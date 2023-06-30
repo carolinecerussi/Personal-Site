@@ -5,7 +5,7 @@ import Footer from '../src/Footer';
 import Back from './Back';
 import Attempt from './Attempt';
 import Slide from './SlideBanner';
-
+import Grids from './Components/ProjectGrid';
 
 
 function App() {
@@ -17,7 +17,8 @@ function App() {
 <Slide />
   <Header />
   <AboutMe />
-  <Attempt />
+  {/* <Attempt /> */}
+  <Grids />
   <Footer />
 </React.Fragment>    
   );

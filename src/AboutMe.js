@@ -7,13 +7,11 @@ function AboutMe() {
 
   const paragraphStyle = {
     color: "black",
-    fontSize: '30pt',
+    fontSize: '25pt',
     fontFamily: "Bagel Fat One ",
     width: '100%',
     backgroundColor: 'transparent',
-    textAlign: 'center',
-    backgroundColor:'transparent',
-
+    float:'left',
 
   }
 
@@ -23,9 +21,6 @@ const smallFont = {
   textAlign:'left',
   fontSize: '20pt',
   fontFamily: "Barlow ",
-
-
-
 }
 
 

@@ -2,47 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Caprasimo&display=swap');
 
-div.portfolio__container {
-    /* justify-content: left; */
+.portfolio__container {
     float: left;
-
+    column-gap: 3rem;
+    grid-template-columns: repeat(2,380px);
+    justify-content: center;
   }
   
-  div.portfolio__box {
+.portfolio__box {
     background-color: var(--container-color);
     border: 1px dotted rgb(0, 0, 0);
     background-color: rgba(2, 138, 242, 0.151);
     border-radius: 1rem;
      float: left;
-    margin: 1%;
   }
-
-  div.portfolio__box:hover {
+  .portfolio__box:hover {
     background-color: rgba(2, 138, 242, 0.06);
     transition: transform 0.3s;
-    border:1px solid rgba(0, 0, 0, 0.585);
-    float: left;
-
-
+    border:1px solid rgba(255, 115, 0, 0.585);
   }
   
-  div.portfolio__group {
-    display:grid ;
+ .portfolio__group {
     padding-block: 3%;
     padding-top: 3%;
-    width:50%;
+    width:100%;
     background-color: transparent;
     float: left;
+    text-align: center;
   }
   
   .portfolio__title {
-    font-size: 50pt;
+    font-size: 30pt;
     margin-bottom: var(--mb-0-5);
     color: rgb(0, 0, 0);
     text-align: left;
     font-family: 'Bagel Fat One';
     padding: 2%;
     float: left;
+    width: 100%;
 
     
   }
@@ -60,15 +57,14 @@ div.portfolio__container {
   }
   
   .portfolio__img {
-    display:flex;
-    width: 500px;
+    display:inline;
+    width: 300px;
     float: left;
 
   }
   
   .portfolio__link {
     width: 100%;
-    padding: 2%;
   }
   
   .portfolio__text-section {
@@ -79,8 +75,3 @@ div.portfolio__container {
   }
   
 
-
-  .video {
-    height: 1000px;
-    display: flex;
-  }
