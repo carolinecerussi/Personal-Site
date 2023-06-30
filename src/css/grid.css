@@ -1,5 +1,8 @@
 div {
-    display: block;
+    display: flexbox;
+    text-align: center;
+    width: 100%;
+    float: left;
 }
 
 
@@ -21,7 +24,7 @@ div {
 }
 
 .grid {
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
     display: grid;
     gap: 2rem;
     
@@ -35,11 +38,10 @@ div {
 }
 
 
-div.portfolio__text-section {
+.portfolio__text-section {
     padding-bottom: 12px;
     padding-left: 16px;
     padding-right: 16px;
-    position: relative;
     width: 100%;
     z-index: 10;
     box-sizing: border-box;
@@ -59,7 +61,7 @@ div.portfolio__text-section {
 }
 
 p {
-    display: block;
+    display: flexbox;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
