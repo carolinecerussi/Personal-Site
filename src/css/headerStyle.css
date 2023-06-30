@@ -10,6 +10,9 @@ a:hover {
     color: #ff5e00;
 }
 
+
+
+
 .button {
     --clr: rgb(0, 0, 0);
     background-color: transparent;
@@ -29,6 +32,7 @@ a:hover {
     display: flexbox;
     margin-bottom:30pt;
     text-align: center;
+    float: left;
 
 }
 
@@ -38,6 +42,7 @@ a:hover {
     outline-offset: -8px;
     color: #ff4d00;
     background-color: transparent;
+    border-radius: 50pt;
 }
 
 
@@ -45,7 +50,7 @@ a:hover {
 
 .carolineHead {
     color: black;
-    font-size: 100pt;
+    font-size: 80pt;
     font-family: "Bagel Fat One";
     width: 100%;
     background-color: transparent;

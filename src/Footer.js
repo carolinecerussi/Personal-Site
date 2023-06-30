@@ -3,11 +3,13 @@ import React from 'react';
 function Footer() {
 
   const footerStyle = {
-    backgroundColor: 'red',
-    float: 'left',
-position:'absolute',
-    marginBottom:'0%',
- textAlign:'center',
+    backgroundColor: 'transparent',
+position:'fixed',
+color:'black',
+float:'left',
+textAlign:'center',
+width:'100%',
+fontSize:'20pt'
 
   }
 
@@ -18,14 +20,8 @@ position:'absolute',
 <React.Fragment >
 
       <div className='footerStyle' style={footerStyle}>
+<a><p>HOME</p></a>
 
-        <div className='buttonStyle' >
-          <br />
-          <button className="button" type="button" ><p><a href="https://www.linkedin.com/in/caroline-cerussi/" target="_blank" class="icon-link">LinkedIn</a></p></button>
-         <button className="button" type="button" ><p><a href="mailto:cerussicaroline@gmail.com" class="icon-link">Email Me</a></p></button>
-          <button className="button" type="button" ><p><a href="tel:+1631-375-8024" class="icon-link">Call Me</a></p></button>
-          <button className="button" type="button" ><p><a href='https://www.carolinecerussi.me'>Website</a> </p></button>
-        </div>
         
       </div>
     </React.Fragment>

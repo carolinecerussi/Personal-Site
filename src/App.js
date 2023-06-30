@@ -6,7 +6,6 @@ import Back from './Back';
 import Attempt from './Attempt';
 import Slide from './SlideBanner';
 import Grids from './Components/ProjectGrid';
-import LightUp from './Components/lightUp';
 
 function App() {
 
@@ -20,7 +19,6 @@ function App() {
   {/* <Attempt /> */}
   <Grids />
 
-  <LightUp />
   <Footer />
 </React.Fragment>    
   );
