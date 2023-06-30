@@ -25,11 +25,10 @@
     overflow: hidden;
     position: relative;
     background:transparent;
-    padding: 20pt;
+    padding: 10pt;
     color:black;
     border: 3px transparent #4a4a4a;
     width: 100%;
-    line-height: 50px;
     text-align: Left;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
@@ -37,7 +36,7 @@
     -moz-animation: scroll-left 2s linear infinite;
     -webkit-animation: scroll-left 2s linear infinite;
     animation: scroll-left 30s linear infinite;
-    font-size: 25pt;
+    font-size: 20pt;
     font-family: 'Barlow';
 }
 

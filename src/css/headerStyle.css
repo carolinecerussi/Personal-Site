@@ -8,34 +8,37 @@ a {
 
 a:hover {
     color: #ff5e00;
+    
 }
 
 
 
-
-.button {
-    --clr: rgb(0, 0, 0);
-    background-color: transparent;
-    --outline: 2px dashed var(--clr);
-    color: var(--clr);
-    outline: var(--outline);
-    border: var(--outline);
-    outline-offset: -2px;
-    transition: outline-offset .75s ease;
-    border-radius: 50pt;
-    font-size: 20pt;
-    padding-inline: 1%;
-    min-width: 7%;
-    margin-right: .5%;
-    margin: 1%;
-    font-family: "KiTestRings";
-    display: flexbox;
-    margin-bottom:30pt;
-    text-align: center;
-    float: left;
-
+.button{
+  --clr: rgb(0, 0, 0);
+  background-color: transparent;
+  --outline: 2px dashed var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: outline-offset .75s ease;
+  border-radius: 50pt;
+  font-size: 20pt;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 5px 5px;
+cursor: pointer;
+font-family: 'Barlow';
 }
 
+.buttonStyle{
+  display: flex;
+justify-content: center;
+margin-bottom: 2%;
+
+}
 .button:hover,
 .button:focus {
     outline: var(--outline);
@@ -55,7 +58,6 @@ a:hover {
     width: 100%;
     background-color: transparent;
     float: left;
-    text-align: center;
 
 }
 
@@ -65,155 +67,3 @@ div.carolineHead:hover {
 
 
 }
-
-
-/* .figure {
-
-    width: 500px;
-    background-color: transparent;
-    height: 500px;
-
-}
-
-.figure img.image-hover {
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0;
-    ;
-    object-fit: contain;
-    transition: opacity .0s;
-}
-
-.figure:hover img.image-hover {
-    opacity: 1;
-    display: show;
-
-}
-
-.figure:hover img.image-main {
-    display: none;
-
-}
-
-
-.figure p.main {
-    font-size: 40pt;
-    color: #f7561c;
-    background-color: rgb(255, 255, 255);
-}
-
-figure.p {
-    background-color: #f7561c;
-
-
-}
-
-.figure:hover p.hover {
-    font-size: 50pt;
-    color: #f7561c;
-
-    background-color: black;
-    opacity: 1;
-}
-
-.figure:hover p.main {
-    display: none;
-}
-
-.figure p.hover {
-    float: left;
-    opacity: 0;
-    ;
-    object-fit: contain;
-    transition: opacity .0s;
-}
-
- */
-
-
-  
-  nav{
-    width: 100%;
-    height: 60px; 
-    position: fixed;
-    top: 0;
-    left:0;
-    background-color: transparent;
-  }
-  
-  #options-wrapper{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: block;
-    float: left;
-  }
-  
-  #options-wrapper ul{
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    height: 100%;
-    text-align: center;
-  }
-  
-  #options-wrapper li{
-    display: block;
-    float: left;
-    text-align: center;
-    width: 100%;
-    font-size: 50pt;
-
-    height: 100%;
-    transition: all ease-in-out .2s;
-  }
-  #options-wrapper a{
-    display: block;
-    float: left;
-    color: rgb(0, 0, 0);
-    width: 100%;
-    padding: .5em;
-    line-height: 0px;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Barlow';
-    font-size: 30pt;
-
-  }
-  li.different{
-    border:none;
-    position: relative;
-  }
-
-  .different::after{
-    content: '';
-    position: absolute;
-    width: 0px;
-    height: 2px;
-    left: 50%;
-    bottom:0;
-    background-color:  #ff6a00;
-    transition: all ease-in-out .3s;
-  }
-  .different:hover::after{
-    width: 100%;
-    left: 0;
-  }
-
-
-
-
-/* @keyframes image_animate {
-  0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-}
-50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-}
-100% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-}
-} */
