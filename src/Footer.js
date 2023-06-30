@@ -1,12 +1,11 @@
 import React from 'react';
-import '../src/css/headerStyle.css';
 
 function Footer() {
 
   const footerStyle = {
-    backgroundColor: 'pink',
+    backgroundColor: 'red',
     float: 'left',
-    width: '100%',
+position:'absolute',
     marginBottom:'0%',
  textAlign:'center',
 

@@ -8,7 +8,7 @@ function Grids() {
 
   return (
 <React.Fragment>
-
+<div className="gridContent">
       <div id="portfolio" className="portfolio section">
         <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle">A few of my favorite projectes.</span>
@@ -66,6 +66,7 @@ function Grids() {
                         <span className="portfolio__tags">#Tailwind</span>
                         </div>
                         </div></div></div></div>
+        </div>
         </div>
         </div>
 
