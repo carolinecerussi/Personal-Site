@@ -38,6 +38,7 @@
     animation: scroll-left 30s linear infinite;
     font-size: 20pt;
     font-family: 'Barlow';
+    margin-top: 5%;
 }
 
 @-moz-keyframes scroll-left {

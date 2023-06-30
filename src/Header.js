@@ -1,6 +1,6 @@
 import React from 'react';
 import '../src/css/headerStyle.css';
-
+import Border from './Border';
 function Header() {
 
     const aboutHead = {
@@ -20,6 +20,8 @@ function Header() {
 
                 <div className="carolineHead" >
                 <h1>Caroline Cerussi</h1>
+                <Border />
+
                 <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
                 </div>
               

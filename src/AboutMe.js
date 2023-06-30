@@ -40,7 +40,6 @@ float:'left',
     <React.Fragment>
       <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
       </link>
-<Border />
 
 <div className="portfolio__content">
                     <div className="portfolio__box"><div className="portfolio__group">
