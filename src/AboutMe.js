@@ -1,6 +1,8 @@
 import React from 'react';
-import "../src/headerStyle.css";
 import Border from './Border';
+import Grid from '../src/Components/ProjectGrid';
+import ipad from "../src/img/ipad.png";
+
 function AboutMe() {
 
 
@@ -16,23 +18,44 @@ function AboutMe() {
   }
 
 const smallFont = {
-  width:'50%',
+  width:'100%',
   float:'left',
-  textAlign:'left',
+  textAlign:'center',
   fontSize: '20pt',
   fontFamily: "Barlow ",
+  display:'box',
+
 }
 
+const meBoxStyle=  {
+  color:'black',
+  textAlign:'center',
+  width:'100%',
+
+
+}
 
   return (
     <React.Fragment>
       <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
       </link>
-      {/* <div className="figure">
-                <img className="image-main" src={face} alt="project" width='50%' />
-                <p className="image-hover" >Hi this is an about me</p>
-            </div> */}
-            <Border />  
+<Border />
+<div className='aboutMeBox' style={meBoxStyle}>
+  <h1>ME:</h1>
+  <p> 29 yo <a>scorpio</a></p>
+<br />   <p> from </p><h3><a>Portland, OR</a></h3>
+<div className="portfolio__content">
+                    <div className="portfolio__box"><div className="portfolio__group">
+                    {/* <img alt="ipad" className="portfolio__img" src={ipad} /> */}
+
+                    <div className="portfolio__text-section">
+                      <h1 className="portfolio__title hover-underline-animation"><a href="https://graphql-nextjs-blog-pink.vercel.app/" className="portfolio__link">ME →</a></h1><p className="portfolio__text">This open source blog pulls data from GraphCMS using GraphQL. It features posts written in Markdown, featured posts, related posts, categories, authors, user submitted comments, and a Tailwind styled layout.</p>
+                        </div></div>
+                        </div>
+                        </div>
+
+
+</div>
 
 
 

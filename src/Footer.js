@@ -1,5 +1,5 @@
 import React from 'react';
-import '../src/headerStyle.css';
+import '../src/css/headerStyle.css';
 
 function Footer() {
 

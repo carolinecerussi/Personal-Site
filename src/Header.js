@@ -1,6 +1,5 @@
 import React from 'react';
-import './headerStyle.css';
-import Slide from './SlideBanner';
+import '../src/css/headerStyle.css';
 
 function Header() {
 
@@ -19,7 +18,7 @@ function Header() {
   <div  id="options-wrapper">
     <ul>
         <br />
-      <li class="different"><a href="">☺</a></li>
+      <li class="different"><a href="">☺️ </a></li>
     </ul>
   </div>
 </nav>
