@@ -19,7 +19,7 @@ a:hover {
     border: var(--outline);
     outline-offset: -2px;
     transition: outline-offset .75s ease;
-    border-radius: 100pt;
+    border-radius: 50pt;
     font-size: 20pt;
     padding-inline: 1%;
     min-width: 7%;

@@ -25,15 +25,15 @@ div {
 
 .grid {
     grid-gap: 1rem;
-    display: grid;
-    gap: 2rem;
+    display: flex;
+    gap: 1rem;
     
 }
 
 .container {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-left: var(--mb-1-5);
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     margin-right: var(--mb-1-5);
 }
 
@@ -50,7 +50,7 @@ div {
 }
 
 
-.portfolio__text {
+div.portfolio__text {
     color: var(--text-color);
     font-size: 12pt;
     font-weight: var(--font-medium);
@@ -61,10 +61,11 @@ div {
 }
 
 p {
-    display: flexbox;
+    display: flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-size: 12pt;
 }
 
