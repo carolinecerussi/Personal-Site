@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+function Home() {
 
   const footerStyle = {
     backgroundColor: 'transparent',
@@ -30,4 +30,4 @@ fontSize:'20pt'
 }
 
 
-export default Footer;
+export default Home;

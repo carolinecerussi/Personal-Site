@@ -1,6 +1,7 @@
 import React from 'react';
 import '../src/css/headerStyle.css';
 import Border from './Border';
+import Slide from './SlideBanner';
 function Header() {
 
     const aboutHead = {
@@ -16,6 +17,7 @@ function Header() {
 
     return (
         <React.Fragment>
+            <Slide />
             <header>
 
                 <div className="carolineHead" >
