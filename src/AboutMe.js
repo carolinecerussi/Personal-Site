@@ -1,5 +1,8 @@
 import React from 'react';
 import "../src/css/grid.css"
+
+
+
 function AboutMe() {
 
 
@@ -35,8 +38,14 @@ const meBoxStyle=  {
                     <div className="portfolio__text-section">
                     <div className='aboutMeBox' style={meBoxStyle}>
   <h1>ME:</h1>
-  <p>Hi, I'm Caroline, a 29-year-old <a href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.'><h3>Scorpio</h3></a> living in <h3>Portland, Oregon</h3></p>
-<br />   <p> from </p><h3><a>Portland, OR</a></h3>
+  <p>Hi,  I'm Caroline, a 29-year-old <a href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.'><h3>Scorpio</h3></a> living in <h3>Portland, Oregon</h3></p>
+<br />   <p> from </p><h3>
+ <a> 
+Portland, OR</a></h3>
+<h4><i class="fa fa-chain"></i> portfolio site</h4>
+<h4><i class="fa fa-chain"></i> portfolio site</h4>
+<h4><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h4>
+
 </div>
                         
                      

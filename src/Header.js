@@ -17,13 +17,11 @@ function Header() {
 
     return (
         <React.Fragment>
-            <Slide />
+    
             <header>
-
                 <div className="carolineHead" >
                 <h1>Caroline Cerussi</h1>
                 <Border />
-
                 <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
                 </div>
               

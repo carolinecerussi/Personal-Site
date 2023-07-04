@@ -10,9 +10,7 @@ function Border() {
         <React.Fragment>
               <div class="circle-wrapper">
     <div class="success circle"></div>
-    <div class="icon">
-      <i class="fa fa-check"></i>
-    </div>
+
     </div>
         </React.Fragment>
     )

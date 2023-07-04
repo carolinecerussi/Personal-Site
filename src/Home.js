@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
 
-  const footerStyle = {
+  const headerStyle = {
     backgroundColor: 'transparent',
 position:'fixed',
 color:'black',
@@ -19,7 +19,7 @@ fontSize:'20pt'
 
 <React.Fragment >
 
-      <div className='footerStyle' style={footerStyle}>
+      <div className='footerStyle' style={headerStyle}>
 <a><p>HOME</p></a>
 
         
