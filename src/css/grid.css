@@ -88,8 +88,8 @@ p {
 
 .portfolio__container {
     float: left;
-    column-gap: 3rem;
-    grid-template-columns: repeat(2,380px);
+    column-gap: 4rem;
+    grid-template-columns: repeat(2,500px);
     justify-content: center;
   }
   
@@ -98,14 +98,15 @@ p {
 .portfolio__box {
     background-color: var(--container-color);
     border:transparent;
-    background-color: rgba(13, 113, 101, 0.263);
+    background-color: rgba(208, 237, 115, 0.716);
     border-radius: 1rem;
      float: left;
      padding-inline:5%;
      text-align: center;
+     
   }
   .portfolio__box:hover {
-    background-color: rgba(2, 138, 242, 0.549);
+    background-color: rgba(208, 237, 115, 0.886);
     transition: transform 0.3s;
     border:transparent;
     scale: 1.01;
@@ -128,8 +129,6 @@ p {
     color: rgb(0, 0, 0);
     text-align: left;
     font-family: 'barlow';
-
-    padding: 1%;
     float: left;
     width: 100%;
 
@@ -141,11 +140,8 @@ p {
     font-size: 15pt;
     color: rgb(0, 0, 0);    margin-top: 0.9rem;
     font-family: 'Barlow';
-    padding: 3%;
     text-align: left;
     float: left;
-
-
   }
   
   .portfolio__img {
@@ -156,6 +152,7 @@ p {
     padding: 1%;
     justify-content: center;
 display: block;
+
   }
   
   .portfolio__link {
@@ -201,14 +198,13 @@ text-align: center;
 
 div.video {
     background-color: transparent;
-    border-radius: 50pt;
     justify-content: center;
 
 }
 
 
 div.openBox {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 420px;
   height:430px;
   justify-content: center;
@@ -219,5 +215,7 @@ div.openBox {
 button {
   background-color: transparent;
   border-color: transparent;
-
+font-size: 18pt;
+width: 100%;
+padding: 5%;
 }

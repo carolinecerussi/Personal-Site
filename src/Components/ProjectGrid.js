@@ -105,7 +105,7 @@ function Grids() {
                     <a href="https://graphql-nextjs-blog-pink.vercel.app/" className="portfolio__link">Alien Adoption →</a></h1>
 
                   <p className="portfolio__text">This open source blog pulls data from GraphCMS using GraphQL. It features posts written in Markdown, featured posts, related posts, categories, authors, user submitted comments, and a Tailwind styled layout.</p>
-                  <Popup trigger={<button>PLAY</button>} position="top center">
+                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
                     {close => (
                       <div className="openBox" >
                         ALIEN ADOPTION  <iframe class="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>

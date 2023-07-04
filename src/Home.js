@@ -20,7 +20,8 @@ fontSize:'20pt'
 <React.Fragment >
 
       <div className='footerStyle' style={headerStyle}>
-<a><p>HOME</p></a>
+<a ><i class="fa fa-angle-up"></i>
+</a>
 
         
       </div>

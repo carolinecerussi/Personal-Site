@@ -10,7 +10,7 @@ function AboutMe() {
   const titleStyle =  {
     float: 'left',
     columnGap: '3rem',
-    gridTemplateColumns: 'repeat(1,50%)',
+    gridTemplateColumns: 'repeat(1,60%)',
     justifyContent: 'center',
 
   }
@@ -24,7 +24,7 @@ const smallFont = {
 const meBoxStyle=  {
     float: 'left',
     columnGap: '1rem',
-    gridTemplateColumns: 'repeat(1,50%)',
+    gridTemplateColumns: 'repeat(1,60%)',
     justifyContent: 'center',
     textAlign:'left'
   }
@@ -42,9 +42,14 @@ const meBoxStyle=  {
 <br />   <p> from </p><h3>
  <a> 
 Portland, OR</a></h3>
+<h4><i class="fa fa-linkedin-square"></i>
+ portfolio site</h4>
+
 <h4><i class="fa fa-chain"></i> portfolio site</h4>
-<h4><i class="fa fa-chain"></i> portfolio site</h4>
+<h4><i class="fa fa-github"></i>
+portfolio site</h4>
 <h4><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h4>
+<i class="fa fa-github"></i>
 
 </div>
                         
