@@ -1,4 +1,4 @@
-import "../src/css/border.css";
+import "../css/border.css";
 
 import React from 'react';
 

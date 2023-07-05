@@ -1,5 +1,5 @@
 import React from 'react';
-import '../src/css/banner.css';
+import '../css/banner.css';
 
 
 

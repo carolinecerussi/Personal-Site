@@ -31,9 +31,9 @@ display: inline-block;
 font-size: 16px;
 margin: 15px;
 cursor: pointer;
-font-family: "Major Mono Display";
-max-width: 9%;
-min-width: 9%;
+font-family: "";
+max-width: 12%;
+min-width: 10%;
 padding:1pt;
 }
 
