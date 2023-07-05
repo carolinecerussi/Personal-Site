@@ -19,7 +19,10 @@ function App() {
   <Header />
   <Rainbow />
   <AboutMe />
+  <Rainbow />
   <Grids />
+  <Rainbow />
+
 </React.Fragment>    
   );
 }
