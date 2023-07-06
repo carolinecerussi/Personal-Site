@@ -3,6 +3,7 @@ import '../css/headerStyle.css';
 import Border from './Border';
 import Slide from './SlideBanner';
 import Smile from './Smile';
+import carolineName from '../img/carceru_1.gif'
 function Header() {
 
     const aboutHead = {
@@ -22,7 +23,7 @@ function Header() {
     <Slide />
             <header>
                 <div className="carolineHead" >
-                <h1>Caroline Cerussi</h1>
+                <img src={carolineName} width='80%' />
                 <Border />
                 <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
                 </div>

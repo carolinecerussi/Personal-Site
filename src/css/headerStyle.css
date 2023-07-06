@@ -55,14 +55,14 @@ font-family: 'Dosis';
 
 
 
-.carolineHead {
+.carolineHead img {
     color: black;
-    font-size: 50pt;
-    font-family: "Major Mono Display";
+
     width: 100%;
     background-color: transparent;
     float: left;
     margin-bottom: 3%;
+    text-align: center;
 
 }
 
