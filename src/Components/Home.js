@@ -11,6 +11,7 @@ textAlign:'center',
 width:'100%',
 fontSize:'20pt'
 
+
   }
 
 
@@ -20,8 +21,8 @@ fontSize:'20pt'
 <React.Fragment >
 
       <div className='footerStyle' style={headerStyle}>
-<a ><i class="fa fa-angle-up"></i>
-</a>
+<a href="App.js" ><button><i class="fa fa-angle-up"></i>
+</button></a>
 
         
       </div>

@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <React.Fragment>
-    <Smile />
+    {/* <Smile /> */}
             <header>
                 <div className="carolineHead" >
                 <h1>Caroline Cerussi</h1>

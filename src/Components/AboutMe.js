@@ -1,11 +1,15 @@
 import React from 'react';
 import '../css/grid.css';
-
-
+import Popup from 'reactjs-popup';
+import resume1 from '../img/resume1.png';
 function AboutMe() {
 
 
+const popUpStyle = {
+  textAlign:'left',
+  cursor: 'pointer',
 
+}
   const titleStyle =  {
     float: 'left',
     columnGap: '3rem',
@@ -46,8 +50,18 @@ const meBoxStyle=  {
 <h4><i class="fa fa-github"></i>
   Github</h4>
 <h4><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h4>
-<h4><i class="fa fa-file-o"></i>
-  Resume</h4>
+
+<Popup  style={popUpStyle} trigger={<a><p><i class="fa fa-file-o"></i>  Resume</p>
+</a>} position="top right">
+                    {close => (
+                      <div className="openBox" >
+                     <img class="embed-responsive-item" width="800px" height="1000px" src={resume1} frameborder="0px" allowFullScreen />   <a className="close" onClick={close}>
+                          &times;
+                        </a>
+                      </div>
+                    )}
+
+                  </Popup>
 </div>
                         
 <div className='portfolio__text-section'>

@@ -5,7 +5,8 @@ import '../css/smile.css';
 function Smile() {
 return(
 
-<div id="foo"></div>
+<div id="foo">
+</div>
 )
 }
 

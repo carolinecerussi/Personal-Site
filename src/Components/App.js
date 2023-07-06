@@ -1,7 +1,7 @@
 import Header from './Header';
 import React from 'react';
 import AboutMe from './AboutMe';
-import Home from './Home';
+import Button from './Home';
 import Grids from './ProjectGrid';
 import 'reactjs-popup/dist/index.css';
 import Slide from './SlideBanner';
@@ -13,7 +13,7 @@ function App() {
 <React.Fragment>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-<Home />
+<Button/>
 
 <Slide />
   <Header />
