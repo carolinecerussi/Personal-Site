@@ -3,18 +3,17 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    font-size: 50pt;
-    font-family: 'Barlow';
-    color: #fd5501;
+    font-size: 30pt;
+    font-family: 'Dosis';
+    color: #fd7201;
 
 
-    ;
 }
 
 @keyframes blink {
     0%, 15% {
         opacity: .3;
-        color:rgb(255, 255, 255);
+        color:rgba(255, 115, 0, 0.151);
     }
     16%, 100% {
         opacity: 1;
@@ -25,20 +24,19 @@ div.marquee {
     overflow: hidden;
     position: relative;
     background:transparent;
-    padding: 10pt;
     color:black;
-    border: 3px transparent #4a4a4a;
     width: 100%;
-    text-align: Left;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     -moz-animation: scroll-left 2s linear infinite;
     -webkit-animation: scroll-left 2s linear infinite;
-    animation: scroll-left 30s linear infinite;
-    font-size: 20pt;
-    font-family: 'Barlow';
-    margin-top: 5%;
+    animation: scroll-left 20s linear infinite;
+    font-size: 14pt;
+    font-family: 'Kavivanar';
+    margin-top: 2%;
+    display: inline-block;
+
 }
 
 @-moz-keyframes scroll-left {

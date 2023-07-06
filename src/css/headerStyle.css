@@ -18,43 +18,37 @@ a:hover {
   background-color: transparent;
   --outline: 2px dashed var(--clr);
   color: var(--clr);
-  text-align: center;
-
   outline: var(--outline);
-  border: var(--outline);
-  outline-offset: -2px;
-  transition: outline-offset .75s ease;
+  border: 2px dashed ;
   border-radius: 50pt;
+outline-offset: -2px;
+  transition: outline-offset .75s ease;  
   font-size: 20pt;
-padding: 5px 20px;
-display: inline-block;
-font-size: 16px;
+padding: 3px 10px;
 margin: 15px;
 cursor: pointer;
-font-family: "";
+font-family: "Dosis";
 max-width: 12%;
 min-width: 10%;
 padding:1pt;
 }
 
 .buttonStyle{
-  display: flex;
 justify-content: center;
-margin-bottom: 1%;
-border-radius: 50pt;
+border-radius: 60pt;
 text-align: center;
+display: inline-block;
+font-family: 'Dosis';
 
 
 }
 .button:hover,
-.button:focus {
+.button:focus  {
     outline: var(--outline);
     outline-offset: -8px;
-    color: #ff4d00;
     background-color: transparent;
     border-radius: 50pt;
     text-align: center;
-
 
 }
 
@@ -63,7 +57,7 @@ text-align: center;
 
 .carolineHead {
     color: black;
-    font-size: 60pt;
+    font-size: 50pt;
     font-family: "Major Mono Display";
     width: 100%;
     background-color: transparent;
@@ -73,9 +67,8 @@ text-align: center;
 }
 
 div.carolineHead:hover {
-    color: #ffffff;
     transition: 1s ease;
-    background-color: rgb(255, 140, 0);
+color: rgb(191, 255, 0);
 
 
 }

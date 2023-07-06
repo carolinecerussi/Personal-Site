@@ -8,7 +8,7 @@ function Header() {
     const aboutHead = {
         color: "black",
         fontSize: '40pt',
-        fontFamily: "Barlow",
+        fontFamily: "Dosis",
         textAlign: 'center',
         float:'left',
         width:'100%'
@@ -19,6 +19,7 @@ function Header() {
     return (
         <React.Fragment>
     {/* <Smile /> */}
+    <Slide />
             <header>
                 <div className="carolineHead" >
                 <h1>Caroline Cerussi</h1>

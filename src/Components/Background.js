@@ -1,4 +1,4 @@
-import "../css/new.css";
+import "../css/background.css";
 
 import React from 'react';
 
