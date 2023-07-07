@@ -1,11 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap');
 
+
+
+
 .blink {
     animation: 1.3s infinite blink;
     font-size: 30pt;
-    font-family: 'Dosis';
-    color: #fd7201;
+    font-family: 'Bubblegum';
+    color: #ff4d00;
 
 
 }
@@ -19,8 +22,7 @@
         opacity: 1;
     }
 }
-
-div.marquee {
+.marquee {
     overflow: hidden;
     position: relative;
     background:transparent;
@@ -29,24 +31,25 @@ div.marquee {
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    -moz-animation: scroll-left 2s linear infinite;
-    -webkit-animation: scroll-left 2s linear infinite;
-    animation: scroll-left 20s linear infinite;
+    -moz-animation: marquee 2s linear infinite;
+    animation: scroll-left 15s linear infinite;
     font-size: 14pt;
-    font-family: 'Kavivanar';
-    margin-top: 2%;
+    font-family: 'Dosis';
+    margin-top: 3%;
     display: inline-block;
+margin-bottom:2%;
 
 }
 
-@-moz-keyframes scroll-left {
-    0% {
-        -moz-transform: translateX(100%);
+
+    @-moz-keyframes  marquee {
+        0% {
+            -moz-transform: translateX(100%);
+        }
+        50% {
+            -moz-transform: translateX(-100%);
+        }
     }
-    100% {
-        -moz-transform: translateX(-100%);
-    }
-}
 
 @-webkit-keyframes scroll-left {
     0% {
@@ -55,8 +58,8 @@ div.marquee {
     100% {
         -webkit-transform: translateX(-100%);
     }
-}
 
+}
 @keyframes scroll-left {
     0% {
         -moz-transform: translateX(100%);

@@ -4,6 +4,10 @@
 a {
     text-decoration: none;
     color: black;
+    font-size: 16pt;
+}
+.buttonStyle i {
+    font-size: 19pt;
 }
 
 a:hover {
@@ -12,43 +16,41 @@ a:hover {
 }
 
 
-
 .button{
-  --clr: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   background-color: transparent;
-  --outline: 2px dashed var(--clr);
-  color: var(--clr);
-  outline: var(--outline);
+  --outline: 2px dashed black;
   border: 2px dashed ;
-  border-radius: 50pt;
-outline-offset: -2px;
+border-radius: 50pt;
+/* outline-offset: -2px; */
   transition: outline-offset .75s ease;  
-  font-size: 20pt;
-padding: 3px 10px;
-margin: 15px;
 cursor: pointer;
 font-family: "Dosis";
-max-width: 12%;
-min-width: 10%;
-padding:1pt;
+max-width: 15%;
+min-width: 12%;
+padding: 1pt ;
+margin-left: 3%;
+
+
 }
 
 .buttonStyle{
+background-color: transparent;
 justify-content: center;
-border-radius: 60pt;
-text-align: center;
 display: inline-block;
 font-family: 'Dosis';
-
+width: 100%;
+margin-top: 2%;
 
 }
 .button:hover,
 .button:focus  {
-    outline: var(--outline);
+    outline: 2px dashed black;
     outline-offset: -8px;
     background-color: transparent;
-    border-radius: 50pt;
     text-align: center;
+    border-radius: 50pt;
+    
 
 }
 
@@ -68,7 +70,7 @@ font-family: 'Dosis';
 
 div.carolineHead:hover {
     transition: 1s ease;
-color: rgb(191, 255, 0);
+/* background-color: rgba(255, 255, 255, 0.847); */
 
 
 }

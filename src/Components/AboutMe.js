@@ -44,7 +44,25 @@ const meBoxStyle=  {
   <p>Portland OR based <br />
   29-year-old <a href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.'><h2>Scorpio</h2></a> 
   with an <h3>Industrial Design</h3> degree from <h2>Pratt Institute</h2> of Art and Design.</p>
+<p>Who I Am -
 
+Located in 
+︎
+Portland OR
+29 year old 
+
+
+ Scorpio
+Bachelors Degree in 
+Industrial Design
+from
+Pratt Institute 
+of Art and Design
+Coding Certificate from 
+
+Epicodus Coding School 
+
+ React, JavaScript, HTML, CSS, C#</p>
 
 <h4><i class="fa fa-chain" ></i> Portfolio</h4>
 <h4><i class="fa fa-github"></i>

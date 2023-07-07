@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Caprasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Bungee+Hairline&family=Caprasimo&family=Codystar:wght@300;400&family=Coiny&family=Londrina+Outline&family=Major+Mono+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Kavivanar&display=swap');
 
 html {
-  font-family: 'Barlow';
+  font-family: 'Dosis';
 display: grid;
 text-align: center;
-}
-code {
-  font-family: 'barlow';
+justify-content: center;
 }
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap');
+
 
