@@ -6,11 +6,11 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    font-family: 'Belanosima';
+    font-family: 'Athiti';
     color: #ffffff;
-    font-size: 40pt;
+    font-size: 30pt;
     display:inline-block;
-
+  
 }
 
 @keyframes blink {
@@ -22,13 +22,12 @@
         opacity: 1;
     }
 }
-.marquee {
-    position: relative;
+.marqueeContainer {
     background:transparent;
     color:black;
-    width: 100%;
+    width: 50%;
     transform: translateX(100%);
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 15s linear infinite;
     font-family: 'Athiti';
     margin-top: 5%;
     font-size: 14pt;

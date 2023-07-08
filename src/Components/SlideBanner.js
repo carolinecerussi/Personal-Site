@@ -1,13 +1,11 @@
 import React from 'react';
 import '../css/banner.css';
 
-
-
 function Slide(){
     return (
     <React.Fragment>
 <div className='marqueeContainer' >
-<div className="marquee" speed="-4">
+<div className="marquee" >
     <div className="blink" >
         <span id="now">NOW</span>
     </div>

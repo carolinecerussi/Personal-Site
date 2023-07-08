@@ -78,7 +78,7 @@ color: black;
 .portfolio__container {
     float: left;
     column-gap: 1.5rem;
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: repeat(2,45%);
     justify-content: center;
 
   }
@@ -137,7 +137,7 @@ color: black;
   }
   
   .portfolio__img {
-    display:inline-block;
+    display:inline;
     float: left;
     padding: 1%;
     justify-content: center;

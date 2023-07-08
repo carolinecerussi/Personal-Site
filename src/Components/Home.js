@@ -23,7 +23,7 @@ overflow:'hidden'
 <React.Fragment >
 
       <div className='footerStyle' style={headerStyle}>
-<a href="App.js" ><i class="fa fa-angle-up"></i>
+<a href="https://carolinecerussi.com" ><i class="fa fa-angle-up"></i>
 </a>
 
         
