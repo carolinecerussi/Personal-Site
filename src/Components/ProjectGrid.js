@@ -9,8 +9,8 @@ import robot3 from '../img/robot3.jpg';
 import shelter1 from '../img/shelter11.png';
 import shelter2  from '../img/shelter22.png';
 import shelter3  from '../img/shelter33.png';
-
-
+import pizza1 from '../img/womanpizza.png';
+import book1 from '../img/book1.png';
 
 function Grids() {
 
@@ -64,9 +64,9 @@ In the end, the application successfully translated numbers into robot language,
 
                 <div className="portfolio__text-section">
                 <div className="imagesForEach" >
-                <img alt="ipad" className="portfolio__img" src={robot1} />
-                  <img alt="ipad" className="portfolio__img" src={robot2} />
-                  <img alt="ipad" className="portfolio__img" src={robot3} />
+                <img alt="ipad" className="portfolio__img" src={book1} />
+                <img alt="ipad" className="portfolio__img" src={book1} />
+                <img alt="ipad" className="portfolio__img" src={book1} />
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/bookmarked" className="portfolio__link">Book Marked→</a></h1>
@@ -143,9 +143,9 @@ Implementing the adoption form on each alien's page was a crucial aspect of the 
 
                   </div>
                   <div className="imagesForEach" >
-                <img alt="ipad" className="portfolio__img" src={robot1} />
-                  <img alt="ipad" className="portfolio__img" src={robot2} />
-                  <img alt="ipad" className="portfolio__img" src={robot3} />
+                <img alt="ipad" className="portfolio__img" src={pizza1} />
+                  <img alt="ipad" className="portfolio__img" src={pizza1} />
+                  <img alt="ipad" className="portfolio__img" src={pizza1} />
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/Super-Slice" className="portfolio__link">Super Slice →</a></h1>

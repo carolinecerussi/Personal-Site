@@ -2,19 +2,17 @@ import React from 'react';
 import '../css/headerStyle.css';
 import Border from './Border';
 import Slide from './SlideBanner';
-import Smile from './Smile';
+import Rainbow from './Rainbow';
 import carolineName from '../img/carceru_1.gif'
 function Header() {
 
     const aboutHead = {
         color: "black",
-        fontSize: '40pt',
+        fontSize: '20pt',
         fontFamily: "Dosis",
         textAlign: 'center',
         float:'left',
         width:'100%'
-
-        
     }
 
     return (
@@ -23,7 +21,9 @@ function Header() {
     <Slide />
             <header>
                 <div className="carolineHead" >
-                <img src={carolineName} width='80%' />
+                <img src={carolineName} width='100%' />
+                {/* <Rainbow /> */}
+
                 <Border />
                 <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
                 </div>

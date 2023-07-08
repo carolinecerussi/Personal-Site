@@ -6,9 +6,9 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    font-size: 30pt;
-    font-family: 'Bubblegum';
-    color: #ff4d00;
+    font-size: 40pt;
+    font-family: 'Dosis';
+    color: #a6ff00;
 
 
 }
@@ -32,17 +32,16 @@
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     -moz-animation: marquee 2s linear infinite;
-    animation: scroll-left 15s linear infinite;
+    animation: scroll-left 20s linear infinite;
     font-size: 14pt;
     font-family: 'Dosis';
     margin-top: 3%;
-    display: inline-block;
 margin-bottom:2%;
 
 }
 
 
-    @-moz-keyframes  marquee {
+@-moz-document-keyframes  marquee {
         0% {
             -moz-transform: translateX(100%);
         }

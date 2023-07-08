@@ -4,10 +4,11 @@
 a {
     text-decoration: none;
     color: black;
-    font-size: 16pt;
+    font-size: auto;
+    
 }
 .buttonStyle i {
-    font-size: 19pt;
+    font-size: auto;
 }
 
 a:hover {
@@ -26,10 +27,10 @@ border-radius: 50pt;
   transition: outline-offset .75s ease;  
 cursor: pointer;
 font-family: "Dosis";
-max-width: 15%;
-min-width: 12%;
-padding: 1pt ;
-margin-left: 3%;
+max-width: 10%;
+min-width: 10%;
+margin:1%;
+text-align: center;
 
 
 }
@@ -38,9 +39,9 @@ margin-left: 3%;
 background-color: transparent;
 justify-content: center;
 display: inline-block;
-font-family: 'Dosis';
 width: 100%;
 margin-top: 2%;
+text-align: center;
 
 }
 .button:hover,
@@ -59,18 +60,16 @@ margin-top: 2%;
 
 .carolineHead img {
     color: black;
-
     width: 100%;
     background-color: transparent;
-    float: left;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     text-align: center;
-
+display: inline-block;
 }
 
 div.carolineHead:hover {
     transition: 1s ease;
-/* background-color: rgba(255, 255, 255, 0.847); */
+background-color: rgba(157, 255, 0, 0.966);
 
 
 }
