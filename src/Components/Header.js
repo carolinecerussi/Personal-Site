@@ -3,14 +3,14 @@ import '../css/headerStyle.css';
 import Border from './Border';
 import Slide from './SlideBanner';
 import Rainbow from './Rainbow';
-import carolineName from '../img/carceru_1.gif'
+import carolineName from '../img/carceru.gif'
 
 function Header() {
 
     const aboutHead = {
         color: "black",
         fontSize: '18pt',
-        fontFamily: "Dosis",
+        fontFamily: "Athiti",
         textAlign: 'center',
         float:'left',
         width:'100%'
@@ -18,11 +18,10 @@ function Header() {
 
     return (
         <React.Fragment>
-            <header>
+                   <Slide />
+            <div className='header'>
                 <div className="carolineHead" >
-                <img src={carolineName} width='100%' />
-
-
+                <img src={carolineName} />
                 <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
                 </div>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
@@ -34,7 +33,7 @@ function Header() {
 <p><i class="fa fa-linkedin-square"></i>
 </p></a></p></button>
                 </div>
-            </header>
+            </div>
         </React.Fragment>
     )
 

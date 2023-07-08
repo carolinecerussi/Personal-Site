@@ -12,26 +12,30 @@ a {
 }
 
 a:hover {
-    color: #ff5e00;
-    
+    color: #ff6600;
+    outline-offset: -8px;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 50pt;
 }
 
 
 .button{
+    margin-right: 2%;
   color: rgb(0, 0, 0);
   background-color: transparent;
   --outline: 2px dashed black;
   border: 2px dashed ;
 border-radius: 50pt;
-/* outline-offset: -2px; */
+outline-offset: -2px;
   transition: outline-offset .75s ease;  
-cursor: pointer;
-font-family: "Dosis";
-max-width: 200px;
-min-width: 100px;
-margin:1%;
-text-align: center;
+  font-family: 'Athiti';
 
+  padding: 1px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 
 }
 
@@ -39,9 +43,6 @@ text-align: center;
 background-color: transparent;
 justify-content: center;
 display: inline-block;
-width: 100%;
-margin-top: 2%;
-text-align: center;
 
 }
 .button:hover,
@@ -61,14 +62,10 @@ text-align: center;
 .carolineHead img {
     color: black;
     background-color: transparent;
-    margin-bottom: 2%;
-    text-align: center;
-float: left;
-justify-content: center;
+    width: 100%;
+    scale: .9;
 }
 
 div.carolineHead:hover {
     transition: 2s ease;
-
-
 }

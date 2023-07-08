@@ -6,16 +6,17 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    font-family: 'Courier new';
-    color: #ff4d00;
+    font-family: 'Belanosima';
+    color: #ffffff;
     font-size: 40pt;
+    display:inline-block;
 
 }
 
 @keyframes blink {
     0%, 15% {
         opacity: .3;
-        color:rgba(255, 115, 0, 0.151);
+        color:rgba(0, 98, 255, 0.778);
     }
     16%, 100% {
         opacity: 1;
@@ -28,8 +29,8 @@
     width: 100%;
     transform: translateX(100%);
     animation: scroll-left 20s linear infinite;
-    font-family: 'Dosis';
-    margin-top: 4%;
+    font-family: 'Athiti';
+    margin-top: 5%;
     font-size: 14pt;
     line-height: 12pt;
 

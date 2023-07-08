@@ -5,13 +5,14 @@ import Button from './Home';
 import Grids from './ProjectGrid';
 import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';
-
+import Back from './Background';
 
 function App() {
 
   
   return (
 <React.Fragment>
+  <Back />
 <Button />
   <Header/>
   <Rainbow />
