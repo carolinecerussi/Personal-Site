@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
 
-a {
+.header a {
     text-decoration: none;
     color: black;
     font-size: auto;
@@ -11,7 +11,7 @@ a {
     font-size: auto;
 }
 
-a:hover {
+.header a:hover {
     color: #ff6600;
     outline-offset: -8px;
     background-color: transparent;

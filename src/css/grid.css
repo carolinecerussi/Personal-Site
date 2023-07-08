@@ -64,11 +64,13 @@ color: black;
    
 }
 
+.portfolio__text-section a{
+  text-decoration: none;
+  color: black;
+  font-size: 25pt;
+  cursor: pointer,
 
-
-
-
-
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Caprasimo&display=swap');

@@ -3,6 +3,7 @@ import '../css/grid.css';
 import Popup from 'reactjs-popup';
 import resume1 from '../img/resume1.png';
 import Border from './Border';
+import Rainbow from './Rainbow';
 function AboutMe() {
 
 
@@ -11,34 +12,44 @@ function AboutMe() {
     cursor: 'pointer',
   }
 const skillsStyle ={
-  fontSize: '11pt',
+  fontSize: '12pt',
   textAlign:'left',
-
+  display:'inline-block',
+ marginLeft:'10%',
+marginRight:'10%',
 }
-  const perogativeStyle = {
+const perogativeStyle = {
     float: 'left',
-    gridTemplateColumns: 'repeat(1,75%)',
+    gridTemplateColumns: 'repeat(1,80%)',
     justifyContent: 'center',
 fontSize: '20pt',
-
   }
 
   const smallFont = {
     float: 'left',
     fontSize: '14pt',
-    lineHeight:'20pt',
+    lineHeight:'18pt',
     marginBottom:'2%',
-
   }
 
   const meBoxStyle = {
-    columnGap: '1%',
-    gridTemplateColumns: 'repeat(3,25%)',
-    textAlign: 'left',
+    columnGap: '2%',
+    gridTemplateColumns: 'repeat(2,50%)',
+    textAlign: 'center',
     justifyContent:'center',
+    backgroundColor:'transparent',
+    width:'80%',
+    marginLeft:'10%',
+
   }
 
+const aStyle= {
+  textDecoration: 'none',
+  color: 'black',
+  fontSize: '14pt',
+  cursor: 'pointer',
 
+}
 
 
   return (
@@ -48,7 +59,6 @@ fontSize: '20pt',
       <div className="portfolio__text-section">
       <div className='perogative' style={perogativeStyle} >
           <h1>MY PEROGATIVE</h1>
-          <br />
           <div className='smallerInfo' style={smallFont} >
             {/* <p>As a  coder and product designer, I am driven by a deep love for creating innovative and visually captivating experiences. My journey has been shaped by a  blend of emotional and educational experiences throughout my life, which have left me with a unique perspective that I attempt to bring to anything I create. By combining my knowledge of product development and design with my newfound coding skills, I strive to craft responsive and interesting designs that seamlessly blend form and function.
             My ultimate goal is to find fulfilling work that not only allows me to further develop my front-end development skillset, but also offers a nurturing environment where I can grow and learn from a reliable and positive company. I am so eager to contribute my perspective, dedication, and collaborative spirit to projects that push the boundaries of design and technology, and in doing so, make a meaningful impact in the digital and physical realm. </p> */}
@@ -64,7 +74,7 @@ fontSize: '20pt',
         <div className='aboutMeBox' style={meBoxStyle}>
          <p><h1>ME:</h1>
        <p>  <p><h1>Portland, OR</h1> based
-            <h3>29 year-old</h3> <a href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.'><h3>Scorpio</h3></a>
+            <h3>29 year-old</h3> <a style={aStyle} href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.'><h3>Scorpio</h3></a>
             with an <h2>Industrial Design</h2> degree from <h2>Pratt Institute</h2> of Art and Design.
             </p>
             <br />
@@ -77,10 +87,10 @@ fontSize: '20pt',
           <p> 
           <h1>Contact:</h1>
           <br />
-         <a href='https://github.com/carolinecerussi'><h3><i class="fa fa-github"> </i>
+         <a style={aStyle} href='https://github.com/carolinecerussi'><h3><i class="fa fa-github"> </i>
             
             : Github</h3></a>
-          <a href='https://carolinecerussi.me' ><h3><i class="fa fa-chain" > </i>: Website</h3></a>
+          <a  style={aStyle} href='https://carolinecerussi.me' ><h3><i class="fa fa-chain" > </i>: Website</h3></a>
          
           <h3><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h3>
 
@@ -96,7 +106,11 @@ fontSize: '20pt',
 
           </Popup>
           </p>
-          <div style={skillsStyle}>
+          
+        </div>
+        <Rainbow />
+
+        <div style={skillsStyle}>
           <p>
           <h1>Hard Skills: </h1>
           <p><h3>+ HTML, CSS, & JavaScript:</h3> creating and styling website content, as well as implementing interactivity and dynamic functionality.
@@ -125,9 +139,6 @@ fontSize: '20pt',
 
 </p>
 </div>
-        </div>
-
-
         
 
 
