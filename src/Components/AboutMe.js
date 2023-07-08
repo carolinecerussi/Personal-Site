@@ -8,7 +8,6 @@ function AboutMe() {
   const popUpStyle = {
     textAlign: 'left',
     cursor: 'pointer',
-
   }
 const skillsStyle ={
   fontSize: '11pt',
@@ -19,13 +18,15 @@ const skillsStyle ={
     float: 'left',
     gridTemplateColumns: 'repeat(1,75%)',
     justifyContent: 'center',
-marginTop: '2%',
 fontSize: '20pt',
+
   }
 
   const smallFont = {
     float: 'left',
     fontSize: '14pt',
+    lineHeight:'20pt',
+    marginBottom:'2%',
 
   }
 
@@ -43,6 +44,21 @@ fontSize: '20pt',
   return (
     <React.Fragment>
       <div className="portfolio__text-section">
+      <div className='perogative' style={perogativeStyle} >
+          <h1>MY PEROGATIVE</h1>
+          <br />
+          <div className='smallerInfo' style={smallFont} >
+            {/* <p>As a  coder and product designer, I am driven by a deep love for creating innovative and visually captivating experiences. My journey has been shaped by a  blend of emotional and educational experiences throughout my life, which have left me with a unique perspective that I attempt to bring to anything I create. By combining my knowledge of product development and design with my newfound coding skills, I strive to craft responsive and interesting designs that seamlessly blend form and function.
+            My ultimate goal is to find fulfilling work that not only allows me to further develop my front-end development skillset, but also offers a nurturing environment where I can grow and learn from a reliable and positive company. I am so eager to contribute my perspective, dedication, and collaborative spirit to projects that push the boundaries of design and technology, and in doing so, make a meaningful impact in the digital and physical realm. </p> */}
+            <br />
+            <p> As an energetic, curious, and art-loving New Yorker, my passion for design led me to pursue industrial design at Pratt Institute. Throughout my studies, I developed a deep appreciation for the intricate relationship between space, color, and functionality.
+
+              Driven by an insatiable curiosity about the future, I am fascinated by the synergistic potential of design and technology in creating awe-inspiring products. Motivated by this passion, I embarked on a journey into the world of front-end development, delving into coding and its transformative capabilities.
+
+              Having successfully completed a comprehensive coding program, I have gained confidence in utilizing various languages such as C#, HTML, CSS, JavaScript, and React. These technical skills, combined with my prior experience in drafting on SolidWorks, product development, and research, as well as my unwavering commitment to crafting comprehensive, intuitive, and visually captivating designs, have equipped me for the exciting opportunities that lie ahead in front-end design and web development.</p>
+          </div>
+        </div>
+
         <div className='aboutMeBox' style={meBoxStyle}>
          <p><h1>ME:</h1>
        <p>  <p><h1>Portland, OR</h1> based
@@ -58,13 +74,15 @@ fontSize: '20pt',
             </p>
           <p> 
           <h1>Contact:</h1>
-         <h3><i class="fa fa-github"></i>
-             Github</h3>
-          <h3><i class="fa fa-chain" > </i>     Website</h3>
+          <br />
+         <a href='https://github.com/carolinecerussi'><h3><i class="fa fa-github"> </i>
+            
+            : Github</h3></a>
+          <a href='https://carolinecerussi.me' ><h3><i class="fa fa-chain" > </i>: Website</h3></a>
          
           <h3><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h3>
 
-          <Popup style={popUpStyle} trigger={<a><p><i class="fa fa-file-o"></i>  Resume</p>
+          <Popup style={popUpStyle} trigger={<a><p><i class="fa fa-file-o"></i>: Resume</p>
           </a>} position="top right">
             {close => (
               <div className="openBox" >
@@ -108,21 +126,7 @@ fontSize: '20pt',
         </div>
 
 
-        <div className='perogative' style={perogativeStyle} >
-          <h1>MY PEROGATIVE</h1>
-          <br />
-          <div className='smallerInfo' style={smallFont} >
-            {/* <p>As a  coder and product designer, I am driven by a deep love for creating innovative and visually captivating experiences. My journey has been shaped by a  blend of emotional and educational experiences throughout my life, which have left me with a unique perspective that I attempt to bring to anything I create. By combining my knowledge of product development and design with my newfound coding skills, I strive to craft responsive and interesting designs that seamlessly blend form and function.
-            My ultimate goal is to find fulfilling work that not only allows me to further develop my front-end development skillset, but also offers a nurturing environment where I can grow and learn from a reliable and positive company. I am so eager to contribute my perspective, dedication, and collaborative spirit to projects that push the boundaries of design and technology, and in doing so, make a meaningful impact in the digital and physical realm. </p> */}
-            <br />
-            <p> As an energetic, curious, and art-loving New Yorker, my passion for design led me to pursue industrial design at Pratt Institute. Throughout my studies, I developed a deep appreciation for the intricate relationship between space, color, and functionality.
-
-              Driven by an insatiable curiosity about the future, I am fascinated by the synergistic potential of design and technology in creating awe-inspiring products. Motivated by this passion, I embarked on a journey into the world of front-end development, delving into coding and its transformative capabilities.
-
-              Having successfully completed a comprehensive coding program, I have gained confidence in utilizing various languages such as C#, HTML, CSS, JavaScript, and React. These technical skills, combined with my prior experience in drafting on SolidWorks, product development, and research, as well as my unwavering commitment to crafting comprehensive, intuitive, and visually captivating designs, have equipped me for the exciting opportunities that lie ahead in front-end design and web development.</p>
-          </div>
-        </div>
-
+        
 
 
       </div>

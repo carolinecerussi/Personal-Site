@@ -27,8 +27,8 @@ border-radius: 50pt;
   transition: outline-offset .75s ease;  
 cursor: pointer;
 font-family: "Dosis";
-max-width: 10%;
-min-width: 10%;
+max-width: 200px;
+min-width: 100px;
 margin:1%;
 text-align: center;
 
@@ -60,16 +60,15 @@ text-align: center;
 
 .carolineHead img {
     color: black;
-    width: 100%;
     background-color: transparent;
     margin-bottom: 2%;
     text-align: center;
-display: inline-block;
+float: left;
+justify-content: center;
 }
 
 div.carolineHead:hover {
-    transition: 1s ease;
-background-color: rgba(157, 255, 0, 0.966);
+    transition: 2s ease;
 
 
 }
