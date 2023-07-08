@@ -8,7 +8,7 @@
     animation: 1.3s infinite blink;
     font-family: 'Athiti';
     color: #ffffff;
-    font-size: 30pt;
+    font-size: 25pt;
     display:inline-block;
   
 }
@@ -29,9 +29,11 @@
     transform: translateX(100%);
     animation: scroll-left 15s linear infinite;
     font-family: 'Athiti';
-    margin-top: 5%;
-    font-size: 14pt;
-    line-height: 12pt;
+    margin-top: 3%;
+    font-size: 6pt;
+    line-height: 13pt;
+    margin-bottom: 3%;
+
 
 }
 

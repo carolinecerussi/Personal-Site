@@ -9,7 +9,7 @@ function Slide(){
     <div className="blink" >
         <span id="now">NOW</span>
     </div>
-    <br />
+
     <div >
         <span >LOOKING FOR WORK</span>
 </div>
