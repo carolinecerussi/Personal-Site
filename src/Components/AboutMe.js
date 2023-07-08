@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/grid.css';
 import Popup from 'reactjs-popup';
 import resume1 from '../img/resume1.png';
+import Border from './Border';
 function AboutMe() {
 
 
@@ -31,11 +32,10 @@ fontSize: '20pt',
   }
 
   const meBoxStyle = {
-    columnGap: '1rem',
+    columnGap: '1%',
     gridTemplateColumns: 'repeat(3,25%)',
-    justifyContent: 'center',
     textAlign: 'left',
-    display:'grid',
+    justifyContent:'center',
   }
 
 
@@ -43,6 +43,8 @@ fontSize: '20pt',
 
   return (
     <React.Fragment>
+                      <Border />
+
       <div className="portfolio__text-section">
       <div className='perogative' style={perogativeStyle} >
           <h1>MY PEROGATIVE</h1>

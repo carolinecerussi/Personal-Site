@@ -4,7 +4,6 @@ import AboutMe from './AboutMe';
 import Button from './Home';
 import Grids from './ProjectGrid';
 import 'reactjs-popup/dist/index.css';
-import Slide from './SlideBanner';
 import Rainbow from './Rainbow';
 
 

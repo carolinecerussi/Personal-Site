@@ -18,14 +18,11 @@ function Header() {
 
     return (
         <React.Fragment>
-    {/* <Smile /> */}
-    <Slide />
             <header>
                 <div className="carolineHead" >
                 <img src={carolineName} width='100%' />
-                {/* <Rainbow /> */}
 
-                <Border />
+
                 <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
                 </div>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
