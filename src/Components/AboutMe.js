@@ -1,11 +1,18 @@
 import React from 'react';
 import '../css/grid.css';
 import Popup from 'reactjs-popup';
-import resume1 from '../img/resume1.png';
+import resume1 from '../img/cac.png';
 import Rainbow from './Rainbow';
 import pin from '../img/pin.png';
 function AboutMe() {
+const aboutMeWhole = {
+  width:'100%',
+  padding:'1%',
+  justifyContent:'center',
+    gridTemplateColumns: 'repeat(1,90%)',
+  display: 'grid',
 
+}
 
   const popUpStyle = {
     textAlign: 'left',
@@ -28,7 +35,7 @@ const perogativeStyle = {
     gridTemplateColumns: 'repeat(1,80%)',
     justifyContent: 'center',
 fontSize: '18pt',
-lineHeight:'10pt',
+lineHeight:'18pt',
 marginTop:'2%',
 textAlign:'center',
 
@@ -36,7 +43,7 @@ textAlign:'center',
 
   const smallFont = {
     float: 'left',
-    fontSize: '13pt',
+    fontSize: '14pt',
     lineHeight:'18pt',
     marginBottom:'2%',
     textAlign:'center',
@@ -65,38 +72,31 @@ float:'left',
 
   }
 
-const aStyle= {
-  textDecoration: 'none',
-  color: 'black',
-  fontSize: '14pt',
-  cursor: 'pointer',
 
-}
+
 
 
   return (
     <React.Fragment>
                   
 
-      <div className="portfolio__text-section">
+      <div className="portfolio__text-section" style={aboutMeWhole}>
       <div className='perogative' style={perogativeStyle} >
           <h1>MY PEROGATIVE</h1>
           <div className='smallerInfo' style={smallFont} >
             {/* <p>As a  coder and product designer, I am driven by a deep love for creating innovative and visually captivating experiences. My journey has been shaped by a  blend of emotional and educational experiences throughout my life, which have left me with a unique perspective that I attempt to bring to anything I create. By combining my knowledge of product development and design with my newfound coding skills, I strive to craft responsive and interesting designs that seamlessly blend form and function.
             My ultimate goal is to find fulfilling work that not only allows me to further develop my front-end development skillset, but also offers a nurturing environment where I can grow and learn from a reliable and positive company. I am so eager to contribute my perspective, dedication, and collaborative spirit to projects that push the boundaries of design and technology, and in doing so, make a meaningful impact in the digital and physical realm. </p> */}
             <br />
-            <p> As an energetic, curious, and art-loving New Yorker, my passion for design led me to pursue industrial design at Pratt Institute. Throughout my studies, I developed a deep appreciation for the intricate relationship between space, color, and functionality.
+            <p>As an energetic and curious New Yorker with a love for art, I found my passion for design at Pratt Institute. Throughout my studies, I discovered the fascinating connection between space, color, and functionality. I've always been captivated by the potential of design and technology working together to create amazing products. This curiosity led me to explore front-end development, where I've dived into coding and its transformative abilities.
 
-              Driven by an insatiable curiosity about the future, I am fascinated by the synergistic potential of design and technology in creating awe-inspiring products. Motivated by this passion, I embarked on a journey into the world of front-end development, delving into coding and its transformative capabilities.
-
-              Having successfully completed a comprehensive coding program, I have gained confidence in utilizing various languages such as C#, HTML, CSS, JavaScript, and React. These technical skills, combined with my prior experience in drafting on SolidWorks, product development, and research, as well as my unwavering commitment to crafting comprehensive, intuitive, and visually captivating designs, have equipped me for the exciting opportunities that lie ahead in front-end design and web development.</p>
+Through a comprehensive coding program, I've gained confidence in using various languages like C#, HTML, CSS, JavaScript, and React. Alongside my experience in drafting on SolidWorks, product development, and research, I'm well-equipped to take on exciting opportunities in front-end design and web development. My goal is to craft comprehensive, intuitive, and visually appealing designs that leave a lasting impact.</p>
           </div>
         </div>
 
         <div className='aboutMeBox' style={meBoxStyle}>
          <p><h1>ME:</h1> <br></br>
        <p>  <p><h2>PORTLAND OR</h2> based
-            <h3>29 year-old</h3> <a style={aStyle} href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.' target="_blank" rel="noopener noreferrer" ><h3>Scorpio</h3></a>
+            <h3>29 year-old</h3> <a  href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.' target="_blank" rel="noopener noreferrer" ><h3>Scorpio</h3></a>
             with an <h2>Industrial Design</h2> degree from <h2>Pratt Institute</h2> of Art and Design.
             </p>
             <br />
@@ -109,18 +109,20 @@ const aStyle= {
           <p> 
           <h1>Contact:</h1>
           <br />
-         <a style={aStyle} href='https://github.com/carolinecerussi'><h3><i class="fa fa-github"> </i>
+         <a  href='https://github.com/carolinecerussi' target = '_blank'><h3><i class="fa fa-github"> </i>
             
             : Github</h3></a>
-          <a  style={aStyle} href='https://carolinecerussi.me' ><h3><i class="fa fa-chain" > </i>: Website</h3></a>
+          <a   href='https://carolinecerussi.me' target = '_blank'
+><h3><i class="fa fa-chain" > </i>: Website</h3></a>
          
-          <h3><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h3>
+          <a href='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cerussicaroline@gmail.com'  target = '_blank'
+><h3><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h3></a>
 
           <Popup style={popUpStyle} trigger={<a><p><i class="fa fa-file-o"></i>: Resume</p>
           </a>} position="top left">
             {close => (
               <div className="openBox" >
-                <img class="embed-responsive-item" width="800px" height="1000px" src={resume1} frameborder="0px" allowFullScreen />   <a className="close" onClick={close}>
+                <img class="embed-responsive-item" width="700px" height="900px" src={resume1} frameborder="1px" allowFullScreen />   <a className="close" onClick={close}>
                   &times;
                 </a>
               </div>
@@ -130,7 +132,9 @@ const aStyle= {
           </p>
           
         </div>
+        </div>
         <Rainbow />
+      <div className="portfolio__text-section" style={aboutMeWhole}>
 
         <div style={skillsStyle}>
           <p>
@@ -161,10 +165,8 @@ const aStyle= {
             <span style={skillSet}><h3>+ Adaptability</h3></span> able to adapt to changing technologies, trends, and project requirements, staying up-to-date with the latest front-end development and design practices and being open to learning new skills.
 
 </p>
-</div>
         
-
-
+</div>
       </div>
 
     </React.Fragment>

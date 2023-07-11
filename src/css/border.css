@@ -1,43 +1,43 @@
-.circle-wrapper {
+
+
+
+.circleWrapper {
 	width: 100%;
 	margin-bottom: 2%;
-	justify-content: center;
 	float: left;
-
-
+    background-color: transparent
+    ;
+		text-align: center;
+		display:flex;
   }
   
   .icon {
     transform: translate(-50%, -50%);
 	text-align: center;
 	width: 100%;
-	float: left;
+		float: left;
   }
   
   .circle {
-    height: 250px;
-	width: 250px;
+    height: 220px;
+	width: 220px;
     background-image: url(../img/me.jpg)  ;
     background-size: cover;
     animation: spin 20s linear infinite;
+		    border:  1px black dashed;
   }
   
-  .circle-wrapper:active .circle {
+  .circleWrapper:active .circle {
     animation: spin 2s linear infinite;
   }
   
-  .success {
-    background-color: transparent
-    ;
-    border:  1px black dashed;
-  }
   
 
 
   @keyframes spin {
 	0%,
 	100% {
-		border-radius: 30% 60% 60% 30% / 30% 52% 48% 70%;
+		border-radius: 30% 70% 60% 30% / 30% 52% 48% 70%;
 		box-shadow: 0 -2vmin 4vmin transparent(231, 85, 6, 0.611) inset, 0 -4vmin 4vmin transparent inset,
 			0 -2vmin 7vmin transparent inset;
 	}

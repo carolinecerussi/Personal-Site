@@ -8,8 +8,8 @@ function Border() {
 
     return (
         <React.Fragment>
-              <div class="circle-wrapper">
-    <div class="success circle"></div>
+              <div className="circleWrapper">
+    <div className="circle"></div>
 
     </div>
         </React.Fragment>
