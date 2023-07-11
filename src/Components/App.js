@@ -6,13 +6,14 @@ import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';
 import Back from './Background';
 import Slide from './SlideBanner';
+import Screen from '../scripts';
 function App() {
   
 
   
   return (
 <React.Fragment>
-
+<Screen />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <Back />

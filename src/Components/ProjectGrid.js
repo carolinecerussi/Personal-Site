@@ -162,7 +162,7 @@ By harnessing the power of JavaScript, HTML, and CSS, I created a visually appea
                   <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
                     {close => (
                       <div className="openBox" >
-                      <iframe class="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                      <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
