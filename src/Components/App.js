@@ -7,6 +7,7 @@ import Rainbow from './Rainbow';
 import Back from './Background';
 import Slide from './SlideBanner';
 function App() {
+  
 
   
   return (
@@ -22,7 +23,6 @@ function App() {
   <Rainbow />
   <Grids />
   <Rainbow />
-
 </React.Fragment>    
   );
 }

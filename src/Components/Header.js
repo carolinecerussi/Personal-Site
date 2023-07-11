@@ -1,12 +1,13 @@
 import React from 'react';
 import '../css/headerStyle.css';
 import carolineName from '../img/carceru.gif'
+import Border from './Border';
 
 function Header() {
 
     const aboutHead = {
         color: "black",
-        fontSize: '18pt',
+        fontSize: '14pt',
         fontFamily: "Athiti",
         textAlign: 'center',
         float:'left',
@@ -21,7 +22,8 @@ function Header() {
             <div className='header'>
                 <div className="carolineHead" >
                 <img src={carolineName} width="500px" />
-                <span style={aboutHead}><p>Developer  - Designer    - Artist</p></span>
+                <Border />
+                <span style={aboutHead}><p>Front End Developer  / Designer / Artist</p></span>
                 </div>
 
                 <div className='buttonStyle' >

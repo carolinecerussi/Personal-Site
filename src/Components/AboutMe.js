@@ -2,8 +2,8 @@ import React from 'react';
 import '../css/grid.css';
 import Popup from 'reactjs-popup';
 import resume1 from '../img/resume1.png';
-import Border from './Border';
 import Rainbow from './Rainbow';
+import pin from '../img/pin.png';
 function AboutMe() {
 
 
@@ -17,29 +17,51 @@ const skillsStyle ={
   display:'inline-block',
  marginLeft:'10%',
 marginRight:'10%',
+lineHeight:'12pt',
+width:'80%',
+justifyContent:'center',
+
+
 }
 const perogativeStyle = {
     float: 'left',
     gridTemplateColumns: 'repeat(1,80%)',
     justifyContent: 'center',
-fontSize: '20pt',
+fontSize: '18pt',
+lineHeight:'10pt',
+marginTop:'2%',
+textAlign:'center',
+
   }
 
   const smallFont = {
     float: 'left',
-    fontSize: '14pt',
+    fontSize: '13pt',
     lineHeight:'18pt',
     marginBottom:'2%',
+    textAlign:'center',
+
   }
 
+
   const meBoxStyle = {
-    columnGap: '2%',
-    gridTemplateColumns: 'repeat(2,50%)',
-    textAlign: 'center',
+    columnGap: '4%',
+    gridTemplateColumns: 'repeat(2,48%)',
+    textAlign: 'left',
     justifyContent:'center',
     backgroundColor:'transparent',
-    width:'80%',
+    width:'100%',
     marginLeft:'10%',
+lineHeight:'10pt',
+float:'left',
+  }
+
+  const skillSet = {
+    fontSize:'13pt',
+    lineHeight:'9pt',
+    color:'rgb(255, 104, 10)',
+    textDecoration:'strong',
+
 
   }
 
@@ -54,7 +76,7 @@ const aStyle= {
 
   return (
     <React.Fragment>
-                      <Border />
+                  
 
       <div className="portfolio__text-section">
       <div className='perogative' style={perogativeStyle} >
@@ -72,9 +94,9 @@ const aStyle= {
         </div>
 
         <div className='aboutMeBox' style={meBoxStyle}>
-         <p><h1>ME:</h1>
-       <p>  <p><h1>Portland, OR</h1> based
-            <h3>29 year-old</h3> <a style={aStyle} href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.'><h3>Scorpio</h3></a>
+         <p><h1>ME:</h1> <br></br>
+       <p>  <p><h2>PORTLAND OR</h2> based
+            <h3>29 year-old</h3> <a style={aStyle} href='https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions.' target="_blank" rel="noopener noreferrer" ><h3>Scorpio</h3></a>
             with an <h2>Industrial Design</h2> degree from <h2>Pratt Institute</h2> of Art and Design.
             </p>
             <br />
@@ -95,7 +117,7 @@ const aStyle= {
           <h3><i class="fa fa-envelope-o"></i>: cerussicaroline@gmail.com</h3>
 
           <Popup style={popUpStyle} trigger={<a><p><i class="fa fa-file-o"></i>: Resume</p>
-          </a>} position="top right">
+          </a>} position="top left">
             {close => (
               <div className="openBox" >
                 <img class="embed-responsive-item" width="800px" height="1000px" src={resume1} frameborder="0px" allowFullScreen />   <a className="close" onClick={close}>
@@ -113,29 +135,30 @@ const aStyle= {
         <div style={skillsStyle}>
           <p>
           <h1>Hard Skills: </h1>
-          <p><h3>+ HTML, CSS, & JavaScript:</h3> creating and styling website content, as well as implementing interactivity and dynamic functionality.
+          <br></br>
+          <p>  <span style={skillSet}><h3>+ Html, Css, React JS, JavaScript</h3></span> creating and styling website content, as well as implementing interactivity and dynamic functionality.
      
-            <h3>+ JavaScript/jQuery:</h3> interactive and dynamic functionality on websites, such as animations, form validation, and AJAX requests.
+          <span style={skillSet}> <h3>+ jQuery:</h3></span> interactive and dynamic functionality on websites, such as animations, form validation, and AJAX requests.
         
+          <span style={skillSet}> <h3>+ CMS Platforms:</h3></span> experience in WordPress, Cargo Collective, SquareSpace,etc, & understanding their structure, theming systems, template customization, and plugin/module development
 
-            <h3>+ CMS Platforms:</h3> experience in WordPress, Drupal, Joomla,etc, & understanding their structure, theming systems, template customization, and plugin/module development
-
-            <h3>+ Front-End Frameworks:</h3>Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.</p>
+          <span style={skillSet}>  <h3>+ Front-End Frameworks:</h3></span>Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.
         
+          <span style={skillSet}>  <h3>+ Git/Github:</h3></span>Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.</p>
 
-            <h3>+ UI/UX Design:</h3> understanding visually appealing and intuitive website designs. Knowledge of wireframing, prototyping, and usability testing.
+          <span style={skillSet}>   <h3>+ UI/UX Design:</h3></span> understanding visually appealing and intuitive website designs. Knowledge of wireframing, prototyping, and usability testing.
             <br />
-
-<h1>Soft Skills:</h1>
-<h3>+ Strong Communication:</h3> both verbal and written, to collaborate with team members, understand client requirements, and convey ideas and concepts clearly.
+            <br></br><br></br><br></br><br></br>
+<h1>Soft Skills:</h1> <br></br>
+<span style={skillSet}><h3>+ Strong Communication:</h3></span> both verbal and written, to collaborate with team members, understand client requirements, and convey ideas and concepts clearly.
  
 
-            <h3>+ Attention to Detail:</h3> accuracy in coding, design implementation, and overall website quality, ensuring a polished and professional end product.
+            <span style={skillSet}><h3>+ Attention to Detail:</h3></span> accuracy in coding, design implementation, and overall website quality, ensuring a polished and professional end product.
  
-            <h3>+ Problem Solving:</h3>  able to analyze complex issues, identify root causes, and develop innovative solutions when faced with challenges in development or design processes.
+            <span style={skillSet}><h3>+ Problem Solving</h3></span> able to analyze complex issues, identify root causes, and develop innovative solutions when faced with challenges in development or design processes.
 
-            <h3>+ Time Management:</h3> skills to prioritize tasks, meet project deadlines, and effectively handle multiple projects simultaneously
-            <h3>+ Adaptability:</h3> able to adapt to changing technologies, trends, and project requirements, staying up-to-date with the latest front-end development and design practices and being open to learning new skills.
+            <span style={skillSet}><h3>+ Time Management</h3></span> skills to prioritize tasks, meet project deadlines, and effectively handle multiple projects simultaneously
+            <span style={skillSet}><h3>+ Adaptability</h3></span> able to adapt to changing technologies, trends, and project requirements, staying up-to-date with the latest front-end development and design practices and being open to learning new skills.
 
 </p>
 </div>

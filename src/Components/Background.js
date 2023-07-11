@@ -1,5 +1,4 @@
 import "../css/background.css";
-import background from '../img/bbg.gif'
 import React from 'react';
 
 

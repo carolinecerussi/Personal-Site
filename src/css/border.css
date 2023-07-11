@@ -29,7 +29,7 @@
   .success {
     background-color: transparent
     ;
-    border:  transparent;
+    border:  1px black dashed;
   }
   
 
