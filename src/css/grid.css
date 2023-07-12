@@ -186,7 +186,7 @@ scale:1.5;
 
 
 div.imagesForEach {
-  display: inline-block;
+  display: inline-table;
 text-align: center;  
 justify-content: center;
 
