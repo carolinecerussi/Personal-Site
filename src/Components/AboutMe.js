@@ -5,10 +5,9 @@ import resume1 from '../img/cac.png';
 import Rainbow from './Rainbow';
 
  const aboutMeWhole = {
-  width: '100%',
   padding: '1%',
   justifyContent: 'center',
-  gridTemplateColumns: 'repeat(1,95%)',
+  gridTemplateColumns: 'repeat(1,90%)',
   display: 'block',
   backgroundColor:'transparent',
 }
