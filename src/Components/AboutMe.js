@@ -13,7 +13,7 @@ marginTop:'-1%',
 fontSize: '13pt',
 textAlign: 'left',
 marginRight: '10%',
-width: '80%',
+width: '85%',
 }
 
 const  skillsStyle = {
@@ -43,6 +43,7 @@ const  skillsStyle = {
   lineHeight: '20pt',
   textAlign: 'center',
   backgroundColor:'white',
+
 };
 
  const meBoxStyle = {
