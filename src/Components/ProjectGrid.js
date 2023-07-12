@@ -16,7 +16,7 @@ import book3 from '../img/book3.png';
 import people from '../img/people.png';
 import caroline1 from '../img/caroline.png';
 import caroline3 from '../img/caroline3.png';
-
+import yellow from '../img/yellow.png';
 import pizza3 from '../img/pizza3.png';
 function Grids() {
 
@@ -131,7 +131,8 @@ function Grids() {
                     <img alt="ipad" className="portfolio__img" src={pizza1} />
                     <img alt="pizza" className="portfolio__img" src={people} />
                     <img alt="interior" className="portfolio__img" src={pizza3} />
-    
+                    <img alt="interior" className="portfolio__img" src={yellow} />
+
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/Super-Slice" 

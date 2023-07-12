@@ -8,6 +8,13 @@ import Rainbow from './Rainbow';
   backgroundColor:'transparent',
 
 }
+const smallSkillsStyle = {
+marginTop:'-1%',
+fontSize: '13pt',
+textAlign: 'left',
+marginRight: '10%',
+width: '80%',
+}
 
 const  skillsStyle = {
   fontSize: '13pt',
@@ -126,7 +133,8 @@ function AboutMe () {
                 target="_blank"
               >
                 <h3>
-                  {' '} <i class="fa fa-envelope-o" />: Cerussicaroline@gmail.com
+                  {' '} <i class="fa fa-envelope-o" />: Cerussicaroline
+                  @gmail.com
                 </h3>
               </a>
               <a
@@ -174,54 +182,74 @@ function AboutMe () {
           <p>
             <h1>Hard Skills: </h1>
             <br />
+
             <p>
               {' '}{' '}
               <span style={skillSet}>
                 <h3>+ Html, Css, React JS, JavaScript</h3>
               </span>
               {' '}
-              creating and styling website content, as well as implementing interactivity and dynamic functionality.
+              <div style={smallSkillsStyle}>
+  creating and styling website content, as well as implementing interactivity and dynamic functionality.</div>
 
               <span style={skillSet}> <h3>+ jQuery:</h3></span>
               {' '}
-              interactive and dynamic functionality on websites, such as animations, form validation, and AJAX requests.
+              <div style={smallSkillsStyle}>
+  interactive and dynamic functionality on websites, such as animations, form validation, and AJAX requests.</div>
 
               <span style={skillSet}> <h3>+ CMS Platforms:</h3></span>
               {' '}
+              <div style={smallSkillsStyle}>
+
               experience in WordPress, Cargo Collective, SquareSpace,etc, & understanding their structure, theming systems, template customization, and plugin/module development
-
+</div>
               <span style={skillSet}>  <h3>+ Front-End Frameworks:</h3></span>
-              Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.
-
+              <div style={smallSkillsStyle}>
+     Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.
+</div>
               <span style={skillSet}>  <h3>+ Git/Github:</h3></span>
-              Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.
-            </p>
+              <div style={smallSkillsStyle}>
+    Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.
+          </div>  </p>
 
             <span style={skillSet}>   <h3>+ UI/UX Design:</h3></span>
             {' '}
-            understanding visually appealing and intuitive website designs. Knowledge of wireframing, prototyping, and usability testing.
-            <br />
+            <div style={smallSkillsStyle}>
+
+            <div style={smallSkillsStyle}>
+   understanding visually appealing and intuitive website designs. Knowledge of wireframing, prototyping, and usability testing.
+   </div>
+            </div><br />
             <br /><br /><br /><br />
             <h1>Soft Skills:</h1> <br />
             <span style={skillSet}><h3>+ Strong Communication:</h3></span>
             {' '}
-            both verbal and written, to collaborate with team members, understand client requirements, and convey ideas and concepts clearly.
-
+            <div style={smallSkillsStyle}>
+ both verbal and written, to collaborate with team members, understand client requirements, and convey ideas and concepts clearly.
+</div>
             <span style={skillSet}><h3>+ Attention to Detail:</h3></span>
             {' '}
-            accuracy in coding, design implementation, and overall website quality, ensuring a polished and professional end product.
-
+            <div style={smallSkillsStyle}>
+ accuracy in coding, design implementation, and overall website quality, ensuring a polished and professional end product.
+</div>
             <span style={skillSet}><h3>+ Problem Solving</h3></span>
             {' '}
-            able to analyze complex issues, identify root causes, and develop innovative solutions when faced with challenges in development or design processes.
+            <div style={smallSkillsStyle}>
 
+            able to analyze complex issues, identify root causes, and develop innovative solutions when faced with challenges in development or design processes.
+</div>
             <span style={skillSet}><h3>+ Time Management</h3></span>
             {' '}
+            <div style={smallSkillsStyle}>
+
             skills to prioritize tasks, meet project deadlines, and effectively handle multiple projects simultaneously
+            </div>
+
             <span style={skillSet}><h3>+ Adaptability</h3></span>
             {' '}
-            able to adapt to changing technologies, trends, and project requirements, staying up-to-date with the latest front-end development and design practices and being open to learning new skills.
-
+            <div style={smallSkillsStyle}>
+    able to adapt to changing technologies, trends, and project requirements, staying up-to-date with the latest front-end development and design practices and being open to learning new skills.
+</div>
           </p>
 
         </div>
