@@ -11,21 +11,17 @@ import Rainbow from './Rainbow';
   gridTemplateColumns: 'repeat(1,95%)',
   display: 'block',
   backgroundColor:'transparent',
-
 }
 
-  const popUpStyle=  {
-  textAlign: 'left',
-  cursor: 'pointer',
-}
 const  skillsStyle = {
-  fontSize: '12pt',
+  fontSize: '13pt',
   textAlign: 'left',
   display: 'inline-block',
-  marginLeft: '4%',
-  marginRight: '4%',
+  marginLeft: '10%',
+  marginRight: '10%',
+  marginTop:'4%',
   lineHeight: '12pt',
-  width: '90%',
+  width: '80%',
   justifyContent: 'center',
 }
  const perogativeStyle = {
@@ -33,7 +29,7 @@ const  skillsStyle = {
   gridTemplateColumns: 'repeat(1,80%)',
   justifyContent: 'center',
   fontSize: '20pt',
-  lineHeight: '20pt',
+  lineHeight: '23pt',
   marginTop: '5%',
   textAlign: 'center',
 };
@@ -53,16 +49,19 @@ const  skillsStyle = {
   backgroundColor: 'transparent',
   width: '100%',
   marginLeft: '10%',
-  lineHeight: '12pt',
+  lineHeight: '15pt',
   float: 'left',
 };
 
  const skillSet = {
   fontSize: '13pt',
-  lineHeight: '9pt',
+  lineHeight: '15pt',
   color: 'rgb(255, 104, 10)',
   marginTop: '15%',
+  width: '100%',
+
 };
+
 
 function AboutMe () {
   return (
@@ -116,7 +115,7 @@ function AboutMe () {
             </p>
           </p>
           <p>
-            <div >
+
               <h1>Contact:</h1>
               <br />
               <a href="https://github.com/carolinecerussi" target="_blank">
@@ -134,16 +133,22 @@ function AboutMe () {
                 target="_blank"
               >
                 <h3>
-                  {' '} <i class="fa fa-envelope-o" />cerussicaroline@gmail.com
+                  {' '} <i class="fa fa-envelope-o" />: Cerussicaroline@gmail.com
                 </h3>
               </a>
-            </div>
-            <Popup
+              <a
+                href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub?embedded=true"
+                target="_blank"
+              >
+                 <h3>
+<i class="fa fa-file-o" />: Resume
+</h3>
+              </a>
+            {/* <Popup
               style={popUpStyle}
               trigger={
                 <a>
-                  <p><i class="fa fa-file-o" />: Resume</p>
-                </a>
+                   </a>
               }
               position="top left"
             >
@@ -151,10 +156,11 @@ function AboutMe () {
                 <div className="openBox">
                   <img
                     class="embed-responsive-item"
-                    width="800px"
-                    height="900px"
+                    width="600px"
+                    height="800px"
                     src={resume1}
-                    frameborder="1px"
+                    frameborder="0px"
+                    allowFullScreen
                   />
                   {' '}{' '}{' '}
                   <a className="close" onClick={close}>
@@ -163,7 +169,7 @@ function AboutMe () {
                 </div>
               )}
 
-            </Popup>
+            </Popup> */}
           </p>
 
         </div>

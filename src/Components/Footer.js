@@ -17,9 +17,10 @@ const divStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundSize: 'cover',
-  height: '200px',
-  width: '100vw',
+  backgroundSize: 'contain',
+  height: '300px',
+  width:'100vw'
+
 };
 const slideImages = [
   {
@@ -37,16 +38,16 @@ const slideImages = [
 ];
 
 const footerImage = {
+
+  justifyContent:'center',
   width: '100%',
-  justifyContent:'center'
 };
 
 
 const footerStyle = {
   width:'100%',
   justifyContent : 'center',
-  backgroundColor: 'orange',
-
+  backgroundColor: 'transparent',
 }
 
 function Footer() {
