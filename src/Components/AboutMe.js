@@ -1,63 +1,59 @@
 import React from 'react';
-import '../css/grid.css';
-import Popup from 'reactjs-popup';
-import resume1 from '../img/cac.png';
 import Rainbow from './Rainbow';
 
  const aboutMeWhole = {
-  padding: '1%',
   justifyContent: 'center',
-  gridTemplateColumns: 'repeat(1,90%)',
+  gridTemplateColumns: 'repeat(1,85%)',
   display: 'block',
   backgroundColor:'transparent',
+
 }
 
 const  skillsStyle = {
   fontSize: '13pt',
+    gridTemplateColumns: 'repeat(1,85%)',
   textAlign: 'left',
-  display: 'inline-block',
-  marginLeft: '10%',
-  marginRight: '10%',
   marginTop:'4%',
   lineHeight: '12pt',
-  width: '80%',
+  width: '100%',
   justifyContent: 'center',
+  maxWidth:'100vw',
+
 }
  const perogativeStyle = {
   float: 'left',
-  gridTemplateColumns: 'repeat(1,80%)',
+  gridTemplateColumns: 'repeat(1,85%)',
   justifyContent: 'center',
-  fontSize: '20pt',
-  lineHeight: '23pt',
-  marginTop: '5%',
+  fontSize: 'auto',
+  marginTop: '3%',
   textAlign: 'center',
+  maxWidth:'100vw',
+  backgroundColor:'transparent',
 };
 
  const smallFont = {
-  float: 'left',
   fontSize: '14pt',
   lineHeight: '20pt',
   textAlign: 'center',
+  backgroundColor:'white',
 };
 
  const meBoxStyle = {
-  columnGap: '4%',
-  gridTemplateColumns: 'repeat(2,48%)',
+  columnGap:'2.5%',
+  gridTemplateColumns: 'repeat(2, 40%)',
   textAlign: 'left',
   justifyContent: 'center',
   backgroundColor: 'transparent',
-  width: '100%',
-  marginLeft: '10%',
-  lineHeight: '15pt',
-  float: 'left',
+  lineHeight: '13pt',
+  width:'100%',
+  maxWidth:'100vw',
+  paddingTop:'3%',
+  display:'flexbox',
 };
 
  const skillSet = {
   fontSize: '13pt',
-  lineHeight: '15pt',
   color: 'rgb(255, 104, 10)',
-  marginTop: '15%',
-  width: '100%',
 
 };
 
@@ -79,7 +75,6 @@ function AboutMe () {
             </p>
           </div>
         </div>
-
         <div className="aboutMeBox" style={meBoxStyle}>
           <p>
             <h1>ME:</h1> <br />
@@ -105,7 +100,7 @@ function AboutMe () {
                 {' '}
                 of Art and Design.
               </p>
-              <br />
+      &
             </p>
             <p>
               {' '}<h2>Coding Certificate</h2>from
@@ -114,7 +109,6 @@ function AboutMe () {
             </p>
           </p>
           <p>
-
               <h1>Contact:</h1>
               <br />
               <a href="https://github.com/carolinecerussi" target="_blank">
