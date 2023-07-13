@@ -10,7 +10,7 @@ import Rainbow from './Rainbow';
 }
 const smallSkillsStyle = {
 marginTop:'-1%',
-fontSize: '13pt',
+fontSize: '12pt',
 textAlign: 'left',
 marginRight: '10%',
 width: '85%',
@@ -42,7 +42,8 @@ const  skillsStyle = {
   fontSize: '14pt',
   lineHeight: '20pt',
   textAlign: 'center',
-  backgroundColor:'white',
+  backgroundColor:' white',
+borderRadius:'50pt',
 
 };
 
@@ -62,7 +63,6 @@ const  skillsStyle = {
  const skillSet = {
   fontSize: '13pt',
   color: 'rgb(255, 104, 10)',
-
 };
 
 
@@ -215,12 +215,11 @@ function AboutMe () {
 
             <span style={skillSet}>   <h3>+ UI/UX Design:</h3></span>
             {' '}
-            <div style={smallSkillsStyle}>
 
             <div style={smallSkillsStyle}>
    understanding visually appealing and intuitive website designs. Knowledge of wireframing, prototyping, and usability testing.
    </div>
-            </div><br />
+      <br />
             <br /><br /><br /><br />
             <h1>Soft Skills:</h1> <br />
             <span style={skillSet}><h3>+ Strong Communication:</h3></span>

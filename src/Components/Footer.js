@@ -39,9 +39,8 @@ const slideImages = [
 
 const footerImage = {
 
-  justifyContent:'center',
-  width: '100%',
-  marginTop:'2%'
+width:'100%',
+opacity:'70%'
 };
 
 
@@ -56,7 +55,6 @@ function Footer() {
 
   return (
     <React.Fragment>
-      <p>hehe</p>
       <div className="footer" style={footerStyle}>
         <div className="footerImages" style={footerImage} >
         <div className="slide-container">

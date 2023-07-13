@@ -7,7 +7,8 @@ function Back() {
 
     return (
         <React.Fragment>
-<div className="divBody">
+<div className="body">
+
 </div>
         </React.Fragment>
     )

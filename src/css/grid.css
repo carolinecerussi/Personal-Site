@@ -16,7 +16,7 @@ justify-content: center;
     font-family: 'Athiti';
   }
 
-div.section_title h1 {
+.section_title h1 {
   font-size:60pt ;
 }
 
@@ -105,8 +105,8 @@ color:blue;
 }
 .portfolio__box {
     background-color: var(--container-color);
-    border:1px black dashed;
-    background-color: rgba(255, 255, 255, 0.215);
+    border:.5pt black dashed;
+    background-color: rgba(255, 255, 255, 0.461);
     border-radius: 1rem;
      padding-inline:3%;
      text-align: center;
@@ -114,12 +114,12 @@ color:blue;
      justify-content: center;
   }
   .portfolio__box:hover {
-    border:2px black dashed;
+    border:1pt black dashed;
     transition: transform 0.3s;
     scale: 1.01;
     text-align: center;
       font-size: 12pt;
-      background-color: rgba(249, 248, 248, 0.671);
+      background-color: rgba(112, 138, 255, 0.773);
 
   }
   
@@ -159,6 +159,7 @@ color:blue;
     float: left;
     justify-content: center;
     text-align: center;
+    margin-left: 1.3%;
 
   }
   
