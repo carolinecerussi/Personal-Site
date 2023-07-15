@@ -55,7 +55,7 @@ function Grids() {
                     </button>} position="top">
                       {close => (
                         <div className="openBox" >
-                          <iframe class="embed-responsive-item" width="500px" height="500px" src="https://www.loom.com/embed/ec3fb5fd06f146088415d1d009639d50?sid=2fb84a76-673e-46cf-b3d4-2a635372be96" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
+                          <iframe src="https://www.loom.com/embed/ec3fb5fd06f146088415d1d009639d50?sid=34caffaa-7a9c-40c1-a3ee-14ac94e80d92" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>  <a className="close"     onClick={close}>
                             &times;
                           </a>
                         </div>
@@ -82,7 +82,7 @@ function Grids() {
                   </button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item" width="500px" height="500px" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                        <iframe class="embed-responsive-item"src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close"  width="50vw" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -113,7 +113,7 @@ function Grids() {
                   </button>} position="top">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item" width="500px" height="500px"  src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close"  width="50vw" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -153,7 +153,7 @@ function Grids() {
                   </button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item" width="500px" height="500px"  src="https://www.loom.com/embed/9616493b84e348d3a0b2bc78442ad7f1?sid=80b55573-b4f2-4735-82dd-0a9451f2a0f0" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
+                        <iframe class="embed-responsive-item"  src="https://www.loom.com/embed/9616493b84e348d3a0b2bc78442ad7f1?sid=80b55573-b4f2-4735-82dd-0a9451f2a0f0" frameborder="0px"  ></iframe>   <a className="close"  width="50vw" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -180,7 +180,7 @@ function Grids() {
                   <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top">
                     {close => (
                       <div className="openBox" >
-                        <iframe className="embed-responsive-item" width="500px" height="500px" src="https://www.youtube.com" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
+                        <iframe className="embed-responsive-item"  width="50vw" src="https://www.youtube.com" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -209,7 +209,7 @@ function Grids() {
                   <Popup trigger={<button><i class="fa fa-play"></i></button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe  className="embed-responsive-item" width="500px" height="500px" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
+                        <iframe  className="embed-responsive-item" width="50vw" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
