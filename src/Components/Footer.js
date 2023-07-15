@@ -2,8 +2,8 @@ import React from "react";
 import finn from '../img/face.gif'
 import 'react-slideshow-image/dist/styles.css';
 import chair from '../img/chair.jpeg';
-
 import {Slide} from 'react-slideshow-image';
+import Back from "./Background";
 
 
 const spanStyle = {
@@ -11,6 +11,7 @@ const spanStyle = {
 backgroundColor: 'transparent',
   color: 'blue',
   fontSize:'50pt',
+  opacity:'100%'
 };
 
 const divStyle = {
@@ -18,10 +19,11 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'contain',
-  height: '300px',
-  width:'100vw'
-
+  height: '200px',
+  width:'100vw',
 };
+
+
 const slideImages = [
   {
     url: 'https://freight.cargo.site/t/original/i/96cc78ddbffbbda41b80d2331399548863ffa19edde63ec94aaada3a3a95c953/bench1.jpg',
@@ -37,17 +39,24 @@ const slideImages = [
   },
 ];
 
+
 const footerImage = {
 
 width:'100%',
-opacity:'70%'
+justifyContent:'center',
+display:'block',
+height: '200px',
+width:'100vw',
+
 };
 
 
 const footerStyle = {
   width:'100%',
   justifyContent : 'center',
+  display:'flex',
   backgroundColor: 'transparent',
+  height:'200px',
 }
 
 function Footer() {
@@ -58,6 +67,7 @@ function Footer() {
       <div className="footer" style={footerStyle}>
         <div className="footerImages" style={footerImage} >
         <div className="slide-container">
+          
   <Slide>
     {slideImages.map ((slideImage, index) => (
       <div key={index}>
@@ -66,10 +76,12 @@ function Footer() {
         </div>
       </div>
     ))}
+    
   </Slide>
 </div>;
         </div>
       </div>
+
     </React.Fragment>
   )
 }

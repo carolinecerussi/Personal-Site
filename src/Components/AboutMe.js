@@ -1,6 +1,6 @@
 import React from 'react';
 import Rainbow from './Rainbow';
-
+import Popup from 'reactjs-popup';
  const aboutMeWhole = {
   justifyContent: 'center',
   gridTemplateColumns: 'repeat(1,85%)',
@@ -139,39 +139,13 @@ function AboutMe () {
                 </h3>
               </a>
               <a
-                href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub?embedded=true"
+                href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub"
                 target="_blank"
               >
                  <h3>
 <i class="fa fa-file-o" />: Resume
 </h3>
               </a>
-            {/* <Popup
-              style={popUpStyle}
-              trigger={
-                <a>
-                   </a>
-              }
-              position="top left"
-            >
-              {close => (
-                <div className="openBox">
-                  <img
-                    class="embed-responsive-item"
-                    width="600px"
-                    height="800px"
-                    src={resume1}
-                    frameborder="0px"
-                    allowFullScreen
-                  />
-                  {' '}{' '}{' '}
-                  <a className="close" onClick={close}>
-                    &times;
-                  </a>
-                </div>
-              )}
-
-            </Popup> */}
           </p>
 
         </div>

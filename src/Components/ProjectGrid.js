@@ -38,7 +38,7 @@ function Grids() {
                       <img alt="ipad" className="portfolio__img" src={robot3} />
                     </div>
                     <h1 className="portfolio__title hover-underline-animation">
-                      <a href="https://github.com/carolinecerussi/Robot_Translator.git" className="portfolio__link">Robot Ramble →</a></h1>
+                      <a href="https://github.com/carolinecerussi/Robot_Translator" className="portfolio__link">Robot Ramble →</a></h1>
 
                     <p className="portfolio__text">Featuring a user-friendly interface and accurate translation, I really enjoyed building an interactive application using JavaScript, HTML, and CSS that converted numbers into a robotic language output. </p>
 
@@ -46,7 +46,7 @@ function Grids() {
                     </button>} position="top center">
                       {close => (
                         <div className="openBox" >
-                          <iframe class="embed-responsive-item" width="400px" height="400px" src="https://www.loom.com/embed/f47dc27da3d94811992b5e7cd3d7eaaf?sid=a650bc3e-e997-4dcb-adbf-02d1fed693c7" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                          <iframe class="embed-responsive-item" width="500px" height="500px" src="https://www.loom.com/embed/ec3fb5fd06f146088415d1d009639d50?sid=2fb84a76-673e-46cf-b3d4-2a635372be96" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
                             &times;
                           </a>
                         </div>
@@ -164,9 +164,8 @@ function Grids() {
                     <img alt="ipad" className="portfolio__img" src={robot3} />
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">
-                    <a href="https://github.com/carolinecerussi/Personal-Site" className="portfolio__link">Personal Portfolio Website →</a></h1>
-
-                  <p className="portfolio__text">This is the website you are currently viewing! </p>
+                    <a href="https://github.com/carolinecerussi/STARTREKD" className="portfolio__link">'Engage' - A Star Trek Dashboard →</a></h1>
+                  <p className="portfolio__text">Star Trek </p>
                   <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
                     {close => (
                       <div className="openBox" >
@@ -193,7 +192,7 @@ function Grids() {
                     <a href="https://github.com/carolinecerussi/Personal-Site" className="portfolio__link">Personal Portfolio Website →</a></h1>
 
                   <p className="portfolio__text">This is the website you are currently viewing! </p>
-                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
+                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position=" center">
                     {close => (
                       <div className="openBox" >
                         <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.loom.com/share/9616493b84e348d3a0b2bc78442ad7f1?sid=a1c14064-4c01-453f-83bf-c291095cb737" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
