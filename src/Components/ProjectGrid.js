@@ -195,7 +195,7 @@ function Grids() {
                   <Popup trigger={<button><i class="fa fa-play"></i></button>} position=" center">
                     {close => (
                       <div className="openBox" >
-                        <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.loom.com/share/9616493b84e348d3a0b2bc78442ad7f1?sid=a1c14064-4c01-453f-83bf-c291095cb737" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                        <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
