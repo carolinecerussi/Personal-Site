@@ -18,6 +18,8 @@ import caroline1 from '../img/caroline.png';
 import caroline3 from '../img/caroline3.png';
 import yellow from '../img/yellow.png';
 import pizza3 from '../img/pizza3.png';
+import fullRobot from '../img/fullRobot.png';
+import full2 from '../img/full2.png';
 function Grids() {
 
 
@@ -36,6 +38,8 @@ function Grids() {
                       <img alt="ipad" className="portfolio__img" src={robot1} />
                       <img alt="ipad" className="portfolio__img" src={robot2} />
                       <img alt="ipad" className="portfolio__img" src={robot3} />
+                      <img alt="ipad" className="portfolio__img" src={fullRobot} />
+                      <img alt="ipad" className="portfolio__img" src={full2} />
                     </div>
                     <h1 className="portfolio__title hover-underline-animation">
                       <a href="https://github.com/carolinecerussi/Robot_Translator" className="portfolio__link">Robot Ramble →</a></h1>
@@ -43,7 +47,7 @@ function Grids() {
                     <p className="portfolio__text">Featuring a user-friendly interface and accurate translation, I really enjoyed building an interactive application using JavaScript, HTML, and CSS that converted numbers into a robotic language output. </p>
 
                     <Popup trigger={<button><i class="fa fa-play"></i>
-                    </button>} position="top center">
+                    </button>} position="top">
                       {close => (
                         <div className="openBox" >
                           <iframe class="embed-responsive-item" width="500px" height="500px" src="https://www.loom.com/embed/ec3fb5fd06f146088415d1d009639d50?sid=2fb84a76-673e-46cf-b3d4-2a635372be96" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
@@ -70,10 +74,10 @@ function Grids() {
                     <a href="https://github.com/carolinecerussi/bookmarked" className="portfolio__link">Book Marked→</a></h1>
                   <p className="portfolio__text">Building "Book Marked," a book logging web application, using React, JavaScript, HTML, and CSS enabled me to create a personalized platform where I could gather and store book recommendations from my social circle, creating an online library that amplified the joy of reading and sharing with friends.</p>
                   <Popup trigger={<button> <i class="fa fa-play"></i>
-                  </button>} position="top center">
+                  </button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                        <iframe class="embed-responsive-item" width="500px" height="500px" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -101,10 +105,10 @@ function Grids() {
                   </p>
 
                   <Popup trigger={<button><i class="fa fa-play"></i>
-                  </button>} position="top center">
+                  </button>} position="top">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                        <iframe class="embed-responsive-item" width="500px" height="500px"  src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -141,10 +145,10 @@ function Grids() {
                   <p className="portfolio__text">
                     By harnessing the power of JavaScript, HTML, and CSS, I created a visually appealing and interactive pizza ordering web application that seamlessly allowed users to select their desired specifications, customize toppings, and submit orders, providing an efficient and enjoyable experience for pizza lovers.</p>
                   <Popup trigger={<button><i class="fa fa-play"></i>
-                  </button>} position="top center">
+                  </button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item" width="600px" height="600px" src="https://www.loom.com/embed/9616493b84e348d3a0b2bc78442ad7f1?sid=80b55573-b4f2-4735-82dd-0a9451f2a0f0" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
+                        <iframe class="embed-responsive-item" width="500px" height="500px"  src="https://www.loom.com/embed/9616493b84e348d3a0b2bc78442ad7f1?sid=80b55573-b4f2-4735-82dd-0a9451f2a0f0" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -159,17 +163,17 @@ function Grids() {
 
                 <div className="portfolio__text-section">
                   <div className="imagesForEach" >
-                    <img alt="ipad" className="portfolio__img" src={robot1} />
-                    <img alt="ipad" className="portfolio__img" src={robot2} />
-                    <img alt="ipad" className="portfolio__img" src={robot3} />
+                    <img alt="starTrek1" className="portfolio__img" src={robot1} />
+                    <img alt="starTrek2" className="portfolio__img" src={robot2} />
+                    <img alt="starTrek3" className="portfolio__img" src={robot3} />
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/STARTREKD" className="portfolio__link">'Engage' - A Star Trek Dashboard →</a></h1>
                   <p className="portfolio__text">Star Trek </p>
-                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
+                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top">
                     {close => (
                       <div className="openBox" >
-                        <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
+                        <iframe className="embed-responsive-item" width="500px" height="500px" src="https://www.youtube.com" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -194,12 +198,11 @@ function Grids() {
                   <p className="portfolio__text">This is the website you are currently viewing! </p>
 
 
-
                   
-                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position=" top center">
+                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                        <iframe  className="embed-responsive-item" width="500px" height="500px" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>

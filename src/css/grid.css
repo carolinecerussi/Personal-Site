@@ -8,6 +8,18 @@ justify-content: center;
 }
 
 
+.openBox {
+  background-color: rgb(98, 51, 51);
+  justify-content: center;
+width: fit-content;
+height: fit-content;
+text-align: center;
+align-items: center;
+}
+iframe {
+  justify-content: center;
+scale: 2;
+}
 
 .section__subtitle {
     display: inline-block;
@@ -193,7 +205,6 @@ scale:1.5;
 
 
 
-
 div.imagesForEach {
   display: inline-table;
 text-align: center;  
@@ -201,20 +212,7 @@ justify-content: center;
 
 
 }
-div.video {
-    justify-content: center;
 
-}
-
-
-div.openBox {
-  background-color: rgb(255, 255, 255);
-  width: 420px;
-  height:430px;
-  justify-content: center;
-  text-align: center;
-
-}
 
 button {
   background-color: transparent;
