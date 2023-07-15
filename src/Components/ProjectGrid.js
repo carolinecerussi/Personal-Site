@@ -7,7 +7,7 @@ import robot1 from '../img/robot1.PNG';
 import robot2 from '../img/robot2.PNG';
 import robot3 from '../img/robot3.jpg';
 import shelter1 from '../img/shelter11.png';
-import shelter2 from '../img/shelter22.png';
+import shelter2 from '../img/shel1.png';
 import shelter3 from '../img/shelter33.png';
 import pizza1 from '../img/womanpizza.png';
 import book1 from '../img/book1.png';
@@ -20,6 +20,11 @@ import yellow from '../img/yellow.png';
 import pizza3 from '../img/pizza3.png';
 import fullRobot from '../img/fullRobot.png';
 import full2 from '../img/full2.png';
+import star1 from '../img/starTrek1.png';
+import star2 from '../img/starTrek2.png';
+import star3 from '../img/starTrek3.png';
+import star4 from '../img/starTrek4.png';
+import star5 from '../img/straTrek5.png';
 function Grids() {
 
 
@@ -163,9 +168,11 @@ function Grids() {
 
                 <div className="portfolio__text-section">
                   <div className="imagesForEach" >
-                    <img alt="starTrek1" className="portfolio__img" src={robot1} />
-                    <img alt="starTrek2" className="portfolio__img" src={robot2} />
-                    <img alt="starTrek3" className="portfolio__img" src={robot3} />
+                    <img alt="starTrek1" className="portfolio__img" src={star1} />
+                    <img alt="starTrek2" className="portfolio__img" src={star2} />
+                    <img alt="starTrek3" className="portfolio__img" src={star3} />
+                    <img alt="starTrek2" className="portfolio__img" src={star4} />
+                    <img alt="starTrek3" className="portfolio__img" src={star5} />
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/STARTREKD" className="portfolio__link">'Engage' - A Star Trek Dashboard →</a></h1>
