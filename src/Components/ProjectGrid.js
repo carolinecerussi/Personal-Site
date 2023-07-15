@@ -169,7 +169,7 @@ function Grids() {
                   <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
                     {close => (
                       <div className="openBox" >
-                        <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
+                        <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.youtube.com" frameborder="0px"  ></iframe>   <a className="close" onClick={close}>
                           &times;
                         </a>
                       </div>
@@ -192,7 +192,11 @@ function Grids() {
                     <a href="https://github.com/carolinecerussi/Personal-Site" className="portfolio__link">Personal Portfolio Website →</a></h1>
 
                   <p className="portfolio__text">This is the website you are currently viewing! </p>
-                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position=" center">
+
+
+
+                  
+                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position=" top center">
                     {close => (
                       <div className="openBox" >
                         <iframe className="embed-responsive-item" width="400px" height="400px" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px" allowFullScreen ></iframe>   <a className="close" onClick={close}>
