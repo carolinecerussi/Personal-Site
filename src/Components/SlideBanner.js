@@ -8,12 +8,13 @@ function Slide(){
 <div className='marqueeContainer' >
 <div className="marquee" >
     <div className="blink" >
-
+ 
         <span id="now">NOW</span>
     </div>
 
     <div >
-        <span >LOOKING FOR WORK</span>
+        <span ><i class="fa fa-eye" /> 
+<i class="fa fa-eye" /> LOOKING FOR WORK</span>
 </div>
 </div>
 </div>

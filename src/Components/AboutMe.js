@@ -1,13 +1,19 @@
 import React from 'react';
 import Rainbow from './Rainbow';
-import Popup from 'reactjs-popup';
+
  const aboutMeWhole = {
   justifyContent: 'center',
   gridTemplateColumns: 'repeat(1,85%)',
   display: 'block',
   backgroundColor:'transparent',
 
+
 }
+
+const headerOneStyle ={
+  fontSize :'35pt'
+}
+
 const smallSkillsStyle = {
 marginTop:'-1%',
 fontSize: '12pt',
@@ -68,16 +74,18 @@ borderRadius:'50pt',
 
 function AboutMe () {
   return (
+    
     <React.Fragment>
+
 
       <div className="portfolio__text-section" style={aboutMeWhole}>
 
         <div className="perogative" style={perogativeStyle}>
-          <h1>MY PEROGATIVE</h1>
+          <h1 style={headerOneStyle}>MY PEROGATIVE</h1>
           <div className="smallerInfo" style={smallFont}>
             <br />
             <p>
-              As an energetic and curious New Yorker with a love for art, I found my passion for design at Pratt Institute. Throughout my studies, I discovered the fascinating connection between space, color, and functionality. I've always been captivated by the potential of design and technology working together to create amazing products. This curiosity led me to explore front-end development, where I've dived into coding and its transformative abilities.
+              As an energetic and curious native New Yorker with a love for art, I found my passion for design at Pratt Institute. Throughout my studies, I discovered the fascinating connection between space, color, and functionality. I've always been captivated by the potential of design and technology working together to create amazing products. This curiosity led me to explore front-end development, where I've dived into coding and its transformative abilities.
 
               Through a comprehensive coding program, I've gained confidence in using various languages like C#, HTML, CSS, JavaScript, and React. Alongside my experience in drafting on SolidWorks, product development, and research, I'm well-equipped to take on exciting opportunities in front-end design and web development. My goal is to craft comprehensive, intuitive, and visually appealing designs that leave a lasting impact.
             </p>
@@ -85,24 +93,33 @@ function AboutMe () {
         </div>
         <div className="aboutMeBox" style={meBoxStyle}>
           <p>
-            <h1>ME:</h1> <br />
+            <h1 style={headerOneStyle}>ME:</h1> 
+            <br />
             <p>
               {' '} <p>
-                <h2>PORTLAND OR</h2> based
-                <h3>29 year-old</h3>
+                <h2>
+
+<i class='fa fa-map-marker' ></i>&nbsp;
+PORTLAND OR
+</h2> based
+                <p>29 year-old</p>
                 {' '}
-                <a
+             <a
                   href="https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h3>Scorpio</h3>
+                Scorpio
                 </a>
-                with an
+                <br />
+                <br />
+
+                with a Bachelor's degree of
                 {' '}
-                <h2>Industrial Design</h2>
+                <h2>Industrial Design 
+</h2>
                 {' '}
-                degree from
+                 from
                 {' '}
                 <h2>Pratt Institute</h2>
                 {' '}
@@ -112,12 +129,12 @@ function AboutMe () {
             </p>
             <p>
               {' '}<h2>Coding Certificate</h2>from
-              <h3>Epicodus Coding School </h3>
+              <h2>Epicodus Coding School </h2>
               React, JavaScript, HTML, CSS, C#
             </p>
           </p>
           <p>
-              <h1>Contact:</h1>
+              <h1  style={headerOneStyle}>Contact:</h1>
               <br />
               <a href="https://github.com/carolinecerussi" target="_blank">
                 <h3>

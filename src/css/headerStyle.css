@@ -28,7 +28,7 @@
   border: 2px dashed ;
 border-radius: 50pt;
 outline-offset: -2px;
-  transition: outline-offset .75s ease;  
+  transition: outline-offset .5s smooth;  
   font-family: 'Athiti';
 
   padding: 1px 20px;
@@ -48,10 +48,11 @@ display: inline-block;
 .button:hover,
 .button:focus  {
     outline: 2px dashed black;
-    outline-offset: -8px;
+    outline-offset: -8px ;
     background-color: transparent;
     text-align: center;
     border-radius: 50pt;
+
     
 
 }
