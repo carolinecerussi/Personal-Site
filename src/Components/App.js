@@ -9,7 +9,6 @@ import Slide from './SlideBanner';
 import Screen from '../scripts';
 import Footer from './Footer.js';
 import TopArrow from './TopArrow';
-
 function App() {
   
 

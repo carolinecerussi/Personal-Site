@@ -11,16 +11,16 @@ justify-content: center;
 .openBox {
   background-color: rgb(0, 0, 0);
   justify-content: center;
-width: fit-content;
-height: fit-content;
+width: 30vw;
+height: 30vw;
 text-align: center;
 align-items: center;
 color: white;
 border: 3pt solid white;
 }
 iframe {
-width: 50vw;
-height:50vw;
+width: 60vw;
+height:40vw;
 justify-content: center;
 
 }
