@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/banner.css';
+import Border from './Border';
 
 function Slide(){
     return (
@@ -7,6 +8,7 @@ function Slide(){
 <div className='marqueeContainer' >
 <div className="marquee" >
     <div className="blink" >
+
         <span id="now">NOW</span>
     </div>
 

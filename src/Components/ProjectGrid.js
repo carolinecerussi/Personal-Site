@@ -52,7 +52,7 @@ function Grids() {
                     <p className="portfolio__text">Featuring a user-friendly interface and accurate translation, I really enjoyed building an interactive application using JavaScript, HTML, and CSS that converted numbers into a robotic language output. </p>
 
                     <Popup trigger={<button><i class="fa fa-play"></i>
-                    </button>} position="top">
+                    </button>} position="top center">
                       {close => (
                         <div className="openBox" >
                           <iframe src="https://www.loom.com/embed/ec3fb5fd06f146088415d1d009639d50?sid=34caffaa-7a9c-40c1-a3ee-14ac94e80d92" frameborder="0" webkitallowfullscreen mozallowfullscreen allowFullScreen="true" ></iframe>  <a className="close"     onClick={close} >
@@ -110,7 +110,7 @@ function Grids() {
                   </p>
 
                   <Popup trigger={<button><i class="fa fa-play"></i>
-                  </button>} position="top">
+                  </button>} position="top center">
                     {close => (
                       <div className="openBox" >
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px"  allowFullScreen="true"></iframe>   <a className="close"  width="50vw" onClick={close} >
@@ -177,7 +177,7 @@ function Grids() {
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/STARTREKD" className="portfolio__link">'Engage' - A Star Trek Dashboard →</a></h1>
                   <p className="portfolio__text">Star Trek </p>
-                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top">
+                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
                     {close => (
                       <div className="openBox" >
                         <iframe className="embed-responsive-item"  width="50vw" src="https://www.youtube.com" frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close" onClick={close}  >
