@@ -35,8 +35,8 @@ function Grids() {
     <React.Fragment>
       <div className="gridContent">
         <div id="portfolio" className="portfolio section">
-          <h1 className="section__title">PROJECTS</h1>
-          <span className="section__subtitle"> React JS, JavaScript, Html,CSS,C#</span>
+          <div className="section__title">PROJECTS</div>
+          <span className="section__subtitle"> React JS, C#, JavaScript, Html, & CSS</span>
           <div className="portfolio__container container grid">
             <div className="portfolio__content">
               <div className="portfolio__box">

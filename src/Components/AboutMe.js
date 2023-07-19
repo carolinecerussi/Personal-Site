@@ -1,17 +1,32 @@
 import React from 'react';
 import Rainbow from './Rainbow';
 
+const meBoxStyle = {
+  columnGap: '2.5%',
+  gridTemplateColumns: 'repeat(2, 41%)',
+  textAlign: 'left',
+  justifyContent: 'center',
+  backgroundColor: 'transparent',
+  lineHeight: '14pt',
+  width: '100%',
+  maxWidth: '100vw',
+  paddingTop: '2%',
+  display: 'flexbox',
+};
+
+
  const aboutMeWhole = {
   justifyContent: 'center',
   gridTemplateColumns: 'repeat(1,85%)',
   display: 'block',
   backgroundColor:'transparent',
-
-
+marginBottom:'2%'
 }
 
 const headerOneStyle ={
-  fontSize :'35pt'
+  fontSize :'30pt',
+  width: '100%',
+  boxSizing: 'border- box',
 }
 
 const smallSkillsStyle = {
@@ -38,7 +53,7 @@ const  skillsStyle = {
   gridTemplateColumns: 'repeat(1,85%)',
   justifyContent: 'center',
   fontSize: 'auto',
-  marginTop: '3%',
+  marginTop: '2%',
   textAlign: 'center',
   maxWidth:'100vw',
   backgroundColor:'transparent',
@@ -53,22 +68,12 @@ borderRadius:'50pt',
 
 };
 
- const meBoxStyle = {
-  columnGap:'2.5%',
-  gridTemplateColumns: 'repeat(2, 40%)',
-  textAlign: 'left',
-  justifyContent: 'center',
-  backgroundColor: 'transparent',
-  lineHeight: '13pt',
-  width:'100%',
-  maxWidth:'100vw',
-  paddingTop:'3%',
-  display:'flexbox',
-};
+
 
  const skillSet = {
   fontSize: '13pt',
   color: 'rgb(255, 104, 10)',
+  
 };
 
 
@@ -104,9 +109,8 @@ function AboutMe () {
             <p>
               {' '} <p>
                 <h2>
-
 <i class='fa fa-map-marker' ></i>&nbsp;
-PORTLAND OR
+PORTLAND, OR
 </h2> based
                 <p>29 year-old</p>
                 {' '}
@@ -146,7 +150,7 @@ PORTLAND OR
                 <h4>
                   <i class="fa fa-github"> </i>
 
-                  : Github
+                   : Github
                 </h4>
               </a>
               {/* <a href="https://carolinecerussi.me" target="_blank">
@@ -177,7 +181,6 @@ PORTLAND OR
       <div className="portfolio__text-section" style={aboutMeWhole}>
 
 
-
         <div style={skillsStyle}>
           <p>
             <h1>Hard Skills: </h1>
@@ -186,65 +189,65 @@ PORTLAND OR
             <p>
               {' '}{' '}
               <span style={skillSet}>
-                <h3>+ Html, Css, React JS, JavaScript</h3>
+                <h3>&bull; Html, Css, React JS, JavaScript</h3>
               </span>
               {' '}
               <div style={smallSkillsStyle}>
   creating and styling website content, as well as implementing interactivity and dynamic functionality.</div>
 
-              <span style={skillSet}> <h3>+ jQuery:</h3></span>
+              <span style={skillSet}> <h3>&bull; jQuery:</h3></span>
               {' '}
               <div style={smallSkillsStyle}>
   interactive and dynamic functionality on websites, such as animations, form validation, and AJAX requests.</div>
 
-              <span style={skillSet}> <h3>+ CMS Platforms:</h3></span>
+              <span style={skillSet}> <h3>&bull; CMS Platforms:</h3></span>
               {' '}
               <div style={smallSkillsStyle}>
 
               experience in WordPress, Cargo Collective, SquareSpace,etc, & understanding their structure, theming systems, template customization, and plugin/module development
 </div>
-              <span style={skillSet}>  <h3>+ Front-End Frameworks:</h3></span>
+              <span style={skillSet}>  <h3>&bull; Front-End Frameworks:</h3></span>
               <div style={smallSkillsStyle}>
      Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.
 </div>
-              <span style={skillSet}>  <h3>+ Git/Github:</h3></span>
+              <span style={skillSet}>  <h3>&bull; Git/Github:</h3></span>
               <div style={smallSkillsStyle}>
     Familiarity with popular front-end frameworks such as Bootstrap or Foundation, which provide pre-designed components and responsive layouts for efficient development.
           </div>  </p>
 
-            <span style={skillSet}>   <h3>+ UI/UX Design:</h3></span>
+            <span style={skillSet}>   <h3>&bull; UI/UX Design:</h3></span>
             {' '}
 
             <div style={smallSkillsStyle}>
    understanding visually appealing and intuitive website designs. Knowledge of wireframing, prototyping, and usability testing.
    </div>
       <br />
-            <br /><br /><br /><br />
+            <br /><br />
             <h1>Soft Skills:</h1> <br />
-            <span style={skillSet}><h3>+ Strong Communication:</h3></span>
+            <span style={skillSet}><h3>&bull; Strong Communication:</h3></span>
             {' '}
             <div style={smallSkillsStyle}>
  both verbal and written, to collaborate with team members, understand client requirements, and convey ideas and concepts clearly.
 </div>
-            <span style={skillSet}><h3>+ Attention to Detail:</h3></span>
+            <span style={skillSet}><h3>&bull; Attention to Detail:</h3></span>
             {' '}
             <div style={smallSkillsStyle}>
  accuracy in coding, design implementation, and overall website quality, ensuring a polished and professional end product.
 </div>
-            <span style={skillSet}><h3>+ Problem Solving</h3></span>
+            <span style={skillSet}><h3>&bull; Problem Solving</h3></span>
             {' '}
             <div style={smallSkillsStyle}>
 
             able to analyze complex issues, identify root causes, and develop innovative solutions when faced with challenges in development or design processes.
 </div>
-            <span style={skillSet}><h3>+ Time Management</h3></span>
+            <span style={skillSet}><h3>&bull; Time Management</h3></span>
             {' '}
             <div style={smallSkillsStyle}>
 
             skills to prioritize tasks, meet project deadlines, and effectively handle multiple projects simultaneously
             </div>
 
-            <span style={skillSet}><h3>+ Adaptability</h3></span>
+            <span style={skillSet}><h3>&bull; Adaptability</h3></span>
             {' '}
             <div style={smallSkillsStyle}>
     able to adapt to changing technologies, trends, and project requirements, staying up-to-date with the latest front-end development and design practices and being open to learning new skills.
