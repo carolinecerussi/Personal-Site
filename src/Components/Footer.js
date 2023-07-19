@@ -68,7 +68,7 @@ function Footer() {
     <React.Fragment>
       <div className="footer" style={footerStyle}>
         <div className="footerImages" style={footerImage} >
-     <span style={spanStyle}><a  style={spanStyle} href="carolinecerussi.com" ><i class="material-symbols-outlined">
+     <span style={spanStyle}><a  style={spanStyle} href="https://carolinecerussi.com/" ><i class="material-symbols-outlined">
                       <p style={spanStyle}>home</p> 
                     </i>  
                          </a>  
