@@ -1,8 +1,11 @@
 import React from 'react';
 import '../css/headerStyle.css';
-import carolineName from '../img/carceru.gif'
+import carolineName from '../img/carceru.gif';
+import Footer from './Footer.js';
+import AboutMe from './AboutMe';
+import ProjectGrid from './ProjectGrid';
+import Rainbow from './Rainbow';
 import Border from './Border';
-
 function Header() {
 
     const aboutHead = {
@@ -23,7 +26,8 @@ function Header() {
                 <img src={carolineName} />
                 <Border />
 
-                <span style={aboutHead}><p>Front End Developer  / Designer / Artist</p></span>
+            <span style={aboutHead}><p><a href = '#projectsLink'>Front End Developer </a><a href="#contactLink"> / about </a><a href='#footerLink'>/ Artist</a></p></span>;
+
                 </div>
                 <div className='buttonStyle' >
                     <button className="button" type="button" ><p><a href="mailto:cerussicaroline@gmail.com" target="_blank" class="icon-link">Email Me</a></p></button>
@@ -31,8 +35,22 @@ function Header() {
                     <button className="button" type="button" ><p><a href="https://www.linkedin.com/in/caroline-cerussi/" target="_blank" class="icon-link">
 <p><i class="fa fa-linkedin-square"></i>
 </p></a></p></button>
+<Rainbow />
                 </div>
             </div>
+            <a id='contactLink'>   
+<AboutMe />
+</a> 
+        <Rainbow />
+        <a id="projectsLink">
+        
+        <ProjectGrid />
+        </a>
+
+        <Rainbow />
+        <a id='footerLink'>
+        <Footer />
+        </a>
         </React.Fragment>
     )
 

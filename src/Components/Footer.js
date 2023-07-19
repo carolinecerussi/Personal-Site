@@ -12,52 +12,59 @@ const spanStyle = {
   textDecoration: 'none',
   width:'fit-content',
   float:'left',
-  padding:'0pt 5pt ',
+  padding:'0pt 5pt',
   alignItems:'center',
-  marginBottom:'-3%',
+  marginBottom:'0%'
 };
+
 
 
 const divStyle = {
   alignItems: 'center',
-  display: 'flex',
+  display: 'inline-block',
   justifyContent: 'center',
   backgroundSize: 'contain',
   width: '100%',
-  height: '100px',
+  height: '300px',
   alignItems:'center',
-marginTop:'1%'
 
 };
+
 const slideImages = [
   {
-    url: 'https://freight.cargo.site/w/100/i/547865d00ffc608e26981c49cf89223865386e24d25000077ac66f82bfd2a9b4/ezgif.com-gif-maker.gif',
+    url: 'https://freight.cargo.site/w/300/i/5129e25bcc693a9d6182f130c2535700b0010e30756ef637dce777cfe293445f/worker3.png',
+
   },
   {
-    url:  'https://freight.cargo.site/w/100/i/547865d00ffc608e26981c49cf89223865386e24d25000077ac66f82bfd2a9b4/ezgif.com-gif-maker.gif',
+    url:  'https://freight.cargo.site/w/450/i/f533ec4552572e258ce3a409eeb2f85a0677e350601d90f014b24171dc1834c7/Caroline_Cerussi_SheHer_sanitation_worker_riding_the_subway_new_8e14c8bf-390c-49d7-8946-523c8527437b.png',
   },
   {
-    url:  'https://freight.cargo.site/w/100/i/547865d00ffc608e26981c49cf89223865386e24d25000077ac66f82bfd2a9b4/ezgif.com-gif-maker.gif',
+    url:  'https://freight.cargo.site/w/300/i/c9052a7dce433954be1b8683dd5885b3f5dceff2c9bc605f52708d925cf35402/worker2.png',
+  },
+    {
+    url:  'https://freight.cargo.site/w/450/i/4a6884062a8b843c5dfd790420e28384a347a8845b7b43451faa24d6ce679e0c/Caroline_Cerussi_SheHer_sanitation_worker_riding_the_subway_new_d9e99e04-a864-48dc-b62f-8d60ef9e6b3d.png',
   },
 ];
 
 
 const footerImage = {
 
-  display: 'inline-block',
+  display: 'block',
   width: '100%',
-  float: "left",
 justifyContent:'center',
-alignItems:'center'
+alignItems:'center',
+backgroundColor:'transparent',
+scale:'.9',
+
 };
 
 
 const footerStyle = {
   width: '100%',
-  justifyContent: 'center',
-  display: 'flex',
+  display: 'block',
   backgroundColor: 'transparent',
-}
+  alignItems:'center',
+  }
 
 
 
@@ -67,18 +74,17 @@ function Footer() {
   return (
     <React.Fragment>
       <div className="footer" style={footerStyle}>
-        <div className="footerImages" style={footerImage} >
+
      <span style={spanStyle}><a  style={spanStyle} href="https://carolinecerussi.com/" ><i class="material-symbols-outlined">
                       <p style={spanStyle}>home</p> 
                     </i>  
                          </a>  
                      </span>
-                         {/* <span style={spanStyle}><p style={spanStyle}  > Contact Me:
-                         </p>  
-                      </span> */}
+                 
           <div className="slide-container">
-          
-            <Slide>
+                  <div className="footerImages" style={footerImage} >
+            <Slide 
+            >
               <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
               {slideImages.map((slideImage, index) => (
                 <div key={index}>

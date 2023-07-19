@@ -78,19 +78,25 @@ function AboutMe () {
     <React.Fragment>
 
 
-      <div className="portfolio__text-section" style={aboutMeWhole}>
+      <div className="portfolio__text-section"  style={aboutMeWhole}>
+
 
         <div className="perogative" style={perogativeStyle}>
+        
           <h1 style={headerOneStyle}>MY PEROGATIVE</h1>
+          
           <div className="smallerInfo" style={smallFont}>
             <br />
+
+  
             <p>
               As an energetic and curious native New Yorker with a love for art, I found my passion for design at Pratt Institute. Throughout my studies, I discovered the fascinating connection between space, color, and functionality. I've always been captivated by the potential of design and technology working together to create amazing products. This curiosity led me to explore front-end development, where I've dived into coding and its transformative abilities.
 
               Through a comprehensive coding program, I've gained confidence in using various languages like C#, HTML, CSS, JavaScript, and React. Alongside my experience in drafting on SolidWorks, product development, and research, I'm well-equipped to take on exciting opportunities in front-end design and web development. My goal is to craft comprehensive, intuitive, and visually appealing designs that leave a lasting impact.
             </p>
-          </div>
-        </div>
+          </div>     
+        </div> 
+
         <div className="aboutMeBox" style={meBoxStyle}>
           <p>
             <h1 style={headerOneStyle}>ME:</h1> 
@@ -169,6 +175,8 @@ PORTLAND OR
       </div>
       <Rainbow />
       <div className="portfolio__text-section" style={aboutMeWhole}>
+
+
 
         <div style={skillsStyle}>
           <p>
