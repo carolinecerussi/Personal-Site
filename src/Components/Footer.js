@@ -1,17 +1,17 @@
 import React from "react";
-import finn from '../img/face.gif'
 import 'react-slideshow-image/dist/styles.css';
-import chair from '../img/chair.jpeg';
 import {Slide} from 'react-slideshow-image';
-import Back from "./Background";
-
+import book from "../img/book1.png";
 
 const spanStyle = {
-  padding: '5px',
 backgroundColor: 'transparent',
   color: 'blue',
-  fontSize:'50pt',
-  opacity:'100%'
+  fontSize:'40pt',
+  opacity:'100%',
+  fontFamily: 'Bagel Fat One',
+  textAlign:'left',
+  textDecoration:'normal',
+
 };
 
 const divStyle = {
@@ -19,34 +19,34 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'contain',
-  height: '200px',
+  height: '170px',
   width:'100vw',
+  marginTop:'2%',
+
 };
 
 
 const slideImages = [
   {
-    url: 'https://freight.cargo.site/t/original/i/96cc78ddbffbbda41b80d2331399548863ffa19edde63ec94aaada3a3a95c953/bench1.jpg',
-    caption: 'I MADE THIS',
+    url: 'https://freight.cargo.site/w/100/i/547865d00ffc608e26981c49cf89223865386e24d25000077ac66f82bfd2a9b4/ezgif.com-gif-maker.gif',
+    caption: 'CALL 631 375 8024'
   },
   {
-    url: 'https://freight.cargo.site/t/original/i/3fc952b9d858eac58f86f2c174034115c0c2433ad4296929d81814c936fe9b6f/chair_.jpg',
-    caption: 'AND THIS',
+    url: book,
+    caption: 'Home Sweet Home',
+  
   },
-  {
-    url: 'https://freight.cargo.site/t/original/i/64dba1641d61a92a7acb6b09fc0aeae881d631ee3b318e0867ebb251b9ff3f46/stool2.jpg',
-    caption: 'AND THIS',
-  },
+
 ];
 
 
 const footerImage = {
 
-width:'100%',
-justifyContent:'center',
-display:'block',
+display:'inline',
 height: '200px',
-width:'100vw',
+width:'100%',
+float:"left",
+
 
 };
 
@@ -58,6 +58,8 @@ const footerStyle = {
   backgroundColor: 'transparent',
   height:'200px',
 }
+
+
 
 function Footer() {
 
@@ -72,7 +74,7 @@ function Footer() {
     {slideImages.map ((slideImage, index) => (
       <div key={index}>
         <div style={{...divStyle, backgroundImage: `url(${slideImage.url})`}}>
-          <span style={spanStyle}>{slideImage.caption}</span>
+        <a style={spanStyle}>  <span >{slideImage.caption}</span></a>
         </div>
       </div>
     ))}

@@ -137,31 +137,31 @@ PORTLAND OR
               <h1  style={headerOneStyle}>Contact:</h1>
               <br />
               <a href="https://github.com/carolinecerussi" target="_blank">
-                <h3>
+                <h4>
                   <i class="fa fa-github"> </i>
 
                   : Github
-                </h3>
+                </h4>
               </a>
-              <a href="https://carolinecerussi.me" target="_blank">
-                <h3><i class="fa fa-chain"> </i>: Website</h3>
-              </a>
+              {/* <a href="https://carolinecerussi.me" target="_blank">
+                <h4><i class="fa fa-chain"> </i>: Website</h4>
+              </a> */}
               <a
                 href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cerussicaroline@gmail.com"
                 target="_blank"
               >
-                <h3>
+                <h4>
                   {' '} <i class="fa fa-envelope-o" />: Cerussicaroline
                   @gmail.com
-                </h3>
+                </h4>
               </a>
               <a
                 href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub"
                 target="_blank"
               >
-                 <h3>
+                 <h4>
 <i class="fa fa-file-o" />: Resume
-</h3>
+</h4>
               </a>
           </p>
 

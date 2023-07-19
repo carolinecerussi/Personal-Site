@@ -28,7 +28,7 @@
   border: 2px dashed ;
 border-radius: 50pt;
 outline-offset: -2px;
-  transition: outline-offset .5s smooth;  
+  transition: outline-offset .5s ease;  
   font-family: 'Athiti';
 
   padding: 1px 20px;
@@ -64,9 +64,9 @@ display: inline-block;
     color: black;
     background-color: transparent;
     width: 100%;
-    scale: .8;
+    scale: .9;
     justify-content: center;
     text-align: center;
-    margin-top: -5%;
+    margin-top: 1%;
 }
 
