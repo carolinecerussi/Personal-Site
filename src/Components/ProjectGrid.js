@@ -25,6 +25,8 @@ import star2 from '../img/starTrek2.png';
 import star3 from '../img/starTrek3.png';
 import star4 from '../img/starTrek4.png';
 import star5 from '../img/straTrek5.png';
+import book from '../img/bookvideo.mp4';
+import roboVid from "../img/robotvideo.mp4";
 function Grids() {
 
 
@@ -55,7 +57,7 @@ function Grids() {
                     </button>} position="top center">
                       {close => (
                         <div className="openBox" >
-                          <iframe src="https://www.loom.com/embed/ec3fb5fd06f146088415d1d009639d50?sid=34caffaa-7a9c-40c1-a3ee-14ac94e80d92" frameborder="0" webkitallowfullscreen mozallowfullscreen allowFullScreen="true" ></iframe>  <a className="close"     onClick={close} >
+                            <iframe class="embed-responsive-item"src={roboVid} frameborder="0px" allowFullScreen="true" ></iframe>  <a className="close"     onClick={close} >
                             &times;
                           </a>
                         </div>
@@ -82,7 +84,7 @@ function Grids() {
                   </button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item"src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0px" allowFullScreen="true" ></iframe>   <a className="close"  width="50vw" onClick={close}  >
+                        <iframe class="embed-responsive-item"src={book} frameborder="0px" allowFullScreen="true" ></iframe>   <a className="close"  width="50vw" onClick={close}  >
                           &times;
                         </a>
                       </div>

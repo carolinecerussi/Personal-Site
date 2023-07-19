@@ -13,8 +13,10 @@ function Slide(){
     </div>
 
     <div >
-        <span ><i class="fa fa-eye" /> 
-<i class="fa fa-eye" /> LOOKING FOR WORK</span>
+        <span >LOOKING FOR WORK
+<br /><i class="fa fa-eye" />&nbsp;
+<i class="fa fa-eye" />
+</span>
 </div>
 </div>
 </div>
