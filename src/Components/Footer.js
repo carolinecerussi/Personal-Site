@@ -4,23 +4,19 @@ import { Slide } from 'react-slideshow-image';
 import heart from "../img/heart.png";
 
 const spanStyle = {
-  backgroundColor: 'blue',
-  color: 'white',
-  fontSize: '40pt',
-  marginBottom:'-2pt',
-  opacity: '70%',
-  textAlign: 'center',
-  textDecoration: 'normal',
-  fontWeight: '200',
-  width:'10%',
-  float:'left',
-  marginLeft:'5%',
+  backgroundColor: 'transparent',
+  color: 'black',
   justifyContent:'center',
-  // borderRadius:'10pt',
-  marginTop:'1%',
-  paddingTop:'1%'
-
+  fontSize: '30pt',
+  opacity: '100%',
+  textDecoration: 'none',
+  width:'fit-content',
+  float:'left',
+  padding:'0pt 5pt ',
+  alignItems:'center',
+  marginBottom:'-3%',
 };
+
 
 const divStyle = {
   alignItems: 'center',
@@ -28,9 +24,9 @@ const divStyle = {
   justifyContent: 'center',
   backgroundSize: 'contain',
   width: '100%',
-  height: '80px',
-  marginTop:'2%',
-
+  height: '100px',
+  alignItems:'center',
+marginTop:'1%'
 
 };
 const slideImages = [
@@ -51,7 +47,8 @@ const footerImage = {
   display: 'inline-block',
   width: '100%',
   float: "left",
-
+justifyContent:'center',
+alignItems:'center'
 };
 
 
@@ -71,9 +68,14 @@ function Footer() {
     <React.Fragment>
       <div className="footer" style={footerStyle}>
         <div className="footerImages" style={footerImage} >
-        <a style={spanStyle}>  <span ><a href="carolinecerussi.com" ><i class="material-symbols-outlined">
-                      <h1 style={spanStyle}>home</h1>
-                    </i>        </a></span></a>
+     <span style={spanStyle}><a  style={spanStyle} href="carolinecerussi.com" ><i class="material-symbols-outlined">
+                      <p style={spanStyle}>home</p> 
+                    </i>  
+                         </a>  
+                     </span>
+                         {/* <span style={spanStyle}><p style={spanStyle}  > Contact Me:
+                         </p>  
+                      </span> */}
           <div className="slide-container">
           
             <Slide>
