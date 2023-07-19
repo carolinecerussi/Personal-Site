@@ -27,6 +27,7 @@ import star4 from '../img/starTrek4.png';
 import star5 from '../img/straTrek5.png';
 import book from '../img/bookvideo.mp4';
 import roboVid from "../img/robotvideo.mp4";
+import smileVid from '../img/smileVid.mp4';
 function Grids() {
 
 
@@ -155,7 +156,7 @@ function Grids() {
                   </button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe class="embed-responsive-item"  src="https://www.loom.com/embed/9616493b84e348d3a0b2bc78442ad7f1?sid=80b55573-b4f2-4735-82dd-0a9451f2a0f0" frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close"  width="50vw" onClick={close}  >
+                        <iframe class="embed-responsive-item"  src={smileVid} frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close"  width="50vw" onClick={close}  >
                           &times;
                         </a>
                       </div>
