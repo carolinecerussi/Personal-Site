@@ -27,7 +27,7 @@ function Header() {
                 <img src={carolineName} />
                 <Border />
 
-            <span style={aboutHead}><p><a href = '#projectsLink'>Front End Developer </a><a href="#contactLink"> / Designer </a><a href='#footerLink'>/ Artist</a></p></span>;
+       <p>Front End Developer / Designer / Artist </p>
 
                 </div>
                 <div className='buttonStyle' >
