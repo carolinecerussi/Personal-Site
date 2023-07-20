@@ -26,7 +26,7 @@ function NavBar () {
               <p >palette</p>
             </i>
           </a> */}
-        <a href="#aboutLink"> <p>About Me</p> </a>
+        <a href="#aboutLink"> <p>About</p> </a>
 
           <a href="#skillsLink">
   {' '}<p>
@@ -34,7 +34,7 @@ function NavBar () {
   </p>{' '}
 </a>
 
-              <a href = '#projectsLink' ><p>Projects</p> </a>        
+              <a href = '#projectsLink' ><p>Portfolio</p> </a>        
 <a href="#contactLink"> <p>Contact</p> </a>
 
         </ul>

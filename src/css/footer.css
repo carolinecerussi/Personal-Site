@@ -1,8 +1,8 @@
 .footContainer {
   align-items: center;
   display:flex;
-  height: 30pt;
-  background-color: rgba(0, 85, 255, 0.52);
+  height: 40pt;
+  background-color: rgba(0, 94, 255, 0.755);
 width: 100%;
 justify-content: center;
 }

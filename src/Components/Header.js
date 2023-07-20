@@ -41,12 +41,6 @@ function Header() {
                 </div>
             </div>
             
-<AboutMe />
-        <Rainbow />
-        <a id="projectsLink">
-        
-        <ProjectGrid />
-        </a>
 
         </React.Fragment>
     )

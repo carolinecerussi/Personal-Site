@@ -7,9 +7,9 @@
     font-size: auto;
     
 }
-.buttonStyle i {
+/* .buttonStyle i {
     font-size: auto;
-}
+} */
 
 .header a:hover {
     color: #ff6600;
@@ -21,7 +21,7 @@
 
 
 .button{
-    margin-right: 2%;
+    margin-right: 2.5%;
   color: rgb(0, 0, 0);
   background-color: transparent;
   --outline: 2px dashed black;
@@ -30,21 +30,19 @@ border-radius: 50pt;
 outline-offset: -2px;
   transition: outline-offset .5s ease;  
   font-family: 'Athiti';
-
   padding: 1px 20px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
 
 }
 
 .buttonStyle{
 background-color: transparent;
 justify-content: center;
-display: inline-block;
-
-width:100%;
+  display: inline;
+align-items: center;
+  text-align: center;
 
 }
 .button:hover,
@@ -54,7 +52,6 @@ width:100%;
     background-color: transparent;
     text-align: center;
     border-radius: 50pt;
-
 
 }
 
