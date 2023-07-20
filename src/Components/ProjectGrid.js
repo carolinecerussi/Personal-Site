@@ -25,8 +25,8 @@ import star2 from '../img/starTrek2.png';
 import star3 from '../img/starTrek3.png';
 import star4 from '../img/starTrek4.png';
 import star5 from '../img/straTrek5.png';
-import book from '../img/bookvideo.mp4';
-import roboVid from "../img/robotvideo.mp4";
+import book from '../img/book.mp4';
+import roboVid from "../img/robotvideoo.mp4";
 import smileVid from '../img/smilevideo.mp4';
 function Grids() {
 

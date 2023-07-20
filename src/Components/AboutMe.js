@@ -2,15 +2,15 @@ import React from 'react';
 import Rainbow from './Rainbow';
 
 const meBoxStyle = {
-  columnGap: '2.5%',
-  gridTemplateColumns: 'repeat(2, 41%)',
+  columnGap: '5%',
+  gridTemplateColumns: 'repeat(2, 40%)',
   textAlign: 'left',
   justifyContent: 'center',
   backgroundColor: 'transparent',
   lineHeight: '14pt',
   width: '100%',
   maxWidth: '100vw',
-  paddingTop: '2%',
+  paddingTop: '5%',
   display: 'flexbox',
 };
 
@@ -20,7 +20,8 @@ const meBoxStyle = {
   gridTemplateColumns: 'repeat(1,85%)',
   display: 'block',
   backgroundColor:'transparent',
-marginBottom:'2%'
+marginBottom:'2%',
+marginTop:'1%',
 }
 
 const headerOneStyle ={
@@ -60,11 +61,9 @@ const  skillsStyle = {
 };
 
  const smallFont = {
-  fontSize: '14pt',
-  lineHeight: '20pt',
+  fontSize: '13pt',
   textAlign: 'center',
   backgroundColor:' white',
-borderRadius:'50pt',
 
 };
 
