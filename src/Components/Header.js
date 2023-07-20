@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/headerStyle.css';
 import carolineName from '../img/carceru.gif';
-import Footer from './Footer.js';
 import AboutMe from './AboutMe';
 import ProjectGrid from './ProjectGrid';
 import Rainbow from './Rainbow';
@@ -23,7 +22,7 @@ function Header() {
         <React.Fragment>
             <Slide />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <div className='header' id="headerLink">
+            <div className='header' >
                 <div className="carolineHead" >
                 <img src={carolineName} />
                 <Border />
@@ -49,9 +48,7 @@ function Header() {
         </a>
 
         <Rainbow />
-        <a id='footerLink'>
-        <Footer />
-        </a>
+
         </React.Fragment>
     )
 

@@ -234,12 +234,3 @@ display: grid;
 align-items: center;
 }
 
-button:hover {
-  background-color: transparent;
-  border-color: transparent;
-font-size: 16pt;
-display:inline-block;
-color: rgb(42, 68, 239);
-margin-bottom:3%;
-padding: 1px 20px;
-}

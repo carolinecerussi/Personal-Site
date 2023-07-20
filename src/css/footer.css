@@ -1,7 +1,7 @@
 .footContainer {
   align-items: center;
   display:flex;
-  height: 25pt;
+  height: 35pt;
   background-color: rgba(0, 85, 255, 0.52);
 width: 100%;
 }
@@ -30,6 +30,5 @@ box-sizing: border-box;
     text-decoration: none;
   color:rgb(255, 132, 0);
   display:inline-block;
-  font-size: 15pt;
 
 }

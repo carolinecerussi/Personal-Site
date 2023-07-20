@@ -1,7 +1,6 @@
 
 import React from "react";
 import '../css/grid.css';
-import caroline2 from "../img/caroline2.png";
 import Popup from "reactjs-popup";
 import robot1 from '../img/robot1.PNG';
 import robot2 from '../img/robot2.PNG';
@@ -15,7 +14,8 @@ import book2 from '../img/book2.png';
 import book3 from '../img/book3.png';
 import people from '../img/people.png';
 import caroline1 from '../img/caroline.png';
-import caroline3 from '../img/caroline3.png';
+import carolineface from '../img/carolineface.png';
+import carolineSite from '../img/carolinesite.mp4';
 import yellow from '../img/yellow.png';
 import pizza3 from '../img/pizza3.png';
 import star1 from '../img/starTrek1.png';
@@ -196,20 +196,22 @@ function Grids() {
             
                   <div className="imagesForEach" >
                     <img alt="caroline1" className="portfolio__img" src={caroline1} />
-                    <img alt="caroline2" className="portfolio__img" src={caroline2} />
-                    <img alt="caroline3" className="portfolio__img" src={caroline3} />
+                    <img alt="caroline1" className="portfolio__img" src={carolineface} />
+
+                    <img alt="caroline1" className="portfolio__img" src={caroline1} />
+
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/Personal-Site" className="portfolio__link">Personal Portfolio Website →</a></h1>
 
-                  <p className="portfolio__text">This is the website you are currently viewing! </p>
+                  <p className="portfolio__text">This is the website you are currently viewing! Using React JS, JavaScript, CSS, and html, I built a custom professional portfolio site to show my skillset. </p>
 
 
                   
                   <Popup trigger={<button><i class="fa fa-play"></i></button>} position="left center">
                     {close => (
                       <div className="openBox" >
-                        <iframe  className="embed-responsive-item" width="50vw" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close" onClick={close}   >
+                        <iframe  className="embed-responsive-item" width="50vw" src={carolineSite} frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close" onClick={close}   >
                           &times;
                         </a>
                       </div>

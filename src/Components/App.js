@@ -20,6 +20,7 @@ function App() {
 <NavBar />
 <Back />
   <Header/>
+  <Footer />
 </React.Fragment>   
   );
 }

@@ -9,7 +9,7 @@ function NavBar () {
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 />
 
-      <div className='navContainer'>
+      <div id="headerLink" className='navContainer'>
         <ul>
    <a className="homeIcon" href="#headerLink">
             <i class="material-symbols-outlined">
@@ -21,7 +21,7 @@ function NavBar () {
               <p >palette</p>
             </i>
           </a> */}
-        <a href="#aboutLink"> <p>About Me</p> </a>;
+        <a href="#aboutLink"> <p>About Me</p> </a>
 
           <a href="#skillsLink">
   {' '}<p>
@@ -29,8 +29,8 @@ function NavBar () {
   </p>{' '}
 </a>
 
-              <a href = '#projectsLink' ><p>Projects</p> </a>        
-<a href="#contactLink"> <p>Contact</p> </a>;
+              <a href = '#projectsLink' ><p>Portfolio</p> </a>        
+<a href="#contactLink"> <p>Contact</p> </a>
 
         </ul>
       </div>
