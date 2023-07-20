@@ -18,8 +18,6 @@ import caroline1 from '../img/caroline.png';
 import caroline3 from '../img/caroline3.png';
 import yellow from '../img/yellow.png';
 import pizza3 from '../img/pizza3.png';
-import fullRobot from '../img/fullRobot.png';
-import full2 from '../img/full2.png';
 import star1 from '../img/starTrek1.png';
 import star2 from '../img/starTrek2.png';
 import star3 from '../img/starTrek3.png';
@@ -46,8 +44,7 @@ function Grids() {
                       <img alt="ipad" className="portfolio__img" src={robot1} />
                       <img alt="ipad" className="portfolio__img" src={robot2} />
                       <img alt="ipad" className="portfolio__img" src={robot3} />
-                      <img alt="ipad" className="portfolio__img" src={fullRobot} />
-                      <img alt="ipad" className="portfolio__img" src={full2} />
+
                     </div>
                     <h1 className="portfolio__title hover-underline-animation">
                       <a href="https://github.com/carolinecerussi/Robot_Translator" className="portfolio__link">Robot Ramble →</a></h1>

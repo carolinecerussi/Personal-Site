@@ -1,11 +1,12 @@
-.footContainer {
+.navContainer {
   align-items: center;
   display:flex;
   height: 25pt;
-  background-color: rgba(0, 85, 255, 0.52);
+  background-color: transparent(0, 0, 0, 0.289);
+    justify-content: space-between;
 width: 100%;
 }
-.footContainer ul {
+.navContainer ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -15,10 +16,11 @@ width: 100%;
   margin-left: 2%;
 }
 
-.footContainer a {
+.navContainer a {
     text-decoration: none;
   color:black;
-  font-size: 20pt;
+  display:inline-block;
+font-size: 12pt;
 align-items: center;
 background-color: transparent;
 justify-content: center;
@@ -26,10 +28,10 @@ margin-right: 15pt;
 box-sizing: border-box;
 }
 
-.footContainer a:hover {
+.navContainer a:hover {
     text-decoration: none;
   color:rgb(255, 132, 0);
   display:inline-block;
-  font-size: 15pt;
+  font-size: 14pt;
 
 }

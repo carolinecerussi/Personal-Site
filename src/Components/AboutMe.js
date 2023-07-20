@@ -72,7 +72,7 @@ const  skillsStyle = {
  const skillSet = {
   fontSize: '13pt',
   color: 'rgb(255, 104, 10)',
-  
+
 };
 
 
@@ -85,7 +85,7 @@ function AboutMe () {
       <div className="portfolio__text-section"  style={aboutMeWhole}>
 
 
-        <div className="perogative" style={perogativeStyle}>
+        <div className="perogative" id="aboutLink" style={perogativeStyle}>
         
           <h1 style={headerOneStyle}>MY PEROGATIVE</h1>
           
@@ -142,9 +142,22 @@ PORTLAND, OR
               React, JavaScript, HTML, CSS, C#
             </p>
           </p>
-          <p>
+          <p id="contactLink">
               <h1  style={headerOneStyle}>Contact:</h1>
               <br />
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+
+        <a href="tel:+1631-375-8024"  target = '_blank' >    <h4><i class="fa fa-phone" ></i>: 631 375 8024</h4>  
+</a>
+<a
+  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cerussicaroline@gmail.com"
+  target="_blank"
+>
+  <h4>
+    {' '} <i class="fa fa-envelope-o" />: Cerussicaroline@ gmail.com
+  </h4>
+</a>
+
               <a href="https://github.com/carolinecerussi" target="_blank">
                 <h4>
                   <i class="fa fa-github"> </i>
@@ -152,17 +165,9 @@ PORTLAND, OR
                    : Github
                 </h4>
               </a>
-              {/* <a href="https://carolinecerussi.me" target="_blank">
-                <h4><i class="fa fa-chain"> </i>: Website</h4>
-              </a> */}
-              <a
-                href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cerussicaroline@gmail.com"
-                target="_blank"
-              >
-                <h4>
-                  {' '} <i class="fa fa-envelope-o" />: Cerussicaroline
-                  @gmail.com
-                </h4>
+              <a href="https://carolinecerussi.me" target="_blank">
+                <h4><i class="fa fa-chain"> </i>: 
+                Furniture Portfolio</h4>
               </a>
               <a
                 href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub"
@@ -180,7 +185,7 @@ PORTLAND, OR
       <div className="portfolio__text-section" style={aboutMeWhole}>
 
 
-        <div style={skillsStyle}>
+        <div style={skillsStyle} id="skillsLink">
           <p>
             <h1>Hard Skills: </h1>
             <br />

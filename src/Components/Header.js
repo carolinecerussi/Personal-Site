@@ -6,6 +6,7 @@ import AboutMe from './AboutMe';
 import ProjectGrid from './ProjectGrid';
 import Rainbow from './Rainbow';
 import Border from './Border';
+import Slide from './SlideBanner';
 function Header() {
 
     const aboutHead = {
@@ -20,13 +21,14 @@ function Header() {
 
     return (
         <React.Fragment>
+            <Slide />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-            <div className='header'>
+            <div className='header' id="headerLink">
                 <div className="carolineHead" >
                 <img src={carolineName} />
                 <Border />
 
-            <span style={aboutHead}><p><a href = '#projectsLink'>Front End Developer </a><a href="#contactLink"> / about </a><a href='#footerLink'>/ Artist</a></p></span>;
+            <span style={aboutHead}><p><a href = '#projectsLink'>Front End Developer </a><a href="#contactLink"> / Designer </a><a href='#footerLink'>/ Artist</a></p></span>;
 
                 </div>
                 <div className='buttonStyle' >
@@ -38,9 +40,8 @@ function Header() {
 <Rainbow />
                 </div>
             </div>
-            <a id='contactLink'>   
+            
 <AboutMe />
-</a> 
         <Rainbow />
         <a id="projectsLink">
         
