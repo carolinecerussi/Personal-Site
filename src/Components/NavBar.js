@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/navStyle.css';
 
+
 function NavBar () {
   return (
     <React.Fragment>
@@ -10,7 +11,10 @@ function NavBar () {
 />
 
       <div className='navContainer'>
+      
+
         <ul>
+        
    <a className="homeIcon" href="#headerLink">
             <i class="material-symbols-outlined">
               <p>home</p>
@@ -21,7 +25,7 @@ function NavBar () {
               <p >palette</p>
             </i>
           </a> */}
-        <a href="#aboutLink"> <p>About Me</p> </a>;
+        <a href="#aboutLink"> <p>About Me</p> </a>
 
           <a href="#skillsLink">
   {' '}<p>
@@ -30,9 +34,10 @@ function NavBar () {
 </a>
 
               <a href = '#projectsLink' ><p>Projects</p> </a>        
-<a href="#contactLink"> <p>Contact</p> </a>;
+<a href="#contactLink"> <p>Contact</p> </a>
 
         </ul>
+  
       </div>
     </React.Fragment>
   );

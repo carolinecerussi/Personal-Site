@@ -51,7 +51,7 @@ function Grids() {
 
                     <p className="portfolio__text">Featuring a user-friendly interface and accurate translation, I really enjoyed building an interactive application using JavaScript, HTML, and CSS that converted numbers into a robotic language output. </p>
 
-                    <Popup trigger={<button><i class="fa fa-play"></i>
+                    <Popup trigger={<button className="playButton"><i class="fa fa-play"></i>
                     </button>} position="top center">
                       {close => (
                         <div className="openBox" >
@@ -78,7 +78,7 @@ function Grids() {
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/bookmarked" className="portfolio__link">Book Marked→</a></h1>
                   <p className="portfolio__text">Building "Book Marked," a book logging web application, using React, JavaScript, HTML, and CSS enabled me to create a personalized platform where I could gather and store book recommendations from my social circle, creating an online library that amplified the joy of reading and sharing with friends.</p>
-                  <Popup trigger={<button> <i class="fa fa-play"></i>
+                  <Popup trigger={<button className="playButton"> <i class="fa fa-play"></i>
                   </button>} position="left center">
                     {close => (
                       <div className="openBox" >
@@ -109,7 +109,7 @@ function Grids() {
                     Designing and developing my own Alien Adoption website using HTML and CSS provided an incredibly rewarding coding experience, as I crafted an engaging platform that beautifully showcased adorable extraterrestrial pets, with clickable pictures and user-friendly adoption forms, enabling visitors to seamlessly explore and adopt their favorite alien companions.
                   </p>
 
-                  <Popup trigger={<button><i class="fa fa-play"></i>
+                  <Popup trigger={<button className="playButton"><i class="fa fa-play"></i>
                   </button>} position="top center">
                     {close => (
                       <div className="openBox" >
@@ -149,7 +149,7 @@ function Grids() {
 
                   <p className="portfolio__text">
                     By harnessing the power of JavaScript, HTML, and CSS, I created a visually appealing and interactive pizza ordering web application that seamlessly allowed users to select their desired specifications, customize toppings, and submit orders, providing an efficient and enjoyable experience for pizza lovers.</p>
-                  <Popup trigger={<button><i class="fa fa-play"></i>
+                  <Popup trigger={<button className="playButton"><i class="fa fa-play"></i>
                   </button>} position="left center">
                     {close => (
                       <div className="openBox" >
@@ -177,7 +177,7 @@ function Grids() {
                   <h1 className="portfolio__title hover-underline-animation">
                     <a href="https://github.com/carolinecerussi/STARTREKD" className="portfolio__link">'Engage' - A Star Trek Dashboard →</a></h1>
                   <p className="portfolio__text">Star Trek </p>
-                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="top center">
+                  <Popup trigger={<button className="playButton"><i class="fa fa-play"></i></button>} position="top center">
                     {close => (
                       <div className="openBox" >
                         <iframe className="embed-responsive-item"  width="50vw" src="https://www.youtube.com" frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close" onClick={close}  >
@@ -206,7 +206,7 @@ function Grids() {
 
 
                   
-                  <Popup trigger={<button><i class="fa fa-play"></i></button>} position="left center">
+                  <Popup trigger={<button className="playButton"><i class="fa fa-play"></i></button>} position="left center">
                     {close => (
                       <div className="openBox" >
                         <iframe  className="embed-responsive-item" width="50vw" src="https://www.loom.com/embed/88d81daa92214867ba07c903529b98be?sid=61d5fb9c-ff2d-4f00-adc8-a4d9aec59936" frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close" onClick={close}   >

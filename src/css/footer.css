@@ -1,9 +1,10 @@
 .footContainer {
   align-items: center;
   display:flex;
-  height: 25pt;
+  height: 30pt;
   background-color: rgba(0, 85, 255, 0.52);
 width: 100%;
+justify-content: center;
 }
 .footContainer ul {
   padding: 0;

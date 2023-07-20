@@ -109,7 +109,7 @@ color: black;
 .portfolio__container {
     float: left;
     column-gap: 1.5rem;
-    grid-template-columns: repeat(2,42%);
+    grid-template-columns: repeat(2,45%);
     justify-content: center;
     text-align: center;
 
@@ -218,27 +218,24 @@ div.imagesForEach {
 text-align: center;  
 justify-content: center;
 
-
 }
 
 
-button {
+.playButton {
   background-color: transparent;
   border-color: transparent;
 font-size: 15pt;
-display:inline-block;
 color: rgb(0, 0, 0);
 margin-bottom:3%;
 justify-content: center;
-display: grid;
+display: block;
 align-items: center;
 }
 
-button:hover {
+.playButton:hover {
   background-color: transparent;
   border-color: transparent;
-font-size: 16pt;
-display:inline-block;
+display:block;
 color: rgb(42, 68, 239);
 margin-bottom:3%;
 padding: 1px 20px;
