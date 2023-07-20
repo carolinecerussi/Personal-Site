@@ -20,6 +20,9 @@ function App() {
 <NavBar />
 <Back />
   <Header/>
+          <Rainbow />
+        <Footer />
+
 </React.Fragment>   
   );
 }

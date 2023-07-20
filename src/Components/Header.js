@@ -28,7 +28,7 @@ function Header() {
                 <img src={carolineName} />
                 <Border />
 
-            <span style={aboutHead}><p><a href = '#projectsLink'>Front End Developer </a><a href="#contactLink"> / Designer </a><a href='#footerLink'>/ Artist</a></p></span>;
+            <span style={aboutHead}><p>Front End Developer / Designer / Artist</p></span>;
 
                 </div>
                 <div className='buttonStyle' >
@@ -48,10 +48,6 @@ function Header() {
         <ProjectGrid />
         </a>
 
-        <Rainbow />
-        <a id='footerLink'>
-        <Footer />
-        </a>
         </React.Fragment>
     )
 
