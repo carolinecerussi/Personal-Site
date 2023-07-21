@@ -21,7 +21,7 @@ width:'15%'
     changeSelected (event.value);
   }
   return (
-    <div>
+    <div className="wholeContainer">
       <Menu  menuButton={<button style = {menuButton}
 > <div className="MenuIcon">
   <div id="bar" />

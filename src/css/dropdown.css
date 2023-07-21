@@ -1,12 +1,30 @@
 #bar {
-  width: 30px;
-  height: 3px;
+  width: 25px;
+  height: 2px;
   background-color: rgba(0, 89, 255, 0.599);
   margin:5px 0;
 }
 
 .MenuIcon {
     width:100%;
-    display:inline-block;
-justify-content: center;
+    display:inline;
+}
+
+.wholeContainer a {
+    text-decoration: none;
+    color:black;
+    background-color: transparent;
+  font-family: 'Athiti';
+  font-size: 11pt;
+
+}
+
+.wholeContainer {
+    background-color: transparent;
+    height:25pt;
+        padding-left: 92%;
+padding-top: 3%;
+    width: 100%;
+ position: fixed;
+    z-index: 9998!important;
 }
