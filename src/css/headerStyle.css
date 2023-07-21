@@ -21,7 +21,7 @@
 
 
 .button{
-    margin-right: 2.5%;
+    margin-right: 2%;
   color: rgb(0, 0, 0);
   background-color: transparent;
   --outline: 2px dashed black;
@@ -33,14 +33,13 @@ outline-offset: -2px;
   padding: 1px 20px;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
-
+align-items: center;
+font-size: 14pt;
 }
 
 .buttonStyle{
 background-color: transparent;
-justify-content: center;
-  display: inline;
+  display: inline-block;
 align-items: center;
   text-align: center;
 
@@ -62,9 +61,9 @@ align-items: center;
     color: black;
     background-color: transparent;
     width: 100%;
-    scale: .9;
+    scale: .85;
     justify-content: center;
     text-align: center;
-    margin-top: 1%;
+    display: block;
 }
 

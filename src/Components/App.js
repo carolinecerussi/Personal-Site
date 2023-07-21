@@ -21,6 +21,8 @@ function App() {
 {/* <NavBar /> */}
 <Back />
   <Header/>
+  <Rainbow />
+
   <AboutMe />
         <Rainbow />
         <a id="projectsLink">

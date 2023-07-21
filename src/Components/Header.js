@@ -37,11 +37,11 @@ function Header() {
                     <button className="button" type="button" ><p><a href="https://www.linkedin.com/in/caroline-cerussi/" target="_blank" class="icon-link">
 <p><i class="fa fa-linkedin-square"></i>
 </p></a></p></button>
-<Rainbow />
                 </div>
             </div>
+            <br />
+            <br />
             
-
         </React.Fragment>
     )
 
