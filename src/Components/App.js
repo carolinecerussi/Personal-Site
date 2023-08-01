@@ -25,10 +25,7 @@ function App() {
 
   <AboutMe />
         <Rainbow />
-        <a id="projectsLink">
-        <ProjectGrid />
-        </a>
-          <Rainbow />
+
         <Footer />
 
 </React.Fragment>   

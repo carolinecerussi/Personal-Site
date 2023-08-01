@@ -1,6 +1,6 @@
 import React from 'react';
 import Rainbow from './Rainbow';
-
+import ProjectGrid from './ProjectGrid';
 const meBoxStyle = {
   columnGap: '5%',
   gridTemplateColumns: 'repeat(2, 42.5%)',
@@ -171,10 +171,10 @@ PORTLAND, OR
                    : Github
                 </h4>
               </a>
-              <a href="https://carolinecerussi.me" target="_blank">
+              {/* <a href="https://carolinecerussi.me" target="_blank">
                 <h4><i class="fa fa-chain"> </i>: 
                 Furniture Portfolio</h4>
-              </a>
+              </a> */}
               <a
                 href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub"
                 target="_blank"
@@ -189,6 +189,10 @@ PORTLAND, OR
       </div>
       <Rainbow />
       <div className="portfolio__text-section" style={aboutMeWhole}>
+
+<ProjectGrid />
+<Rainbow />;
+
 
 
         <div style={skillsStyle} id="skillsLink">
