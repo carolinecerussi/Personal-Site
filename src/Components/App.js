@@ -22,7 +22,6 @@ function App() {
 <Back />
   <Header/>
   <Rainbow />
-
   <AboutMe />
         <Rainbow />
 

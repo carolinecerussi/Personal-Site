@@ -34,7 +34,7 @@ function Grids() {
       <div className="gridContent">
         <div id="portfolio" className="portfolio section">
           <div className="section__title">PROJECTS</div>
-          <span className="section__subtitle"> React JS, C#, JavaScript, Html, & CSS</span>
+          <span className="section__subtitle"> React JS, C#, JavaScript, Html, CSS <br />  & custom AI art</span>
           <div className="portfolio__container container grid">
             <div className="portfolio__content">
               <div className="portfolio__box">
@@ -137,7 +137,7 @@ function Grids() {
 
                   </div>
                   <div className="imagesForEach" >
-                    <img alt="ipad" className="portfolio__img" src={pizza1} />
+                    {/* <img alt="ipad" className="portfolio__img" src={pizza1} /> */}
                     <img alt="pizza" className="portfolio__img" src={people} />
                     <img alt="interior" className="portfolio__img" src={pizza3} />
                     <img alt="interior" className="portfolio__img" src={yellow} />
@@ -168,10 +168,10 @@ function Grids() {
 
                 <div className="portfolio__text-section">
                   <div className="imagesForEach" >
-                    <img alt="starTrek1" className="portfolio__img" src={star1} />
+                    {/* <img alt="starTrek1" className="portfolio__img" src={star1} /> */}
                     <img alt="starTrek2" className="portfolio__img" src={star2} />
                     <img alt="starTrek3" className="portfolio__img" src={star3} />
-                    <img alt="starTrek2" className="portfolio__img" src={star4} />
+                    {/* <img alt="starTrek2" className="portfolio__img" src={star4} /> */}
                     <img alt="starTrek3" className="portfolio__img" src={star5} />
                   </div>
                   <h1 className="portfolio__title hover-underline-animation">

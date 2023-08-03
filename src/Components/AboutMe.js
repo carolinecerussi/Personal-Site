@@ -10,7 +10,7 @@ const meBoxStyle = {
   width: '100%',
   maxWidth: '100vw',
   paddingTop: '5%',
-  textAlign:'left',
+  textAlign:'center',
   float:'left',
 };
 
@@ -91,10 +91,11 @@ function AboutMe () {
         <div className="perogative" id="aboutLink" style={perogativeStyle}>
         
           <h1 style={headerOneStyle}>MY PEROGATIVE</h1>
-          
+
+
           <div className="smallerInfo" style={smallFont}>
 
-  
+
             <p>
               As an energetic and curious native New Yorker with a love for art, I found my passion for design at Pratt Institute. Throughout my studies, I discovered the fascinating connection between space, color, and functionality. I've always been captivated by the potential of design and technology working together to create amazing products. This curiosity led me to explore front-end development, where I've dived into coding and its transformative abilities.
 
@@ -109,8 +110,10 @@ function AboutMe () {
             <h1 style={headerOneStyle}>ME:</h1> 
             <br />
             <br />
+  
             <p>
               {' '} <p>
+
                 <h2>
 <i class='fa fa-map-marker' ></i>&nbsp;
 PORTLAND, OR

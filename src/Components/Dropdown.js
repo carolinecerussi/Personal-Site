@@ -12,8 +12,8 @@ const menuButton ={
 borderColor:'transparent',
 display:'inline',
 fontSize:'12pt',
-width:'15%',
-marginLeft:'90%',
+width:'10%',
+marginLeft:'90vw',
 
 }
 
