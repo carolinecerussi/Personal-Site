@@ -9,19 +9,11 @@ function Footer () {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
       />
-
+<h2> Questions?</h2>
+email:k
+<input type="text"></input>
 
         <ul>
-          {/* <a href="https://carolinecerussi.com/">
-            <i class="material-symbols-outlined">
-              <p>home</p>
-            </i>
-          </a> */}
-          {/* <a target="blank" href="https://www.instagram.com/bratstudio/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
-            {'   '} <i class="material-symbols-outlined">
-              <p >palette</p>
-            </i>
-          </a> */}
 
           <a href="#headerLink">
             {' '} {'   '}
