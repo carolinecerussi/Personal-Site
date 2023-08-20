@@ -1,15 +1,17 @@
 
 
-.footContainer input,.footContainer p {
+.footContainer  {
   background-color: transparent;
   font-size: 12pt;
   border-radius: 10pt;
-  display:inline-block;
+  display:block;
   margin-left: 1%;
   padding:2pt;
   margin:.5%;
 
-}
+} 
+
+
 
 /* .footContainer  {
   color:black;
@@ -17,11 +19,4 @@ background-color: transparent;
 box-sizing: border-box;
 width: 100%;
 display:inline-block;
-}
- */
- .footContainer button {
-  display: block;
-  justify-content: center;
-  width: 10%;
-  padding:4pt
- }
+} */

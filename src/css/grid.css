@@ -9,7 +9,11 @@ justify-content: center;
 
 .gridContent {
   margin-top: 3%;
+
 }
+
+
+
 
 .openBox {
   background-color: rgb(0, 0, 0);
@@ -45,7 +49,6 @@ justify-content: center;
     -webkit-column-gap: 2rem;
     column-gap: 2rem;
     -webkit-column-gap: 2rem;
-    /* grid-template-columns: repeat(2,50%); */
     justify-content: center;
 
 
@@ -138,12 +141,11 @@ color:white;
      justify-content: center;
   }
   .portfolio__box:hover {
-    border:1pt black dashed;
+    border:1.5pt black dashed;
     transition: transform 0.3s;
     scale: 1.01;
     text-align: center;
       font-size: 12pt;
-      background-color: rgba(255, 118, 49, 0.564);
 
   }
   
@@ -158,14 +160,15 @@ color:white;
   }
   
   .portfolio__title {
-    margin-bottom: 1%;
     color: rgb(0, 0, 0);
-    text-align: left;
+    text-align: center;
     font-family: 'Athiti';
     float: left;
-  line-height: 25pt;
+  line-height: 40pt;
   width: 100%;
-
+  font-size: 25pt;
+  display:flex;
+  align-items: center;
   }
   
   
