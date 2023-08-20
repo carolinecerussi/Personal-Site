@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/navStyle.css';
 
+
 function NavBar () {
   return (
     <React.Fragment>
@@ -9,8 +10,12 @@ function NavBar () {
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 />
 
-      <div id="headerLink" className='navContainer'>
+      <div className='navContainer' id = 'headerLink'
+>
+      
+
         <ul>
+        
    <a className="homeIcon" href="#headerLink">
             <i class="material-symbols-outlined">
               <p>home</p>
@@ -21,7 +26,7 @@ function NavBar () {
               <p >palette</p>
             </i>
           </a> */}
-        <a href="#aboutLink"> <p>About Me</p> </a>
+        <a href="#aboutLink"> <p>About</p> </a>
 
           <a href="#skillsLink">
   {' '}<p>
@@ -33,6 +38,7 @@ function NavBar () {
 <a href="#contactLink"> <p>Contact</p> </a>
 
         </ul>
+  
       </div>
     </React.Fragment>
   );

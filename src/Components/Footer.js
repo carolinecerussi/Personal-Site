@@ -10,10 +10,17 @@ function Footer () {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
       />
 <h2> Questions?</h2>
-email:k
-<input type="text"></input>
+<p>Name: 
+<input id="name" type="text"></input>
+<br />
+Email:
+<input id="email" type="text"></input>
+</p>
+<br />
+<button className='button' type="submit">Send</button>
+<br />
 
-        <ul>
+  
 
           <a href="#headerLink">
             {' '} {'   '}
@@ -22,8 +29,7 @@ email:k
 
           </a>
 
-        </ul>
-
+  
         {/* <div className="slide-container">
           <div className="footerImages" style={footerImage}> */}
 

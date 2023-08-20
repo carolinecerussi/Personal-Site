@@ -1,34 +1,27 @@
-.footContainer {
-  align-items: center;
-  display:flex;
-  height: 35pt;
-  background-color: rgba(0, 85, 255, 0.52);
-width: 100%;
-}
-.footContainer ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display:flex;
-  gap: 1rem;
-  align-items: center;
-  margin-left: 2%;
-}
 
-.footContainer a {
-    text-decoration: none;
-  color:black;
-  font-size: 20pt;
-align-items: center;
-background-color: transparent;
-justify-content: center;
-margin-right: 15pt;
-box-sizing: border-box;
-}
 
-.footContainer a:hover {
-    text-decoration: none;
-  color:rgb(255, 132, 0);
+.footContainer input,.footContainer p {
+  background-color: transparent;
+  font-size: 12pt;
+  border-radius: 10pt;
   display:inline-block;
+  margin-left: 1%;
+  padding:2pt;
+  margin:.5%;
 
 }
+
+/* .footContainer  {
+  color:black;
+background-color: transparent;
+box-sizing: border-box;
+width: 100%;
+display:inline-block;
+}
+ */
+ .footContainer button {
+  display: block;
+  justify-content: center;
+  width: 10%;
+  padding:4pt
+ }

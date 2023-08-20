@@ -1,15 +1,16 @@
 import Header from './Header';
 import React from 'react';
 import AboutMe from './AboutMe';
-import Grids from './ProjectGrid';
+import ProjectGrid from './ProjectGrid';
 import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';
 import Back from './Background';
-import Slide from './SlideBanner';
+import Slide from './Slide';
 import Screen from '../scripts';
 import Footer from './Footer.js';
 import NavBar from './NavBar';
-
+import Fan from './Fan';
+import Dropdown from './Dropdown';
 function App() {
   
 
@@ -17,10 +18,17 @@ function App() {
   return (
 <React.Fragment>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<NavBar />
+<Dropdown />
+{/* <NavBar /> */}
 <Back />
   <Header/>
-  <Footer />
+  <Rainbow />
+  <AboutMe />
+
+        <Rainbow />
+
+        <Footer />
+
 </React.Fragment>   
   );
 }

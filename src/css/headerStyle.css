@@ -4,7 +4,6 @@
 .header a {
     text-decoration: none;
     color: black;
-    font-size: auto;
     
 }
 .buttonStyle i {
@@ -30,20 +29,19 @@ border-radius: 50pt;
 outline-offset: -2px;
   transition: outline-offset .5s ease;  
   font-family: 'Athiti';
-  padding: 1pt 20px;
+
+  padding: 1px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline;
+  display: inline-block;
   font-size: 16px;
+
 }
 
 div.buttonStyle{
 background-color: transparent;
 justify-content: center;
 display: inline-block;
-width: 100%;
-align-items: center;
-
 }
 .button:hover,
 .button:focus  {
@@ -62,9 +60,9 @@ align-items: center;
     color: black;
     background-color: transparent;
     width: 100%;
-    scale: .9;
+    scale: .85;
     justify-content: center;
     text-align: center;
-    margin-top: 1%;
+    display: block;
 }
 

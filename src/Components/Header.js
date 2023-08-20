@@ -27,7 +27,7 @@ function Header() {
                 <img src={carolineName} />
                 <Border />
 
-       <p>Front End Developer / Designer / Artist </p>
+            <span style={aboutHead}><p>Front End Developer / Designer / Artist</p></span>;
 
                 </div>
                 <div className='buttonStyle' >
@@ -36,19 +36,12 @@ function Header() {
                     <button className="button" type="button" ><p><a href="https://www.linkedin.com/in/caroline-cerussi/" target="_blank" class="icon-link">
 <p><i class="fa fa-linkedin-square"></i>
 </p></a></p></button>
-<Rainbow />
                 </div>
+                
             </div>
+            <br />
+            <br />
             
-<AboutMe />
-        <Rainbow />
-        <a id="projectsLink">
-        
-        <ProjectGrid />
-        </a>
-
-        <Rainbow />
-
         </React.Fragment>
     )
 
