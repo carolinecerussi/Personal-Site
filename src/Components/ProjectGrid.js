@@ -65,7 +65,7 @@ function Grids() {
                     <p className="portfolio__text">Featuring a user-friendly interface and accurate translation, I really enjoyed building an interactive application using JavaScript, HTML, and CSS that converted numbers into a robotic language output. </p>
 
 
-                    <a href="https://github.com/carolinecerussi/Robot_Translator"
+                    <a href="https://github.com/carolinecerussi/Robot_Translator" target="_blank" 
                       className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
                   </div></div></div></div>
@@ -96,8 +96,8 @@ function Grids() {
                   <p className="portfolio__text">Building "Book Marked," a book logging web application, using React, JavaScript, HTML, and CSS enabled me to create a personalized platform where I could gather and store book recommendations from my social circle, creating an online library that amplified the joy of reading and sharing with friends.</p>
 
 
-                  <a href="https://github.com/carolinecerussi/Book-Marked"
-                    className="portfolio__link">             <i class="fa fa-github"> </i></a>
+                  <a href="https://github.com/carolinecerussi/bookmarked"
+                    target="_blank"  className="portfolio__link">             <i class="fa fa-github"> </i></a>
                 </div></div></div></div>
 
 
@@ -175,7 +175,7 @@ function Grids() {
                   <p className="portfolio__text">
                     By harnessing the power of JavaScript, HTML, and CSS, I created a visually appealing and interactive pizza ordering web application that seamlessly allowed users to select their desired specifications, customize toppings, and submit orders, providing an efficient and enjoyable experience for pizza lovers.</p>
                   <a href="https://github.com/carolinecerussi/Super-Slice"
-                    className="portfolio__link">             <i class="fa fa-github"> </i></a>
+                   target="_blank"  className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
                 </div>
               </div></div></div>
@@ -237,7 +237,7 @@ function Grids() {
 
 
 
-                    <a href="https://github.com/carolinecerussi/Personal-Site"
+                    <a href="https://github.com/carolinecerussi/Personal-Site" target="_blank" 
                       className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
 
