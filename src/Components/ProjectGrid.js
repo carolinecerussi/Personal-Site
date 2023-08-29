@@ -38,23 +38,23 @@ function Grids() {
             <div className="portfolio__content">
               <div className="portfolio__box">
                 <div className="portfolio__group">
-                <div className="portfolio__text-section">
+                  <div className="portfolio__text-section">
 
-                <div className="titleFlow">
+                    <div className="titleFlow">
 
-<Popup trigger={<button className="playButton">   <h1 className="portfolio__title hover-underline-animation">
-  Robot Ramble </h1>
-</button>} position="top center">
-  {close => (
-    <div className="openBox" >
-      <iframe class="embed-responsive-item" src={roboVid} frameborder="0px" allowFullScreen="true" ></iframe>  <a className="close" onClick={close} >
-        &times;
-      </a>
-    </div>
-  )}
+                      <Popup trigger={<h1 className="portfolio__title hover-underline-animation">
+                        Robot Ramble </h1>
+                      } position="top center">
+                        {close => (
+                          <div className="openBox" >
+                            <iframe class="embed-responsive-item" src={roboVid} frameborder="0px" allowFullScreen="true" ></iframe>  <a className="close" onClick={close} >
+                              &times;
+                            </a>
+                          </div>
+                        )}
 
-</Popup> 
-</div>
+                      </Popup>
+                    </div>
 
                     <div className="imagesForEach" >
                       <img alt="ipad" className="portfolio__img" src={robot1} />
@@ -66,7 +66,7 @@ function Grids() {
                     <p className="portfolio__text">As one of my first projects during my Coding certification program, was to create a web application using html, JavaScript, and CSS. The program tested my knowledeg of designing a functional and simple layout, where a user can input a number and get a robot worded translation based on that number, using back end code.  </p>
 
 
-                    <a href="https://github.com/carolinecerussi/Robot_Translator" target="_blank" 
+                    <a href="https://github.com/carolinecerussi/Robot_Translator" target="_blank"
                       className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
                   </div></div></div></div>
@@ -74,9 +74,9 @@ function Grids() {
             <div className="portfolio__content">
               <div className="portfolio__box"><div className="portfolio__group">
                 <div className="titleFlow">
-                  <Popup trigger={<button className="playButton">  <h1 className="portfolio__title hover-underline-animation">
+                  <Popup trigger={<h1 className="portfolio__title hover-underline-animation">
                     Book Marked</h1>
-                  </button>} position="left center">
+                  } position="left center">
                     {close => (
                       <div className="openBox" >
                         <iframe class="embed-responsive-item" src={book} frameborder="0px" allowFullScreen="true" ></iframe>   <a className="close" width="50vw" onClick={close}  >
@@ -97,7 +97,7 @@ function Grids() {
 
 
                   <a href="https://github.com/carolinecerussi/bookmarked"
-                    target="_blank"  className="portfolio__link">             <i class="fa fa-github"> </i></a>
+                    target="_blank" className="portfolio__link">             <i class="fa fa-github"> </i></a>
                 </div></div></div></div>
 
 
@@ -147,9 +147,9 @@ function Grids() {
 
                   </div>
                   <div className="titleFlow">
-                    <Popup trigger={<button className="playButton">  <h1 className="portfolio__title hover-underline-animation">
+                    <Popup trigger={<h1 className="portfolio__title hover-underline-animation">
                       Super Slice </h1>
-                    </button>} position="left center">
+                    } position="right center">
                       {close => (
                         <div className="openBox" >
                           <iframe class="embed-responsive-item" src={smileVid} frameborder="0px" allowFullScreen="true" >play </iframe> <a className="close" width="50vw" onClick={close}  >
@@ -173,9 +173,9 @@ function Grids() {
 
 
                   <p className="portfolio__text">
-                  Using html, javascript, and CSS, this web application for a pizza restaurant was my first independant project. The customer can visit the page and use the order form to create a pizza and check out.</p>
+                    Using html, javascript, and CSS, this web application for a pizza restaurant was my first independant project. The customer can visit the page and use the order form to create a pizza and check out.</p>
                   <a href="https://github.com/carolinecerussi/Super-Slice"
-                   target="_blank"  className="portfolio__link">             <i class="fa fa-github"> </i></a>
+                    target="_blank" className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
                 </div>
               </div></div></div>
@@ -213,7 +213,7 @@ function Grids() {
 
                   <div className="portfolio__text-section">
 
-                    <Popup trigger={<button className="playButton">  <h1 className="portfolio__title hover-underline-animation">Code Portfolio</h1></button>} position="left center">
+                    <Popup trigger={<h1 className="portfolio__title hover-underline-animation">Code Portfolio</h1>} position="left center">
                       {close => (
                         <div className="openBox" >
                           <iframe className="embed-responsive-item" width="50vw" src={carolineSite} frameborder="0px" allowFullScreen="true" ></iframe>   <a className="close" onClick={close}   >
@@ -237,7 +237,7 @@ function Grids() {
 
 
 
-                    <a href="https://github.com/carolinecerussi/Personal-Site" target="_blank" 
+                    <a href="https://github.com/carolinecerussi/Personal-Site" target="_blank"
                       className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
 

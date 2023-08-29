@@ -4,8 +4,8 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    font-family: 'Athiti';
-    color: #ff6600;
+    font-family: "Athiti";
+    color: #ff7606f6;
     font-size: 35pt;
     display:inline;
     text-align: center;
@@ -17,10 +17,10 @@ line-height: 25pt;
 @keyframes blink {
     0%, 15% {
         opacity: .5;
-        color:rgba(255, 255, 255, 0.277);
+        color:rgba(255, 255, 255, 0.36);
     }
     16%, 100% {
-        opacity: 1;
+        opacity: .7;
     }
 }
 .marqueeContainer {

@@ -20,10 +20,10 @@
 
 
 .button{
-    margin: .75%;
-  color: rgb(0, 0, 0);
+margin: .75%;
+  color: black;
   background-color: transparent;
-  --outline: 2px dashed black;
+  --outline: 2px dashed rgb(0, 81, 255);
   border: 2px dashed ;
 border-radius: 50pt;
 outline-offset: -2px;
@@ -45,7 +45,8 @@ display: inline-block;
 }
 .button:hover,
 .button:focus  {
-    outline: 2px dashed black;
+    color: rgb(0, 81, 255);
+    outline: 2px dashed rgb(0, 81, 255);
     outline-offset: -8px ;
     background-color: transparent;
     text-align: center;

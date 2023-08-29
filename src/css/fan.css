@@ -5,11 +5,13 @@
     margin-left: 10%;
     margin-bottom: 10%;
     margin-top: 10%;
+
     }
   .swatch div {
-    width: 33px;
-    height: 10vw;
-    border-radius: 10px;
+    width: 32px;
+    height: 12vw;
+    scale: .85;
+    border-radius: 10pt;
     border-top: solid 2px rgba(255, 255, 255, 0.2);
     border-left: solid 3px rgba(255, 255, 255, 0.2);
     border-bottom: solid 3px rgba(6, 0, 0, 0.2);
@@ -18,20 +20,20 @@
     transform-origin: center 90%;
     display: inline-block;
     backface-visibility: hidden;
-    margin-left: -33px;
+    margin-left: -32px;
     transform: rotate(0%);
 
   }
   .swatch div:before {
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
     content: "";
     background-color: #fffefd;
     display: inline-block;
     border-radius: 8px;
-    bottom: 10px;
+    bottom: 5px;
     position: absolute;
-    margin-left: -8px;
+    margin-left: -5px;
   }
 
   .swatch div:nth-child(1) {
