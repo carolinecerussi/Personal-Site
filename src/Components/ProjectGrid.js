@@ -63,7 +63,7 @@ function Grids() {
 
                     </div>
                     <RobotFan />
-                    <p className="portfolio__text">Featuring a user-friendly interface and accurate translation, I really enjoyed building an interactive application using JavaScript, HTML, and CSS that converted numbers into a robotic language output. </p>
+                    <p className="portfolio__text">As one of my first projects during my Coding certification program, was to create a web application using html, JavaScript, and CSS. The program tested my knowledeg of designing a functional and simple layout, where a user can input a number and get a robot worded translation based on that number, using back end code.  </p>
 
 
                     <a href="https://github.com/carolinecerussi/Robot_Translator" target="_blank" 
@@ -94,7 +94,7 @@ function Grids() {
                   </div>
                   <BookFan />
         
-                  <p className="portfolio__text">Building "Book Marked," a book logging web application, using React, JavaScript, HTML, and CSS enabled me to create a personalized platform where I could gather and store book recommendations from my social circle, creating an online library that amplified the joy of reading and sharing with friends.</p>
+                  <p className="portfolio__text">Using React, Javscript, Html, and CSS, I created a web application for my local book club. The application allows you to add a new book recommendation by filling out a custom form, including details of the book. The book is then sorted into a buildable library that others can look through and click into book details.</p>
 
 
                   <a href="https://github.com/carolinecerussi/bookmarked"
@@ -174,7 +174,7 @@ function Grids() {
 
 
                   <p className="portfolio__text">
-                    By harnessing the power of JavaScript, HTML, and CSS, I created a visually appealing and interactive pizza ordering web application that seamlessly allowed users to select their desired specifications, customize toppings, and submit orders, providing an efficient and enjoyable experience for pizza lovers.</p>
+                  Using html, javascript, and CSS, this web application for a pizza restaurant was my first independant project. The customer can visit the page and use the order form to create a pizza and check out.</p>
                   <a href="https://github.com/carolinecerussi/Super-Slice"
                    target="_blank"  className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
@@ -233,7 +233,7 @@ function Grids() {
 
                     </div>
 
-                    <p className="portfolio__text">This is the website you are currently viewing! Using React JS, JavaScript, CSS, and html, I built a custom professional portfolio site to show my skillset. </p>
+                    <p className="portfolio__text">This is the website you are currently on! As one of my most recent coding projects, I am constantly working on this code. Written completely from scratch using React JS, JavaScript, html, & CSS, I’ve strengthened my knowledge and skillset in front end development. Using custom components, I created a portfolio for my coding projects. </p>
 
 
 
