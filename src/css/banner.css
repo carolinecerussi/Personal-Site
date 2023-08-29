@@ -5,8 +5,8 @@
 .blink {
     animation: 1.3s infinite blink;
     font-family: 'Athiti';
-    color: #000000;
-    font-size: 40pt;
+    color: #ff6600;
+    font-size: 35pt;
     display:inline;
     text-align: center;
     display: inline;
@@ -31,7 +31,7 @@ line-height: 25pt;
     animation: scroll-left 20s linear infinite;
     font-family: 'Athiti';
     margin-top: 1%;
-    font-size: 12pt;
+    font-size: 10pt;
     line-height: 13pt;
 
 }

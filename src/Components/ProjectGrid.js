@@ -93,7 +93,6 @@ function Grids() {
                     <img alt="ipad" className="portfolio__img" src={book3} />
                   </div>
                   <BookFan />
-        
                   <p className="portfolio__text">Using React, Javscript, Html, and CSS, I created a web application for my local book club. The application allows you to add a new book recommendation by filling out a custom form, including details of the book. The book is then sorted into a buildable library that others can look through and click into book details.</p>
 
 

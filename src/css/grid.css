@@ -133,7 +133,6 @@ color:white;
 .portfolio__box {
     background-color: var(--container-color);
     border:.5pt black dashed;
-    background-color: rgba(255, 255, 255, 0.461);
     border-radius: 1rem;
      padding-inline:3%;
      text-align: center;
@@ -144,6 +143,7 @@ color:white;
     border:1.5pt black dashed;
     transition: transform 0.3s;
     scale: 1.01;
+    background-color: rgba(0, 0, 255, 0.152);
     text-align: center;
       font-size: 12pt;
 
