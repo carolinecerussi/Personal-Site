@@ -9,6 +9,7 @@ import BookFan from "./BookFan";
 import robot2 from '../img/robot2.PNG';
 import robot3 from '../img/robot3.jpg';
 import shelter1 from '../img/shelter11.png';
+import PizzaFan from './PizzaFan';
 import shelter2 from '../img/shel1.png';
 import shelter3 from '../img/shelter33.png';
 import Slide from "./Slide";
@@ -42,7 +43,7 @@ function Grids() {
                 <div className="titleFlow">
 
 <Popup trigger={<button className="playButton">   <h1 className="portfolio__title hover-underline-animation">
-  Robot Ramble→ </h1>
+  Robot Ramble </h1>
 </button>} position="top center">
   {close => (
     <div className="openBox" >
@@ -74,7 +75,7 @@ function Grids() {
               <div className="portfolio__box"><div className="portfolio__group">
                 <div className="titleFlow">
                   <Popup trigger={<button className="playButton">  <h1 className="portfolio__title hover-underline-animation">
-                    Book Marked→</h1>
+                    Book Marked</h1>
                   </button>} position="left center">
                     {close => (
                       <div className="openBox" >
@@ -148,7 +149,7 @@ function Grids() {
                   </div>
                   <div className="titleFlow">
                     <Popup trigger={<button className="playButton">  <h1 className="portfolio__title hover-underline-animation">
-                      Super Slice→ </h1>
+                      Super Slice </h1>
                     </button>} position="left center">
                       {close => (
                         <div className="openBox" >
@@ -168,7 +169,7 @@ function Grids() {
 
 
                   </div>
-                  <Fan />
+                  <PizzaFan />
 
 
 
@@ -213,7 +214,7 @@ function Grids() {
 
                   <div className="portfolio__text-section">
 
-                    <Popup trigger={<button className="playButton">  <h1 className="portfolio__title hover-underline-animation">Code Portfolio→</h1></button>} position="left center">
+                    <Popup trigger={<button className="playButton">  <h1 className="portfolio__title hover-underline-animation">Code Portfolio</h1></button>} position="left center">
                       {close => (
                         <div className="openBox" >
                           <iframe className="embed-responsive-item" width="50vw" src={carolineSite} frameborder="0px" allowFullScreen="true" ></iframe>   <a className="close" onClick={close}   >

@@ -2,11 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Press+Start+2P&display=swap');
 
 
-
-
 .blink {
     animation: 1.3s infinite blink;
-    font-family: 'Bagel Fat One';
+    font-family: 'Athiti';
     color: #000000;
     font-size: 40pt;
     display:inline;
@@ -14,7 +12,6 @@
     display: inline;
 line-height: 25pt;
 
-  
 }
 
 @keyframes blink {
