@@ -36,27 +36,27 @@
 }
 
   .swatchPizza  div:nth-child(1) {
-    background-color:  #eab421f8;
+    background-color:  #a9cb39f8;
     animation: swatch-purple-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatchPizza  div:nth-child(2) {
-    background-color: #f8d701e4;
+    background-color: #576b20f1;
     animation: swatch-blue-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatchPizza  div:nth-child(3) {
-    background-color:  #f5b98be4;
+    background-color:  #2f672ae4;
     animation: swatch-green-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatchPizza  div:nth-child(4) {
-    background-color:  #f9cf00e4;
+    background-color:  #ac8c7ee4;
     animation: swatch-yellow-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatchPizza  div:nth-child(5) {
-    background-color:  #d35907e4;
+    background-color:  #f46a0ef9;
     animation: swatch-orange-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatchPizza  div:nth-child(6) {
-    background-color: #cbcbcbe4;
+    background-color:  #e429a6f1;
     animation: swatch-red-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   @keyframes swatch-purple-motion {

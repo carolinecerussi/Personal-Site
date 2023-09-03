@@ -8,20 +8,16 @@ import robot1 from '../img/robot1.PNG';
 import BookFan from "./BookFan";
 import robot2 from '../img/robot2.PNG';
 import robot3 from '../img/robot3.jpg';
-import shelter1 from '../img/shelter11.png';
 import PizzaFan from './PizzaFan';
-import shelter2 from '../img/shel1.png';
-import shelter3 from '../img/shelter33.png';
-import Slide from "./Slide";
 import book1 from '../img/book1.png';
 import book2 from '../img/book2.png';
 import book3 from '../img/book3.png';
-import people from '../img/people.png';
+import pizza1 from '../img/peoplenew.png';
 import caroline1 from '../img/caroline.png';
 import carolineface from '../img/carolineface.png';
 import carolineSite from '../img/carolinesite.mp4';
-import yellow from '../img/yellow.png';
-import pizza3 from '../img/pizza3.png';
+import pizza2 from '../img/flowerpizza.png';
+import pizza3 from '../img/pizzaoven.png';
 import book from '../img/book.mp4';
 import roboVid from "../img/robotvideoo.mp4";
 import smileVid from '../img/smilevideo.mp4';
@@ -148,7 +144,7 @@ function Grids() {
                   </div>
                   <div className="titleFlow">
                     <Popup trigger={<h1 className="portfolio__title hover-underline-animation">
-                      Super Slice </h1>
+                      Floral Fire </h1>
                     } position="right center">
                       {close => (
                         <div className="openBox" >
@@ -162,9 +158,9 @@ function Grids() {
                   </div>
                   <div className="imagesForEach" >
                     {/* <img alt="ipad" className="portfolio__img" src={pizza1} /> */}
-                    <img alt="pizza" className="portfolio__img" src={people} />
+                    <img alt="pizza" className="portfolio__img" src={pizza1} />
+                    <img alt="interior" className="portfolio__img" src={pizza2} />
                     <img alt="interior" className="portfolio__img" src={pizza3} />
-                    <img alt="interior" className="portfolio__img" src={yellow} />
 
 
                   </div>
