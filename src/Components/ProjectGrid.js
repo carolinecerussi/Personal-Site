@@ -1,6 +1,7 @@
 
 import React from "react";
 import '../css/grid.css';
+import floral from "../img/floral.mp4"
 import Fan from "./Fan";
 import RobotFan from "./RobotFan";
 import Popup from "reactjs-popup";
@@ -148,7 +149,7 @@ function Grids() {
                     } position="right center">
                       {close => (
                         <div className="openBox" >
-                          <iframe class="embed-responsive-item" src={smileVid} frameborder="0px" allowFullScreen="true" >play </iframe> <a className="close" width="50vw" onClick={close}  >
+                          <iframe class="embed-responsive-item" src={floral}frameborder="0px" allowFullScreen="true" >play </iframe> <a className="close" width="50vw" onClick={close}  >
                             &times;
                           </a>
                         </div>
