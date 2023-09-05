@@ -35,7 +35,7 @@ display: inline-flex;
     background-color: transparent;
     color: rgb(53, 86, 248);
     width: 100%;
-    font-size: 12pt;
+    font-size: 13pt;
 }
 
 .dragBox:hover {
@@ -45,11 +45,14 @@ display: inline-flex;
     color: black;
     border-radius: 5pt;
     scale:1.05;
+    cursor: crosshair;
+
 
     background-color: transparent(0, 26, 255, 0.327);    
 }
 
 .dragBox img:hover {
-cursor: crosshair;
+cursor:help;
+opacity: 80%;
 }
 

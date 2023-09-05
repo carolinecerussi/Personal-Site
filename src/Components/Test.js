@@ -19,8 +19,8 @@ function DraggableThing() {
         scale={1}
 >
         <div className='dragBox'>
-        <div className="hidden"><p>Move</p>
-          <Popup trigger={<img src={photo} width="100%"/>} position="left"><p className="pop"> hi</p>
+        <div className="hidden"><p><i class="fa fa-arrows-alt"></i></p>
+          <Popup  trigger={<img src={photo} width="100%"/>} position="left"><p className="pop"> hi</p>
           </Popup>
           </div>
         </div>
@@ -33,7 +33,8 @@ function DraggableThing() {
         scale={1}
 >
         <div className='dragBox'>
-        <div className="hidden"><p>Move</p>
+        <div className="hidden"><p><i class="fa fa-arrows-alt"></i>
+</p>
           <Popup trigger={<img src={photo2} width="100%"/>} position="left"><p className="pop"> hey</p>
           </Popup>
           </div>
