@@ -10,6 +10,7 @@ import Screen from '../scripts';
 import Footer from './Footer.js';
 import NavBar from './NavBar';
 import Fan from './Fan';
+import DraggableThing from './Test';
 import Dropdown from './Dropdown';
 function App() {
   
@@ -23,10 +24,14 @@ function App() {
 <Back />
   <Header/>
   <Rainbow />
-  <AboutMe />
+  <AboutMe>
+
+  </AboutMe>
+  <Rainbow />
+
+  <DraggableThing />
 
         <Rainbow />
-
         <Footer />
 
 </React.Fragment>   

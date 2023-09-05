@@ -140,7 +140,7 @@ color:rgb(3, 91, 255);
   .portfolio__box:hover {
     border:1pt black solid;
     transition: transform 0.3s;
-    /* scale: 1.01; */
+    scale: 1.01;
     background-color: rgba(237, 237, 237, 0.623);
     text-align: center;
     box-shadow: -5px -5px 10px 5px rgba(169, 168, 168, 0.5);
