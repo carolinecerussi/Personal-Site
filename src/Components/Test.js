@@ -5,12 +5,12 @@ import '../css/test.css';
 import Popup from 'reactjs-popup';
 import photo from "../img/chair_.png";
 import photo2 from "../img/flash.png";
+import chair from "../img/heart.png";
 
 function DraggableThing() {
     return (
         <React.Fragment>
             <div className='dragBody'>
-  
 <Draggable
         handle=".dragBox"
         defaultPosition={{x: 0, y: 0}}
@@ -18,13 +18,17 @@ function DraggableThing() {
         grid={[30, 30,]}
         scale={1}
 >
+
         <div className='dragBox'>
         <div className="hidden"><p><i class="fa fa-arrows-alt"></i></p>
-          <Popup  trigger={<img src={photo} width="100%"/>} position="left"><p className="pop"> hi</p>
+          <Popup  trigger={<img src={photo} width="100%"/>} position="left"><p className="pop"><img src={chair} width='20%' /> hi</p>
           </Popup>
           </div>
         </div>
       </Draggable>
+
+
+    
       <Draggable
         handle=".dragBox"
         defaultPosition={{x: 0, y: 0}}

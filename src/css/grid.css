@@ -4,6 +4,7 @@ div {
     text-align: center;
     grid-template-columns: repeat(1,100%);
 justify-content: center;
+margin-bottom: 1%;
 
 }
 

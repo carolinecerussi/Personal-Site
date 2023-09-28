@@ -25,15 +25,16 @@ display: inline;
 }
 
 .dragBody {
-background-color: rgba(0, 26, 255, 0.523);
+    background-color: rgba(53, 105, 248, 0.839);
 width: 100%; 
-height: 50vw;
-display: inline-flex;
+height: 40vw;
 }
+
+
 
  .pop{
     background-color: transparent;
-    color: rgb(53, 86, 248);
+    color: rgb(53, 89, 248);
     width: 100%;
     font-size: 13pt;
 }
@@ -55,4 +56,9 @@ display: inline-flex;
 cursor:help;
 opacity: 80%;
 }
-
+/* 
+.dragBox img {
+    position:absolute;
+    left:30%;
+    top:30%;
+} */
