@@ -21,7 +21,7 @@ function DraggableThing() {
 
         <div className='dragBox'>
         <div className="hidden"><p><i class="fa fa-arrows-alt"></i></p>
-          <Popup  trigger={<img id="chair" src={photo} width="100%"/>} position="left"><p className="pop"><img  src={chair} width='20%' /> hi</p>
+          <Popup  trigger={<img id="chair" src={photo} width="100%"/>} position="left"><p className="pop"><img  src={chair} width='20%' /> Hey chair</p>
           </Popup>
           </div>
         </div>
@@ -57,7 +57,7 @@ function DraggableThing() {
         <div className='dragBox'>
         <div className="hidden"><p><i class="fa fa-arrows-alt"></i>
 </p>
-          <Popup trigger={<img id="flash" src={finn} width="70%"/>} position="left"><p className="pop"> hey</p>
+          <Popup trigger={<img id="flash" src={finn} width="70%"/>} position="left"><p className="pop"> Finnley is my ultimate companion of 11 years. She and I have traveled to most of all US states together, and camped across the country several times. </p>
           </Popup>
           </div>
         </div>

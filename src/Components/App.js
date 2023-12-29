@@ -2,6 +2,7 @@ import Header from './Header';
 import React from 'react';
 import AboutMe from './AboutMe';
 import ProjectGrid from './ProjectGrid';
+import Map from './Map.js';
 import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';
 import Back from './Background';
@@ -10,7 +11,7 @@ import Screen from '../scripts';
 import Footer from './Footer.js';
 import NavBar from './NavBar';
 import Fan from './Fan';
-import DraggableThing from './Test';
+import DraggableThing from './DraggableThing.js';
 import Dropdown from './Dropdown';
 function App() {
   
@@ -29,11 +30,11 @@ function App() {
   </AboutMe>
   <Rainbow />
 
+<Map />
   <DraggableThing />
 
         <Rainbow />
         <Footer />
-
 </React.Fragment>   
   );
 }
