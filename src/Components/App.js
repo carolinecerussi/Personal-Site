@@ -1,8 +1,8 @@
 import Header from './Header';
 import React from 'react';
 import AboutMe from './AboutMe';
-import ProjectGrid from './ProjectGrid';
 import Map from './Map.js';
+import Weather from './Weather.js';
 import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';
 import Back from './Background';
@@ -30,11 +30,13 @@ function App() {
   </AboutMe>
   <Rainbow />
 
-<Map />
+{/* <Map /> */}
   <DraggableThing />
 
         <Rainbow />
         <Footer />
+        <Weather />
+        <Map />
 </React.Fragment>   
   );
 }

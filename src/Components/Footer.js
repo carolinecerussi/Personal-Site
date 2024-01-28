@@ -2,7 +2,7 @@ import React from 'react';
 import "../css/footer.css";
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
-
+import pigeon from '../img/pigeon.png'
 function Footer () {
   const form = useRef()
   const sendEmail = (e) => {
@@ -40,12 +40,6 @@ Comment:
 
   
 
-          <a href="https://carolinecerussi.com">
-            {' '} {'   '}
-
-            <i class="fa">  &#xf106;</i>
-
-          </a>
 
   
         {/* <div className="slide-container">
@@ -68,6 +62,15 @@ Comment:
         {/* </div>;
         </div> */}
       </div>
+      {/* <div className="pigeon">
+        <img src={pigeon} width='300px' /> 
+      </div> */}
+      <a href="https://carolinecerussi.com">
+            {' '} {'   '}
+
+            <i class="fa">  &#xf106;</i>
+
+          </a>
     </React.Fragment>
   );
 }
