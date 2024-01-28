@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import '../css/weather.css';
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -23,12 +24,14 @@ const Weather = () => {
 
 
   return (
-    <div>
+    <div className='weather'>
       {weatherData ? (
         <>
-          <h2>{weatherData.name}</h2>
-          <p>{weatherData.main.temp}°F</p>
-          <p>RN: {weatherData.weather[0].description}</p>
+          <h2><i class='fa fa-map-marker' ></i>&nbsp;
+PORTLAND, OR
+</h2>
+          <h2>{weatherData.main.temp}°F </h2>
+         <p> {weatherData.weather[0].description}</p>
         </>
       ) : (
         <p>Loading weather data...</p>

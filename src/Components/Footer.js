@@ -2,7 +2,7 @@ import React from 'react';
 import "../css/footer.css";
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
-import pigeon from '../img/pigeon.png'
+
 function Footer () {
   const form = useRef()
   const sendEmail = (e) => {
@@ -26,16 +26,15 @@ function Footer () {
 <h2> Contact Me</h2>
 <form ref={form} onSubmit={sendEmail} className="--form-control --card --flex-center --dir-column">
 <p>Name: 
-<input placeholder="name" name="user_name" type="text" required />
+<input  name="user_name" type="text" required />
 <br />
 Email:
-<input placeholder="email" name="user_email" type="text" required />
+<input  name="user_email" type="text" required />
 <br />
-Comment:
-<input placeholder="comment" name="message" type="text" required />
+Message:
+<input  name="message" type="text"  required />
 </p>
 <button className='button' type="submit" >Send</button>
-<br />
 </form>
 
   

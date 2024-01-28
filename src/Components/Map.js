@@ -17,7 +17,8 @@ const center = {
 function MyComponent() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyDoIe6DcgX_IbyR54OY6sC0eCEXNhPVfEw"
+    googleMapsApiKey: "AIzaSyDoIe6DcgX_IbyR54OY6sC0eCEXNhPVfEw",
+
   })
 
   const [map, setMap] = React.useState(null)
@@ -40,10 +41,9 @@ function MyComponent() {
         zoom={13}
         onUnmount={onUnmount}
         mapTypeId= 'satellite'
-
       >
-        { /* Child components, such as markers, info windows, etc. */ }
-        <></>
+        <>
+        </>
       </GoogleMap>
   ) : <></>
 }

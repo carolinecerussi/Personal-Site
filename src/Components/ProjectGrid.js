@@ -149,7 +149,7 @@ function Grids() {
                     } position="right center">
                       {close => (
                         <div className="openBox" >
-                          <iframe class="embed-responsive-item" src={floral}frameborder="0px" allowFullScreen="true" >play </iframe> <a className="close" width="50vw" onClick={close}  >
+                          <iframe class="embed-responsive-item" src={floral} frameborder="0px" allowFullScreen="true" >play </iframe> <a className="close" width="50vw" onClick={close}  >
                             &times;
                           </a>
                         </div>
@@ -177,33 +177,6 @@ function Grids() {
                 </div>
               </div></div></div>
 
-
-            {/* <div className="portfolio__content">
-              <div className="portfolio__box"><div className="portfolio__group">
-
-                <div className="portfolio__text-section">
-                  <div className="imagesForEach" >
-                    {/* <img alt="starTrek1" className="portfolio__img" src={star1} /> */}
-            {/* <img alt="starTrek2" className="portfolio__img" src={star2} />
-                    <img alt="starTrek3" className="portfolio__img" src={star3} /> */}
-            {/* <img alt="starTrek2" className="portfolio__img" src={star4} /> */}
-            {/* <img alt="starTrek3" className="portfolio__img" src={star5} /> */}
-            {/* </div>
-                  <h1 className="portfolio__title hover-underline-animation">
-                    <a href="https://github.com/carolinecerussi/STARTREKD" className="portfolio__link">'Engage' - A Star Trek Dashboard →</a></h1>
-                  <p className="portfolio__text">Star Trek </p>
-                  <Popup trigger={<button className="playButton"><i class="fa fa-play"></i></button>} position="top center">
-                    {close => (
-                      <div className="openBox" >
-                        <iframe className="embed-responsive-item"  width="50vw" src="https://www.youtube.com" frameborder="0px"  allowFullScreen="true" ></iframe>   <a className="close" onClick={close}  >
-                          &times;
-                        </a>
-                      </div>
-                    )} */}
-            {/* 
-                  </Popup>
-
-                </div></div></div></div> */}
             <div className="portfolio__content">
               <div className="portfolio__box">
                 <div className="portfolio__group">

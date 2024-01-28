@@ -28,15 +28,14 @@ function App() {
   <AboutMe>
 
   </AboutMe>
-  <Rainbow />
+  {/* <Rainbow /> */}
 
 {/* <Map /> */}
-  <DraggableThing />
+  {/* <DraggableThing /> */}
 
         <Rainbow />
         <Footer />
-        <Weather />
-        <Map />
+        {/* <Map /> */}
 </React.Fragment>   
   );
 }
