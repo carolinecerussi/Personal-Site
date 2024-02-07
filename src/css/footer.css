@@ -1,37 +1,51 @@
 
-
-.footContainer  {
+div.footContainer  {
   color:rgb(27, 27, 27);
    border-radius: 2pt;
-background-color:rgba(244, 244, 244, 0.354);
+background-color:rgba(239, 233, 233, 0.354);
 box-sizing: border-box;
-width: 40%;
-display:block;
+width: 100%;
 text-align: left;
 font-size: 13pt;
-margin-left: 10%;
+float: left;
+padding-left: 10%;
+display: inline;
+
 }
-
-
+  
+div.map {
+  width: 50%;
+background-color:transparent;
+float: right;
+margin-right: 10%;
+display: block;
+margin-top: -250px;
+}
 
 .footContainer h2 {
   text-align: left;
   font-size:24pt;
   
 }
+
+.footContainer label {
+  font-size: 13pt;
+
+}
 .footContainer input {
   margin-bottom: 1%;
   font-size:13pt;
-  background-color: rgba(233, 233, 233, 0.418);
-  border-radius: 2pt;
-  border-color: rgba(33, 115, 237, 0.949);
+  background-color: rgba(195, 195, 195, 0.418);
+  border-radius: 10pt;
+  border-color: rgb(15, 118, 252);
   padding:.5%;
   display: flex;
-  
+  border-left: transparent;
+  border-top: transparent;
 }
 
-
-.footContainer button {
-  padding: .8%;
+.footContainer .button {
+  padding: 10pt;
   margin-top: 2%;
+  float: left;
 }

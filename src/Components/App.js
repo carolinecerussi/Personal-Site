@@ -13,30 +13,31 @@ import NavBar from './NavBar';
 import Fan from './Fan';
 import DraggableThing from './DraggableThing.js';
 import Dropdown from './Dropdown';
+import ReactPlayer from 'react-player';
 function App() {
-  
 
-  
+
+
   return (
-<React.Fragment>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<Dropdown />
-{/* <NavBar /> */}
-<Back />
-  <Header/>
-  <Rainbow />
-  <AboutMe>
+    <React.Fragment>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <Dropdown />
+      {/* <NavBar /> */}
+      <Back />
+      <Header />
+      <Rainbow />
+      <AboutMe>
+        <Map />
+      </AboutMe>
+      {/* <Rainbow /> */}
 
-  </AboutMe>
-  {/* <Rainbow /> */}
+      {/* <Map /> */}
+      {/* <DraggableThing /> */}
 
-{/* <Map /> */}
-  {/* <DraggableThing /> */}
-
-        <Rainbow />
-        <Footer />
-        {/* <Map /> */}
-</React.Fragment>   
+      <Rainbow />
+      <Footer />
+      {/* <Map /> */}
+    </React.Fragment>
   );
 }
 

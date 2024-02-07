@@ -8,13 +8,13 @@ function Border() {
 
     return (
         <React.Fragment>
-              <div className="circleWrapper">
-    <div className="circle"></div>
+            <div className="circleWrapper">
+                <div className="circle"></div>
 
-    </div>
+            </div>
         </React.Fragment>
     )
 
 }
-export default 
-Border;
+export default
+    Border;

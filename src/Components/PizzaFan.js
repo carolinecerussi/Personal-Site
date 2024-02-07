@@ -2,18 +2,18 @@ import React from "react";
 import pizzafanstyle from "../css/pizzafan.css";
 
 function Fan() {
-return(
+  return (
     <React.Fragment>
-    <div style={pizzafanstyle} class="swatchPizza">
-  <div ></div>
-  <div ></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-</React.Fragment>
-)
+      <div style={pizzafanstyle} class="swatchPizza">
+        <div ></div>
+        <div ></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </React.Fragment>
+  )
 }
 
 export default Fan;

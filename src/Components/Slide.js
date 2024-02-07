@@ -8,16 +8,16 @@ const spanStyle = {
 
 }
 const sideStyle = {
-fontSize:'15pt'
-  }
+  fontSize: '15pt'
+}
 const divStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
   height: '350px',
-  width:'350px',
-  
+  width: '350px',
+
 }
 const slideImages = [
   {
@@ -35,29 +35,29 @@ const slideImages = [
 ];
 
 const Slideshow = () => {
-    return (
-      <div className="slide-container">
-   <React.Fragment>
-            <div style={sideStyle} >
-                <p>describe my work here</p>
-            </div>
-        </React.Fragment>
-        <Slide>
+  return (
+    <div className="slide-container">
+      <React.Fragment>
+        <div style={sideStyle} >
+          <p>describe my work here</p>
+        </div>
+      </React.Fragment>
+      <Slide>
 
-         {slideImages.map((slideImage, index)=> (
-            <div key={index}>
+        {slideImages.map((slideImage, index) => (
+          <div key={index}>
 
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                <span style={spanStyle}>{slideImage.caption}</span>
-              </div>
+            <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+              <span style={spanStyle}>{slideImage.caption}</span>
             </div>
-          ))} 
-       
-        </Slide>
-     
-      </div>
-      
-    )
+          </div>
+        ))}
+
+      </Slide>
+
+    </div>
+
+  )
 }
 
 export default Slideshow;

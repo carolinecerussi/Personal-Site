@@ -1,8 +1,9 @@
 div.weather {
-    color:rgb(248, 105, 48);
-    width: 20vw;
-    block-size: fit-content;
-    background-color: rgba(222, 222, 222, 0.722);
-    border-radius: 2pt;
-    line-height:1px;
+    color:rgb(48, 101, 248);
+    width: 100px;
+    line-height: .5pt;
+font-size: 10pt;
+/* border: .7pt black solid; */
+text-align: left;
+display: block;
 }

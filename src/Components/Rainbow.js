@@ -8,8 +8,8 @@ function Rainbow() {
 
     return (
         <React.Fragment>
-  <div className="seperator gradient">
-  </div>
+            <div className="seperator gradient">
+            </div>
 
         </React.Fragment>
     )

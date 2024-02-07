@@ -21,8 +21,10 @@ import pizza2 from '../img/flowerpizza.png';
 import pizza3 from '../img/pizzaoven.png';
 import book from '../img/book.mp4';
 import roboVid from "../img/robotvideoo.mp4";
-import smileVid from '../img/smilevideo.mp4';
+import ReactPlayer from "react-player";
+
 function Grids() {
+
 
 
   return (
@@ -133,49 +135,42 @@ function Grids() {
 
 
             <div className="portfolio__content">
-              <div className="portfolio__box"><div className="portfolio__group">
+              <div className="portfolio__box">
+                <div className="portfolio__group">
+                  <div className="portfolio__text-section">
+                    <div className="titleFlow">
+                      <Popup trigger={<h1 className="portfolio__title hover-underline-animation">
+                        Floral Fire </h1>
+                      } position="right center">
+                        {close => (
+                          <div className="openBox" >
+                            <iframe class="embed-responsive-item" src={floral} frameborder="0px" allowFullScreen="true" >play </iframe> <a className="close" width="50vw" onClick={close}  >
+                              &times;
+                            </a>
+                          </div>
+                        )}
 
-                <div className="portfolio__text-section">
-                  <div className="video">
+                      </Popup>
+                    </div>
+                    <div className="imagesForEach" >
+                      {/* <img alt="ipad" className="portfolio__img" src={pizza1} /> */}
+                      <img alt="pizza" className="portfolio__img" src={pizza1} />
+                      <img alt="interior" className="portfolio__img" src={pizza2} />
+                      <img alt="interior" className="portfolio__img" src={pizza3} />
 
-                    <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
 
                     </div>
+                    <PizzaFan />
+
+
+
+                    <p className="portfolio__text">
+                      Using html, javascript, and CSS, this web application for a pizza restaurant was my first independant project. The customer can visit the page and use the order form to create a pizza and check out.</p>
+                    <a href="https://github.com/carolinecerussi/Super-Slice"
+                      target="_blank" className="portfolio__link">             <i class="fa fa-github"> </i></a>
 
                   </div>
-                  <div className="titleFlow">
-                    <Popup trigger={<h1 className="portfolio__title hover-underline-animation">
-                      Floral Fire </h1>
-                    } position="right center">
-                      {close => (
-                        <div className="openBox" >
-                          <iframe class="embed-responsive-item" src={floral} frameborder="0px" allowFullScreen="true" >play </iframe> <a className="close" width="50vw" onClick={close}  >
-                            &times;
-                          </a>
-                        </div>
-                      )}
-
-                    </Popup>
-                  </div>
-                  <div className="imagesForEach" >
-                    {/* <img alt="ipad" className="portfolio__img" src={pizza1} /> */}
-                    <img alt="pizza" className="portfolio__img" src={pizza1} />
-                    <img alt="interior" className="portfolio__img" src={pizza2} />
-                    <img alt="interior" className="portfolio__img" src={pizza3} />
-
-
-                  </div>
-                  <PizzaFan />
-
-
-
-                  <p className="portfolio__text">
-                    Using html, javascript, and CSS, this web application for a pizza restaurant was my first independant project. The customer can visit the page and use the order form to create a pizza and check out.</p>
-                  <a href="https://github.com/carolinecerussi/Super-Slice"
-                    target="_blank" className="portfolio__link">             <i class="fa fa-github"> </i></a>
-
-                </div>
-              </div></div></div>
+                </div></div></div>
 
             <div className="portfolio__content">
               <div className="portfolio__box">
@@ -198,10 +193,12 @@ function Grids() {
                       <img alt="caroline1" className="portfolio__img" src={caroline1} />
                       <img alt="caroline1" className="portfolio__img" src={carolineface} />
                       <img alt="caroline1" className="portfolio__img" src={caroline1} />
-                      <Fan />
 
                     </div>
+                    <ReactPlayer width='350px' className="video" playing={true} url={'https://carolinecerussi.com/static/media/carolinesite.98f57e186c0c21d4cce6.mp4'} />
 
+                    <div className="fan"
+                    >       <Fan /></div>
                     <p className="portfolio__text">This is the website you are currently on! As one of my most recent coding projects, I am constantly working on this code. Written completely from scratch using React JS, JavaScript, html, & CSS, I’ve strengthened my knowledge and skillset in front end development. Using custom components, I created a portfolio for my coding projects. </p>
 
 

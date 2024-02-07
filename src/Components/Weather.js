@@ -27,11 +27,9 @@ const Weather = () => {
     <div className='weather'>
       {weatherData ? (
         <>
-          <h2><i class='fa fa-map-marker' ></i>&nbsp;
-PORTLAND, OR
-</h2>
+
           <h2>{weatherData.main.temp}°F </h2>
-         <p> {weatherData.weather[0].description}</p>
+          <p> {weatherData.weather[0].description}</p>
         </>
       ) : (
         <p>Loading weather data...</p>

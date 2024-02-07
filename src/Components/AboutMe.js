@@ -3,23 +3,31 @@ import Rainbow from './Rainbow';
 import Slide from "./Slide";
 import Weather from './Weather';
 import ProjectGrid from './ProjectGrid';
+import Map from './Map';
+import '../css/aboutme.css';
 const meBoxStyle = {
-  columnGap: '10%',
-  gridTemplateColumns: 'repeat(2, 45%)',
   justifyContent: 'center',
-  backgroundColor: 'transparent',
   lineHeight: '15pt',
   width: '80%',
-  maxWidth: '100vw',
-  textAlign: 'left',
-  marginTop: "2%",
-  display: 'inline-grid'
-};
+  marginLeft: '10%',
+  boxSizing: 'border-box'
 
+};
+const columnStyle = {
+  flex: '50%',
+  textAlign: 'left',
+  marginTop: '20px'
+
+}
+const rowStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+
+  backgroundColor: 'transparent'
+}
 
 const aboutMeWhole = {
   justifyContent: 'center',
-  gridTemplateColumns: 'repeat(1,100%)',
   display: 'block',
   backgroundColor: 'transparent',
   marginBottom: '2%',
@@ -32,18 +40,21 @@ const headerOneStyle = {
   fontSize: '30pt',
   width: '100%',
   background: 'transparent',
-  display: 'inline',
+  display: 'block'
 }
 
 const perogativeStyle = {
   float: 'left',
-  gridTemplateColumns: 'repeat(1,80%)',
+  display: 'block',
   justifyContent: 'center',
-  fontSize: 'auto',
   marginTop: '2%',
+  width: '80%',
+  marginLeft: '10%',
   textAlign: 'center',
   maxWidth: '100vw',
   backgroundColor: 'transparent',
+  lineHeight: '19pt',
+
 };
 
 const smallFont = {
@@ -109,91 +120,93 @@ function AboutMe() {
         </div>
 
         <div className="aboutMeBox" style={meBoxStyle}>
-          <p>
-            {/* <h1 style={headerOneStyle}>ME:</h1>  */}
+          <div className='row' style={rowStyle}>
+            <div className='column' style={columnStyle}>
+              <Map />
 
-            {/* <Weather /> */}
-            <p>
-              {' '} <p>
+              <p>
+                {' '} <p>
+                  <h2 id='hover-portland'>
+                    <i class='fa fa-map-marker' ></i>&nbsp;
+                    PORTLAND  OR
+                  </h2>
 
-                <h2>
-                  <i class='fa fa-map-marker' ></i>&nbsp;
-                  PORTLAND, OR
-                </h2> based
-                <p>30 year-old</p>
-                {' '}
-                <a
-                  href="https://www.ziprecruiter.com/blog/best-career-paths-scorpio/#:~:text=In%20the%20workplace%2C%20Scorpios%20are,receive%20clear%20and%20direct%20instructions."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Scorpio
-                </a>
-                <br />
-                <br />
 
-                with a Bachelor's degree of
-                {' '}
-                <h2>Industrial Design
-                </h2>
-                {' '}
-                from
-                {' '}
-                <h2>Pratt Institute</h2>
-                {' '}
-                of Art and Design.
+                  <p>30 year-old</p>
+
+                  <a
+                    href="https://www.ziprecruiter.com/blog/best-career-paths-sagittarius/#:~:text=If%20given%20enough%20flexibility%20and,great%20candidate%20for%20leadership%20roles."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Sagittarius
+                  </a>
+                  <br />
+                  <br />
+
+                  with a Bachelor's degree of
+                  {' '}
+                  <h2>Industrial Design
+                  </h2>
+                  {' '}
+                  from
+                  {' '}
+                  <h2>Pratt Institute</h2>
+                  {' '}
+                  of Art and Design.
+                </p>
+                &
               </p>
-              &
-            </p>
-            <p>
-              {' '}<h2>Coding Certificate</h2>from
+
+              <h2>Coding Certificate</h2>from
               <h2>Epicodus Coding School </h2>
               React, JavaScript, HTML, CSS, C#
-            </p>
-          </p>
-          <p id="contactLink">
-            {/* <h1  style={headerOneStyle}>Contact:</h1> */}
-            <br />
-            <br />
+
+            </div>
+            <div className='column' style={columnStyle}>
+              <p id="contactLink">
+                {/* <h1  style={headerOneStyle}>Contact:</h1> */}
 
 
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+                <a href="tel:+1631-375-8024" target='_blank' >    <h4><i class="fa fa-phone" ></i>: 631 375 8024</h4>
+                </a>
+                <a
+                  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cerussicaroline@gmail.com"
+                  target="_blank"
+                >
+                  <h4>
+                    {' '} <i class="fa fa-envelope-o" />: Cerussicaroline@ gmail.com
+                  </h4>
+                </a>
 
-            <a href="tel:+1631-375-8024" target='_blank' >    <h4><i class="fa fa-phone" ></i>: 631 375 8024</h4>
-            </a>
-            <a
-              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cerussicaroline@gmail.com"
-              target="_blank"
-            >
-              <h4>
-                {' '} <i class="fa fa-envelope-o" />: Cerussicaroline@ gmail.com
-              </h4>
-            </a>
+                <a href="https://github.com/carolinecerussi" target="_blank">
+                  <h4>
+                    <i class="fa fa-github"> </i>
 
-            <a href="https://github.com/carolinecerussi" target="_blank">
-              <h4>
-                <i class="fa fa-github"> </i>
-
-                : Github
-              </h4>
-            </a>
-            {/* <a href="https://carolinecerussi.me" target="_blank">
+                    : Github
+                  </h4>
+                </a>
+                {/* <a href="https://carolinecerussi.me" target="_blank">
                 <h4><i class="fa fa-chain"> </i>: 
                 Furniture Portfolio</h4>
               </a> */}
-            <a
-              href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub"
-              target="_blank"
-            >
-              <h4>
-                <i class="fa fa-file-o" />: Resume
-              </h4>
-            </a>
-          </p>
-
+                <a
+                  href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub"
+                  target="_blank"
+                >
+                  <h4>
+                    <i class="fa fa-file-o" />: Resume
+                  </h4>
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+
+
       <Rainbow />
       <div className="portfolio__text-section" style={aboutMeWhole}>
 
