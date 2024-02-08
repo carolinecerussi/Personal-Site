@@ -68,12 +68,14 @@ function Footer() {
       {/* <div className="pigeon">
         <img src={pigeon} width='300px' /> 
       </div> */}
+      <div id="arrow">
       <a href="#homeLink">
         {' '} {'   '}
 
         <i class="fa" >  &#xf106;</i>
 
       </a>
+      </div>
     </React.Fragment>
   );
 }

@@ -13,9 +13,9 @@ display: block;
 
 }
   
-a{
-  font-size: 18pt;
-}
+ #arrow a{
+  font-size: 16pt;
+ }
 
 div.map {
   width: 50%;
