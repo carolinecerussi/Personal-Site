@@ -7,10 +7,10 @@ import Map from './Map';
 import '../css/aboutme.css';
 const meBoxStyle = {
   justifyContent: 'center',
-  lineHeight: '15pt',
   width: '80%',
   marginLeft: '10%',
   boxSizing: 'border-box',
+  lineHeight: '16pt',
 
 };
 const columnStyle = {
@@ -24,7 +24,7 @@ const rowStyle = {
   display: 'flex',
   justifyContent: 'center',
   backgroundColor: 'transparent',
-  fontWeight:'100'
+  fontWeight:'100',
 }
 const skillsHeader = {
   fontWeight:'100'
@@ -36,6 +36,7 @@ const aboutMeWhole = {
   marginBottom: '2%',
   marginTop: '2%',
   boxSizing: 'border- box',
+  width:'100vw'
 
 }
 
@@ -58,9 +59,7 @@ const perogativeStyle = {
   width:'80%',
   marginLeft:'10%',
   backgroundColor: 'transparent',
-  lineHeight: '19pt',
  textWrap:'pretty',
-
 };
 
 const smallFont = {
@@ -68,7 +67,10 @@ const smallFont = {
   textAlign: 'left',
   backgroundColor: ' white',
 textWrap:'pretty',
-fontWeight:'100'
+textIndent:'3%',
+fontWeight:'100',
+lineHeight: '19pt',
+
 };
 
 const smallSkillsStyle = {
@@ -81,7 +83,7 @@ const smallSkillsStyle = {
 };
 
 const skillSet = {
-  fontSize: '13pt',
+  fontSize: '12pt',
   color: 'rgb(255, 104, 10)',
   backgroundColor: 'transparent',
 };
@@ -120,8 +122,7 @@ function AboutMe() {
 
             <p>
               As an energetic and curious native New Yorker with a love for art, I found my passion for design at Pratt Institute. Throughout my studies, I discovered the fascinating connection between space, color, and functionality. I've always been captivated by the potential of design and technology working together to create amazing products. This curiosity led me to explore front-end development, where I've dived into coding and its transformative abilities.
-
-              Through a comprehensive coding program, I've gained confidence in using various languages like C#, HTML, CSS, JavaScript, and React. Alongside my experience in drafting on SolidWorks, product development, and research, I'm well-equipped to take on exciting opportunities in front-end design and web development. My goal is to craft comprehensive, intuitive, and visually appealing designs that leave a lasting impact.
+             Through a comprehensive coding program, I've gained confidence in using various languages like React, HTML, CSS, JavaScript, and C#. Alongside my experience in drafting on SolidWorks, product development, and research, I'm well-equipped to take on exciting opportunities in front-end design and web development. My goal is to craft comprehensive, intuitive, and visually appealing designs that leave a lasting impact.
             </p>
             <br />
           </div>
