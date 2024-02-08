@@ -10,25 +10,24 @@ const meBoxStyle = {
   lineHeight: '15pt',
   width: '80%',
   marginLeft: '10%',
-  boxSizing: 'border-box'
+  boxSizing: 'border-box',
 
 };
 const columnStyle = {
   flex: '50%',
   textAlign: 'left',
-  marginTop: '20px'
-
+  marginTop: '20px',
+  paddingLeft:'10%'
 }
 const rowStyle = {
   display: 'flex',
   justifyContent: 'center',
-
   backgroundColor: 'transparent'
 }
 
 const aboutMeWhole = {
   justifyContent: 'center',
-  display: 'block',
+  display: 'grid',
   backgroundColor: 'transparent',
   marginBottom: '2%',
   marginTop: '2%',
@@ -48,10 +47,11 @@ const perogativeStyle = {
   display: 'block',
   justifyContent: 'center',
   marginTop: '2%',
-  width: '80%',
-  marginLeft: '10%',
+  alignItems: 'center',
   textAlign: 'center',
   maxWidth: '100vw',
+  width:'80%',
+  marginLeft:'10%',
   backgroundColor: 'transparent',
   lineHeight: '19pt',
 
@@ -164,10 +164,15 @@ function AboutMe() {
 
             </div>
             <div className='column' style={columnStyle}>
+              <br ></br>
+              <br ></br>
+              <br />
+
+<br />
               <p id="contactLink">
+              <h2>CONTACT:</h2>
+
                 {/* <h1  style={headerOneStyle}>Contact:</h1> */}
-
-
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
                 <a href="tel:+1631-375-8024" target='_blank' >    <h4><i class="fa fa-phone" ></i>: 631 375 8024</h4>
@@ -201,11 +206,12 @@ function AboutMe() {
                   </h4>
                 </a>
               </p>
+              <br />
             </div>
           </div>
         </div>
       </div>
-
+      <br />
 
       <Rainbow />
       <div className="portfolio__text-section" style={aboutMeWhole}>

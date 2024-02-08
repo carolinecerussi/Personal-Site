@@ -151,15 +151,14 @@ function Grids() {
                         )}
 
                       </Popup>
-                    </div>
-                    <div className="imagesForEach" >
-                      {/* <img alt="ipad" className="portfolio__img" src={pizza1} /> */}
+                      <div className="imagesForEach" >
                       <img alt="pizza" className="portfolio__img" src={pizza1} />
                       <img alt="interior" className="portfolio__img" src={pizza2} />
                       <img alt="interior" className="portfolio__img" src={pizza3} />
 
 
                     </div>
+           
                     <PizzaFan />
 
 
@@ -168,6 +167,7 @@ function Grids() {
                       Using html, javascript, and CSS, this web application for a pizza restaurant was my first independant project. The customer can visit the page and use the order form to create a pizza and check out.</p>
                     <a href="https://github.com/carolinecerussi/Super-Slice"
                       target="_blank" className="portfolio__link">             <i class="fa fa-github"> </i></a>
+                    </div>
 
                   </div>
                 </div></div></div>
@@ -195,7 +195,7 @@ function Grids() {
                       <img alt="caroline1" className="portfolio__img" src={caroline1} />
 
                     </div>
-                    <ReactPlayer width='350px' className="video" playing={true} url={'https://carolinecerussi.com/static/media/carolinesite.98f57e186c0c21d4cce6.mp4'} />
+                    {/* <ReactPlayer width='350px' className="video" playing={true} url={'https://carolinecerussi.com/static/media/carolinesite.98f57e186c0c21d4cce6.mp4'} /> */}
 
                     <div className="fan"
                     >       <Fan /></div>

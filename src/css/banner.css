@@ -4,8 +4,8 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    color: #ff7606f6;
-    font-size: 35pt;
+    color: #6389dccf;
+    font-size: 30pt;
     display:inline;
     text-align: center;
     display: inline;
@@ -24,7 +24,7 @@ line-height: 25pt;
 }
 .marqueeContainer {
     background:transparent;
-    color:black;
+    color:rgba(0, 0, 0, 0.683);
     width: 50%;
     transform: translateX(100%);
     animation: scroll-left 20s linear infinite;

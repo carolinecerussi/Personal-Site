@@ -9,7 +9,7 @@ text-align: left;
 font-size: 13pt;
 float: left;
 padding-left: 10%;
-display: inline;
+display: block;
 
 }
   
@@ -33,19 +33,22 @@ margin-top: -250px;
 
 }
 .footContainer input {
-  margin-bottom: 1%;
   font-size:13pt;
-  background-color: rgba(195, 195, 195, 0.418);
+  background-color: rgba(188, 212, 228, 0.418);
   border-radius: 10pt;
   border-color: rgb(15, 118, 252);
-  padding:.5%;
+  padding:.3%;
   display: flex;
   border-left: transparent;
   border-top: transparent;
 }
 
 .footContainer .button {
-  padding: 10pt;
+  padding: 8pt;
   margin-top: 2%;
   float: left;
+}
+
+input#message {
+  height: 60px;
 }

@@ -23,7 +23,7 @@ function Footer() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
         />
-        <h2> Contact Me</h2>
+        <h2> Questions? Comments? </h2>
         <form ref={form} onSubmit={sendEmail} className="--form-control --card --flex-center --dir-column">
           <p>Name:
             <input name="user_name" type="text" required />
@@ -32,7 +32,7 @@ function Footer() {
             <input name="user_email" type="text" required />
             <br />
             Message:
-            <input name="message" type="text" required />
+            <input id="message" name="message" type="text" required />
           </p>
           <button className='button' type="submit" >Send</button>
         </form>
@@ -60,18 +60,18 @@ function Footer() {
             </Slide> */}
         {/* </div>;
         </div> */}
-        <div className="map">
+        {/* <div className="map">
           <Map />
-        </div>
+        </div> */}
       </div>
 
       {/* <div className="pigeon">
         <img src={pigeon} width='300px' /> 
       </div> */}
-      <a href="https://carolinecerussi.com">
+      <a href="www.carolinecerussi.com">
         {' '} {'   '}
 
-        <i class="fa">  &#xf106;</i>
+        <i class="fa" >  &#xf106;</i>
 
       </a>
     </React.Fragment>
