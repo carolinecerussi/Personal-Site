@@ -112,7 +112,7 @@ function AboutMe() {
 
         <div className="perogative" id="aboutLink" style={perogativeStyle}>
 
-          <h1 style={headerOneStyle}>MY PEROGATIVE</h1>
+          <h1 style={headerOneStyle}>MY PREROGATIVE</h1>
 
 
           <div className="smallerInfo" style={smallFont}>
