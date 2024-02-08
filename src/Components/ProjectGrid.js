@@ -29,7 +29,7 @@ function Grids() {
 
   return (
     <React.Fragment>
-      <div className="gridContent">
+      <div className="gridContent" id="projectsLink">
         <div id="portfolio" className="portfolio section">
           <div className="section__title">PROJECTS</div>
           <span className="section__subtitle"> React JS, C#, JavaScript, Html, CSS <br />  & custom AI art</span>

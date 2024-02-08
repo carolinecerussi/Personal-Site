@@ -94,7 +94,10 @@ color: black;
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-size: 13pt;
-  cursor: pointer,
+  cursor: pointer;
+  font-weight: 100;
+
+  
 }
 
 .portfolio__text-section a:hover{
@@ -161,7 +164,9 @@ color:rgba(3, 91, 255, 0.84);
   font-size: 28pt;
   display:block;
   align-items: center;
-  }
+  font-weight: 100;
+
+}
   
   .portfolio__title:hover {
     color: rgb(0, 81, 255);

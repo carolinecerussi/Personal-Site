@@ -18,7 +18,7 @@ function Footer() {
   };
   return (
     <React.Fragment>
-      <div className='footContainer'>
+      <div className='footContainer' id="contactLink">
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
@@ -68,7 +68,7 @@ function Footer() {
       {/* <div className="pigeon">
         <img src={pigeon} width='300px' /> 
       </div> */}
-      <a href="www.carolinecerussi.com">
+      <a href="#homeLink">
         {' '} {'   '}
 
         <i class="fa" >  &#xf106;</i>

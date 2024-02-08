@@ -17,14 +17,16 @@ const columnStyle = {
   flex: '50%',
   textAlign: 'left',
   marginTop: '20px',
-  paddingLeft:'10%'
+  paddingLeft:'8%'
 }
 const rowStyle = {
   display: 'flex',
   justifyContent: 'center',
   backgroundColor: 'transparent'
 }
-
+const skillsHeader = {
+  fontWeight:'100'
+}
 const aboutMeWhole = {
   justifyContent: 'center',
   display: 'grid',
@@ -39,7 +41,7 @@ const headerOneStyle = {
   fontSize: '30pt',
   width: '100%',
   background: 'transparent',
-  display: 'block'
+  display: 'block',
 }
 
 const perogativeStyle = {
@@ -89,6 +91,7 @@ const skillsStyle = {
   justifyContent: 'center',
   maxWidth: '100vw',
   lineHeight: '16pt',
+
 };
 
 
@@ -155,13 +158,12 @@ function AboutMe() {
                   {' '}
                   of Art and Design.
                 </p>
-                &
-              </p>
-
+                & 
+     
               <h2>Coding Certificate</h2>from
               <h2>Epicodus Coding School </h2>
               React, JavaScript, HTML, CSS, C#
-
+              </p>
             </div>
             <div className='column' style={columnStyle}>
               <br ></br>
@@ -169,7 +171,7 @@ function AboutMe() {
               <br />
 
 <br />
-              <p id="contactLink">
+              <p >
               <h2>CONTACT:</h2>
 
                 {/* <h1  style={headerOneStyle}>Contact:</h1> */}
@@ -225,7 +227,7 @@ function AboutMe() {
 
         <div style={skillsStyle} id="skillsLink">
           <p>
-            <h1>Hard Skills: </h1>
+            <h1 style={skillsHeader}>Hard Skills: </h1>
 
 
             <p>
@@ -266,7 +268,7 @@ function AboutMe() {
             </div>
             <br />
             <br /><br />
-            <h1>Soft Skills:</h1> <br />
+            <h1 style={skillsHeader}>Soft Skills:</h1> <br />
             <span style={skillSet}><h3>&bull; Strong Communication:</h3></span>
             {' '}
             <div style={smallSkillsStyle}>
