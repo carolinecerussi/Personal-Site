@@ -28,7 +28,7 @@ justify-content: center;
 
 .section__subtitle {
     display: block;
-    font-size:13pt;
+    font-size:12pt;
     margin-bottom: 2rem;
     width:'100%',
   }
@@ -116,7 +116,7 @@ color: black;
     column-gap: 2rem;
     grid-template-columns: repeat(2,40%);
     justify-content: center;
-
+margin-top: 2%;
   }
   
   
@@ -161,7 +161,7 @@ color:rgba(3, 91, 255, 0.84);
   .portfolio__title {
     color: black;
     text-align: center;
-  font-size: 28pt;
+  font-size: 27pt;
   display:block;
   align-items: center;
   font-weight: 100;
@@ -169,7 +169,7 @@ color:rgba(3, 91, 255, 0.84);
 }
   
   .portfolio__title:hover {
-    color: rgb(0, 81, 255);
+    color: rgb(255, 111, 0);
   }
   
   .portfolio__text {

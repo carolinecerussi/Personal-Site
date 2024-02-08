@@ -17,12 +17,14 @@ const columnStyle = {
   flex: '50%',
   textAlign: 'left',
   marginTop: '20px',
-  paddingLeft:'8%'
+  paddingLeft:'8%',
+  fontWeight:'100'
 }
 const rowStyle = {
   display: 'flex',
   justifyContent: 'center',
-  backgroundColor: 'transparent'
+  backgroundColor: 'transparent',
+  fontWeight:'100'
 }
 const skillsHeader = {
   fontWeight:'100'
@@ -42,6 +44,7 @@ const headerOneStyle = {
   width: '100%',
   background: 'transparent',
   display: 'block',
+  fontWeight:'100'
 }
 
 const perogativeStyle = {
@@ -56,6 +59,7 @@ const perogativeStyle = {
   marginLeft:'10%',
   backgroundColor: 'transparent',
   lineHeight: '19pt',
+ textWrap:'pretty',
 
 };
 
@@ -63,7 +67,8 @@ const smallFont = {
   fontSize: '13pt',
   textAlign: 'left',
   backgroundColor: ' white',
-
+textWrap:'pretty',
+fontWeight:'100'
 };
 
 const smallSkillsStyle = {
