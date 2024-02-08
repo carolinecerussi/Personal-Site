@@ -7,24 +7,26 @@ import Map from './Map';
 import '../css/aboutme.css';
 const meBoxStyle = {
   justifyContent: 'center',
-  width: '80%',
-  marginLeft: '10%',
+  width: '80vw',
   boxSizing: 'border-box',
   lineHeight: '16pt',
-
+backgroundColor: 'transparent',
+display:'block',
+marginLeft: '10vw',
 };
 const columnStyle = {
   flex: '50%',
   textAlign: 'left',
   marginTop: '20px',
-  paddingLeft:'8%',
-  fontWeight:'100'
+  marginLeft:'8%',
+  fontWeight:'100',
 }
 const rowStyle = {
   display: 'flex',
   justifyContent: 'center',
   backgroundColor: 'transparent',
   fontWeight:'100',
+  width:'80vw'
 }
 const skillsHeader = {
   fontWeight:'100'
@@ -35,15 +37,16 @@ const aboutMeWhole = {
   backgroundColor: 'transparent',
   marginBottom: '2%',
   marginTop: '2%',
-  boxSizing: 'border- box',
-  width:'100vw'
+  boxSizing: 'border-box',
+  // width:'100vw'
 
 }
 
 const headerOneStyle = {
   fontSize: '30pt',
-  width: '100%',
-  background: 'transparent',
+  width: '80%',
+  marginLeft: '10%',
+  backgroundColor: 'transparent',
   display: 'block',
   fontWeight:'100'
 }
@@ -56,7 +59,7 @@ const perogativeStyle = {
   alignItems: 'center',
   textAlign: 'center',
   maxWidth: '100vw',
-  width:'80%',
+  width:'80vw',
   marginLeft:'10%',
   backgroundColor: 'transparent',
  textWrap:'pretty',
@@ -75,11 +78,13 @@ lineHeight: '19pt',
 
 const smallSkillsStyle = {
   marginTop: '-1%',
-  fontSize: '12pt',
+  fontSize: '11pt',
   textAlign: 'left',
-  width: '100%',
-  gridTemplateColumns: 'repeat(1,100%)',
+  width: '80vw',
+  gridTemplateColumns: 'repeat(1,90%)',
   backgroundColor: 'white',
+  borderRadius: '10pt',
+
 };
 
 const skillSet = {

@@ -2,29 +2,31 @@
 div.footContainer  {
   color:rgb(27, 27, 27);
    border-radius: 2pt;
-background-color:rgba(239, 233, 233, 0.354);
+background-color:rgba(233, 233, 233, 0);
 box-sizing: border-box;
-width: 100%;
+width: 80%;
+justify-content: center;
+display: block;
 text-align: left;
 font-size: 13pt;
-float: left;
-padding-left: 10%;
-display: block;
-
+margin-left: 10%;
 }
   
  #arrow a{
   font-size: 16pt;
+  width: 80%;
+  margin-left: 10%;
+  display: block;
  }
 
-div.map {
-  width: 50%;
+/* div.map {
+  width: 200px;
 background-color:transparent;
 float: right;
 margin-right: 10%;
 display: block;
 margin-top: -250px;
-}
+} */
 
 .footContainer h2 {
   font-weight: 100;

@@ -32,7 +32,7 @@ function Grids() {
       <div className="gridContent" id="projectsLink">
         <div id="portfolio" className="portfolio section">
           <div className="section__title">PROJECTS</div>
-          <span className="section__subtitle"> React JS, C#, JavaScript, Html, CSS <br />  & custom AI art</span>
+          <span className="section__subtitle"> React JS, C#, JavaScript, Html, <br /> CSS & Custom AI art</span>
           <div className="portfolio__container container grid">
             <div className="portfolio__content">
               <div className="portfolio__box">
@@ -149,18 +149,14 @@ function Grids() {
                             </a>
                           </div>
                         )}
-
                       </Popup>
                       <div className="imagesForEach" >
                       <img alt="pizza" className="portfolio__img" src={pizza1} />
                       <img alt="interior" className="portfolio__img" src={pizza2} />
                       <img alt="interior" className="portfolio__img" src={pizza3} />
-
-
                     </div>
            
                     <PizzaFan />
-
 
 
                     <p className="portfolio__text">

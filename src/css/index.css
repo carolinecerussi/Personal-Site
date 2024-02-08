@@ -12,8 +12,8 @@ html {
 justify-content: center;
 text-align: center;
 background: transparent;
-display: block;
-
+display: grid;
+width: 100vw;
 }
 
 
@@ -24,6 +24,7 @@ Index {
   display:inline-flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100vw;
 }
 
 
@@ -35,5 +36,7 @@ div {
 justify-content: center;
 margin-bottom: 1%;
 width: 100%;
+justify-content: center;
+
 }
 

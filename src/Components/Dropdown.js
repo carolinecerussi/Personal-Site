@@ -10,11 +10,9 @@ export default function Dropdown() {
   const menuButton = {
     backgroundColor: 'transparent',
     borderColor: 'transparent',
-    display: 'inline',
+    display: 'flex',
     fontSize: '12pt',
-    width: '10%',
-    marginLeft: '90vw',
-
+float:'right'
   }
 
   function handleClicked(event) {

@@ -5,8 +5,8 @@ const containerStyle = {
   height: '200px',
   width: '200px',
   borderRadius: '50%',
-  border: '2pt solid orange',
-  display: 'block'
+  border: '2pt solid black',
+  display: 'inline-block',
 };
 
 const center = {

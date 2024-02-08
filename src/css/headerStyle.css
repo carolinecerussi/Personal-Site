@@ -20,7 +20,7 @@
 
 
 .button{
-margin: .75%;
+margin-left: 1%;
   color: black;
   background-color: transparent;
   --outline: 2px dashed rgb(0, 81, 255);
@@ -29,18 +29,18 @@ border-radius: 50pt;
 outline-offset: -2px;
   transition: outline-offset .5s ease;  
 font-family: "Manrope";
-  padding: 1px 20px;
+  padding: 1px 18px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
 
 }
 
 div.buttonStyle{
 background-color: transparent;
 justify-content: center;
-display: inline-block;
+display: block;
 }
 .button:hover,
 .button:focus  {

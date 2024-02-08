@@ -1,13 +1,10 @@
 .navContainer {
   align-items: center;
-  display:block;
-  position:absolute;
+  display:flex;
   height: 25pt;
   background-color: transparent;
     justify-content: space-between;
-width: 100vw;
-margin-bottom: 1%;
-
+margin-bottom: 2%;
 }
 .navContainer ul {
   padding: 0;

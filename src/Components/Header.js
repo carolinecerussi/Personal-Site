@@ -14,7 +14,9 @@ function Header() {
         fontFamily: "Manrope",
         textAlign: 'center',
         float: 'left',
-        width: '100%',
+     width:'80vw',
+     marginLeft:'10%',
+     
 
     }
 

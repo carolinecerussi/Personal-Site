@@ -18,7 +18,7 @@ function NavBar() {
 
           <a className="homeIcon" href="#headerLink">
             <i class="material-symbols-outlined">
-              <p>home</p>
+              <p>Home</p>
             </i>
           </a>
           {/* <a target="blank" href="https://www.instagram.com/bratstudio/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
@@ -34,7 +34,7 @@ function NavBar() {
             </p>{' '}
           </a>
 
-          <a href='#projectsLink' ><p>Portfolio</p> </a>
+          <a href='#projectsLink' ><p>Projects</p> </a>
           <a href="#contactLink"> <p>Contact</p> </a>
 
         </ul>
