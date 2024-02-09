@@ -1,23 +1,77 @@
 .title {
     position:relative;
     text-align: center;
-    font-size:12pt;
-    margin: 2rem auto
+    font-size:25pt;
+    margin: 2%;
+    font-weight: 100;
 }
 
 .carousel {
     position: relative;
-    width: 1200px;
-    margin:auto
+    width: 40vw;
+    border:1pt solid #0077ffb7;
+    margin-left: 10%;
+    border-radius: 15pt;
+    margin-top: 2%;
+    display: block;
+
 }
 
 .carousel-detail {
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    width: 100%;
+    position: relative;
+    width: 90%;
     height:100px;
-    padding: 10px;
+    border-radius: 15pt;
+    text-overflow: scroll;
+    margin-left: 5%;
 
 }
 
+.carousel-text {
+    font-weight:100 ;
+    margin-top: 0%;
+    text-wrap: pretty;
+    margin-bottom: 2%;
+}
+
+.carousel-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 2%;
+    align-items: center;
+    box-sizing: border-box;
+height: 300px;
+object-fit: contain;
+}
+.carousel-title {
+font-weight: 100;
+text-transform: uppercase;
+}
+
+button.carousel-button {
+    background-color: transparent;
+    width: 100;
+    padding: 5pt;
+    border-radius: 15pt;
+    border: .5pt  solid #0077ffb7;
+color:  #0077ffb7;
+    margin: 2%;
+display: block;
+
+}
+
+.carousel-link {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+    box-sizing: border-box;
+    display: grid;
+}
+
+.carousel-link:hover {
+    text-decoration: none;
+    color:#0077ffb7;
+
+}

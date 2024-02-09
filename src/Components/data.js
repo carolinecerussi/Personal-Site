@@ -1,5 +1,5 @@
 import finn from "../img/Finn.png"
-import otherPic from "../img/ipad.png";
+import deem from "../img/deem.png";
 export const data = [
     {
         id:1,
@@ -10,9 +10,9 @@ export const data = [
 
     },
     { id:2,
-    img: otherPic,
+    img: deem,
     title:"ipad",
-    text:'i love ipads',
-    link:'https://google.com'
+    text:'I worked on this project for Deem Journal',
+    link:'https://www.deemjournal.com/'
     }
 ]
