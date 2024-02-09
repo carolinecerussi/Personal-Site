@@ -11,7 +11,7 @@ function Header() {
     const aboutHead = {
         color: "black",
         fontSize: '14pt',
-        fontFamily: "Manrope",
+        fontFamily: "Athiti",
         textAlign: 'center',
         float: 'left',
      width:'80vw',

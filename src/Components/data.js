@@ -12,7 +12,7 @@ export const data = [
     { id:2,
     img: deem,
     title:"Deem Journal",
-    text:'I had the priveledge to work on this site for friends who owned an interactive animation art gallery in Portland',
+    text:'I was asked to make a few updates on Deem Journal website, implementing style edits and more blah blah blah blah',
     link:'https://www.deemjournal.com/'
     }
 ]

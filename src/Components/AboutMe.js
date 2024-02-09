@@ -19,7 +19,7 @@ const columnStyle = {
   textAlign: 'left',
   marginTop: '20px',
   marginLeft:'8%',
-  fontWeight:'100',
+  fontWeight:'300',
 }
 const rowStyle = {
   display: 'flex',
@@ -66,24 +66,25 @@ const perogativeStyle = {
 };
 
 const smallFont = {
-  fontSize: '13pt',
+  fontSize: '14pt',
   textAlign: 'left',
   backgroundColor: ' white',
 textWrap:'pretty',
 textIndent:'3%',
-fontWeight:'100',
+fontWeight:'300',
 lineHeight: '19pt',
 
 };
 
 const smallSkillsStyle = {
   marginTop: '-1%',
-  fontSize: '12pt',
+  fontSize: '13pt',
   textAlign: 'left',
   width: '80vw',
-  gridTemplateColumns: 'repeat(1,90%)',
+  gridTemplateColumns: 'repeat(1,95%)',
   backgroundColor: 'white',
   borderRadius: '10pt',
+  fontWeight:'300',
 
 };
 

@@ -29,11 +29,10 @@ function App() {
         <Map />
       </AboutMe>
       <Rainbow />
-      <ImageCarouselApp />
-    
+      {/* <ImageCarouselApp />
+     */}
       {/* <DraggableThing /> */}
 {/* <Slide /> */}
-      <Rainbow />
       <Footer />
     </React.Fragment>
   );

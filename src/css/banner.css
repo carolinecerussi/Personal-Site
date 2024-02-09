@@ -6,9 +6,8 @@
     animation: 1.3s infinite blink;
     color: #ff7700;
     font-size: 31pt;
-    display:inline;
+    display:block;
     text-align: center;
-    display: inline;
 line-height: 25pt;
 
 }

@@ -28,12 +28,13 @@ margin-left: 1%;
 border-radius: 50pt;
 outline-offset: -2px;
   transition: outline-offset .5s ease;  
-font-family: "Manrope";
+font-family: "Athiti";
   padding: 1px 18px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
+  font-weight: 300;
 
 }
 
@@ -41,6 +42,7 @@ div.buttonStyle{
 background-color: transparent;
 justify-content: center;
 display: block;
+
 }
 .button:hover,
 .button:focus  {
