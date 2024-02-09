@@ -4,14 +4,14 @@
 div.footContainer  {
   color:rgb(27, 27, 27);
    border-radius: 2pt;
-background-color:rgba(249, 144, 51, 0.833);
-box-sizing: border-box;
+   background-color:rgba(249, 143, 51, 0.566);
+   box-sizing: border-box;
 width: 100;
 justify-content: center;
 display: block;
 text-align: left;
 font-size: 13pt;
-padding-left: 5%;
+padding-left: 10%;
 padding-top: 2%;
 }
   
@@ -19,7 +19,7 @@ padding-top: 2%;
   font-size: 17pt;
   width: 100;
   display: block;
-  background-color:rgba(249, 144, 51, 0.833);
+  background-color:rgba(249, 143, 51, 0.566);
 
  }
 
@@ -50,7 +50,7 @@ margin-top: -250px;
   border-radius: 10pt;
   border-left:2pt solid rgb(255, 111, 8);
   border-bottom:2pt solid rgb(255, 111, 8);
-  width:300px ;
+  width:30vw ;
 
   padding:5pt;
   display: flex;
@@ -66,5 +66,5 @@ margin-top: -250px;
 
 input#message {
   height: 70px;
-  width:300px ;
+  width:30vw ;
 }

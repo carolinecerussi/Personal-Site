@@ -9,13 +9,12 @@
 .carousel {
    
     position: relative;
-    width: 30vw;
-    margin-left: 35%;
+    width: 60vw;
+    margin-left: 20%;
     border-radius: 10pt;
-    margin-top: 1%;
     display: block;
     margin-bottom: 5%;
-    height: 500px;
+    height: auto;
 background-color: #449afce6;
 
 }
@@ -78,3 +77,28 @@ color: black;
     color:#0077ffb7;
 
 }
+
+.client-column {
+flex:50%;
+display: flex;
+}
+
+.client-row {
+    display: flex;
+
+}
+
+/* //const columnStyle = {
+    flex: '50%',
+    textAlign: 'left',
+    marginTop: '20px',
+    marginLeft:'8%',
+    fontWeight:'300',
+  }
+  const rowStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    backgroundColor: 'transparent',
+    fontWeight:'100',
+    width:'80vw'
+  } */

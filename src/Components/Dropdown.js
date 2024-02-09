@@ -12,7 +12,8 @@ export default function Dropdown() {
     borderColor: 'transparent',
     display: 'flex',
     fontSize: '12pt',
-float:'right'
+float:'right',
+margin:'1%'
   }
 
   function handleClicked(event) {

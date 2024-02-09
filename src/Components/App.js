@@ -29,8 +29,8 @@ function App() {
         <Map />
       </AboutMe>
       <Rainbow />
-      {/* <ImageCarouselApp />
-     */}
+      <ImageCarouselApp />
+    
       {/* <DraggableThing /> */}
 {/* <Slide /> */}
       <Footer />
