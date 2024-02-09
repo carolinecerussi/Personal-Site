@@ -1,0 +1,23 @@
+.title {
+    position:relative;
+    text-align: center;
+    font-size:12pt;
+    margin: 2rem auto
+}
+
+.carousel {
+    position: relative;
+    width: 1200px;
+    margin:auto
+}
+
+.carousel-detail {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    height:100px;
+    padding: 10px;
+
+}
+

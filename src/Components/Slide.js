@@ -1,6 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
+import Rainbow from './Rainbow';
 
 const spanStyle = {
   background: 'transparent',
@@ -11,12 +12,14 @@ const sideStyle = {
   fontSize: '15pt'
 }
 const divStyle = {
-  display: 'flex',
+  display: 'block',
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '350px',
-  width: '350px',
+  height: '375px',
+  width: '450px',
+  marginBottom :'5%',
+  alignItems:'center',
 
 }
 const slideImages = [
@@ -36,12 +39,13 @@ const slideImages = [
 
 const Slideshow = () => {
   return (
+    
     <div className="slide-container">
       <React.Fragment>
+      <Rainbow />
         <div style={sideStyle} >
-          <p>describe my work here</p>
+          <h2>Product Design</h2>
         </div>
-      </React.Fragment>
       <Slide>
 
         {slideImages.map((slideImage, index) => (
@@ -54,6 +58,8 @@ const Slideshow = () => {
         ))}
 
       </Slide>
+        <Rainbow />
+        </React.Fragment>
 
     </div>
 

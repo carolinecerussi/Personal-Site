@@ -12,8 +12,8 @@ html {
 justify-content: center;
 text-align: center;
 background: transparent;
-display: grid;
 width: 100vw;
+align-items: center;
 }
 
 
@@ -34,7 +34,6 @@ div {
   text-align: center;
   grid-template-columns: repeat(1,100%);
 justify-content: center;
-margin-bottom: 1%;
 width: 100%;
 justify-content: center;
 
