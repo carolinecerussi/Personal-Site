@@ -25,12 +25,14 @@ function App() {
       <Back />
       <Header />
       <Rainbow />
-<ImageCarouselApp />      <AboutMe>
+      <AboutMe>
         <Map />
       </AboutMe>
-      {/* <Rainbow /> */}
+      <Rainbow />
+      <ImageCarouselApp />
+    
       {/* <DraggableThing /> */}
-<Slide />
+{/* <Slide /> */}
       <Rainbow />
       <Footer />
     </React.Fragment>

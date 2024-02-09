@@ -14,7 +14,7 @@ useEffect(()=>{
     !pauseAutoplay &&
   setCurrentIndex((prevIndex) => (prevIndex +1 ) % data.length);
   setFade(true);
-}, 5000);
+}, 4000);
 
 return() => clearInterval(interval);
 })
@@ -38,11 +38,11 @@ const handlePrev=()=> {
   <img src={data[currentIndex].img} width="400px" className={"carousel-img " + (fade && 'fade')} />
 <div className="carousel-detail">
   <h2 className="carousel-title">{data[currentIndex].title ? data[currentIndex].title : "Title"}</h2>
-  <p className="carousel-text">{data[currentIndex].text ? data[currentIndex].text : "Text"} blah</p>
-  <a className="carousel-link" target="_blank" href={data[currentIndex].link}>Website</a>
+  <p className="carousel-text">{data[currentIndex].text ? data[currentIndex].text : "Text"} </p>
+  <a className="carousel-link" target="_blank" href={data[currentIndex].link}>&#128279;</a>
 </div>
-<button className="carousel-button prev-button" onClick={handlePrev}>Prev</button>
-<button className="carousel-button next-button" onClick={handleNext}>Next</button>
+<button className="carousel-button prev-button" onClick={handlePrev}> &larr; </button>
+<button className="carousel-button next-button" onClick={handleNext}>&rarr;</button>
 </div>
     </React.Fragment>
   )

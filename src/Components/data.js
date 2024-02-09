@@ -1,18 +1,18 @@
-import finn from "../img/Finn.png"
+import mizaji from "../img/mizaji.png"
 import deem from "../img/deem.png";
 export const data = [
     {
         id:1,
-        img:finn,
-        title:'Finn',
-        text:' i love finn shes a great dog',
-        link:'https://carolinecerussi.me'
+        img:mizaji,
+        title:'Mizaji Gallery',
+        text:' I had the priveledge to work on this site for friends who owned an interactive animation art gallery in Portland',
+        link:'https://mizaji.gallery/'
 
     },
     { id:2,
     img: deem,
-    title:"ipad",
-    text:'I worked on this project for Deem Journal',
+    title:"Deem Journal",
+    text:'I had the priveledge to work on this site for friends who owned an interactive animation art gallery in Portland',
     link:'https://www.deemjournal.com/'
     }
 ]

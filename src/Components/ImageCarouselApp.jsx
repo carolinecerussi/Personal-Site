@@ -16,7 +16,7 @@ import { data } from "./data";
 export default function ImageCarouselApp() {
   return (
     <React.Fragment>
-    <h1 className="title">Client Work</h1>
+    <h1 className="title">CLIENT WORK</h1>
     <Carousel data={data} />
     </React.Fragment>
   )

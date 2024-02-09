@@ -78,7 +78,7 @@ lineHeight: '19pt',
 
 const smallSkillsStyle = {
   marginTop: '-1%',
-  fontSize: '11pt',
+  fontSize: '12pt',
   textAlign: 'left',
   width: '80vw',
   gridTemplateColumns: 'repeat(1,90%)',

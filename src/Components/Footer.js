@@ -3,6 +3,8 @@ import "../css/footer.css";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Map from './Map';
+import ImageCarouselApp from './ImageCarouselApp';
+
 function Footer() {
   const form = useRef()
   const sendEmail = (e) => {
@@ -36,8 +38,8 @@ function Footer() {
           </p>
           <button className='button' type="submit" >Send</button>
         </form>
-
-
+{/* 
+      <ImageCarouselApp /> */}
 
 
 
@@ -63,6 +65,7 @@ function Footer() {
         {/* <div className="map">
           <Map />
         </div> */}
+        
       </div>
 
       {/* <div className="pigeon">
@@ -74,10 +77,13 @@ function Footer() {
 
         <i class="fa" >  &#xf106;</i>
 
+
+
       </a>
       </div>
     </React.Fragment>
-  );
+
+);
 }
 
 export default Footer;
