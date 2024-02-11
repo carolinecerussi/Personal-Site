@@ -4,7 +4,7 @@
 div.footContainer  {
   color:rgb(27, 27, 27);
    border-radius: 2pt;
-   background-color:rgba(249, 143, 51, 0.566);
+   /* background-color:rgba(249, 143, 51, 0.566); */
    box-sizing: border-box;
 width: 100;
 justify-content: center;
@@ -19,7 +19,7 @@ padding-top: 2%;
   font-size: 17pt;
   width: 100;
   display: block;
-  background-color:rgba(249, 143, 51, 0.566);
+  /* background-color:rgba(249, 143, 51, 0.566); */
 
  }
 
@@ -46,7 +46,7 @@ margin-top: -250px;
 }
 .footContainer input {
   font-size:13pt;
-  background-color: rgba(255, 255, 255, 0.709);
+  background-color: rgba(251, 125, 57, 0.709);
   border-radius: 10pt;
   border-left:2pt solid rgb(255, 111, 8);
   border-bottom:2pt solid rgb(255, 111, 8);

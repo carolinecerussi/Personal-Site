@@ -49,6 +49,9 @@ const handlePrev=()=> {
 
 </div>
 </div>
+</div>
+
+<div className="button-div">
 <button className="carousel-button prev-button" onClick={handlePrev}> &larr; </button>
 <button className="carousel-button next-button" onClick={handleNext}>&rarr;</button>
 </div>

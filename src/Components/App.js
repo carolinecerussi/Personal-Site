@@ -5,11 +5,11 @@ import Map from './Map.js';
 import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';
 import Back from './Background';
-import Slide from './Slide';
+import ProjectGrid from "./ProjectGrid.js"
 import Footer from './Footer.js';
 import DraggableThing from './DraggableThing.js';
 import Dropdown from './Dropdown';
-import ReactPlayer from 'react-player';
+import Skills from './Skills.js';
 import Carousel from "./Carousel.jsx"
 import Swiper from './Swiper.js';
 import ImageCarouselApp from './ImageCarouselApp.jsx';
@@ -25,14 +25,17 @@ function App() {
       <Back />
       <Header />
       <Rainbow />
+      <ProjectGrid />
+      <Skills />
+      <ImageCarouselApp />
+<Rainbow />
       <AboutMe>
         <Map />
       </AboutMe>
-      <Rainbow />
-      <ImageCarouselApp />
-    
+     
       {/* <DraggableThing /> */}
 {/* <Slide /> */}
+<Rainbow />
       <Footer />
     </React.Fragment>
   );
