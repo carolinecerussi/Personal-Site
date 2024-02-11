@@ -60,11 +60,13 @@ margin-top: -250px;
 
 .footContainer .button {
   padding: 6pt;
-  margin-top: .5%;
+  margin-top: 1%;
   float: left;
+
 }
 
 input#message {
   height: 70px;
   width:30vw ;
+  
 }

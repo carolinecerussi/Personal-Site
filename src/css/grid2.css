@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 40vw 40vw ; /*Make the grid smaller than the container*/
+    width: 100vw;
+    gap: 15px;
+    background-color: #2196F3;
+    padding: 10px;
+  font-family: 'athiti';
+}
+
+ div.project {
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  height:auto;  
+  border-radius: 10pt;
+  padding: 10px;
+}
+
+div.project:hover {
+    background-color: rgba(241, 153, 31, 0.8);
+   scale: 1.02;
+   box-shadow: -5px 3px 3px 3px rgba(12, 57, 217, 0.687);
+border:1pt black solid;
+    transition: transform 0.3s;
+}
+
+.project-header {
+    color:black;
+    font-size: 16pt;
+}
+
+.project-description {
+    color:black;
+font-size: 14pt;
+margin-bottom: 1%;
+text-align: left;
+padding: 2%;
+
+}
+
+.image-grid {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 20% 20% 20%; /*Make the grid smaller than the container*/
+}
+
+
+.each-image {
+    border-radius: 10pt;
+
+}
+
+.each-image:hover {
+scale: 1.05;    
+
+}
+
+ a {
+    font-size: 20pt;
+    margin-bottom: 1%;
+    text-align: center;
+    display: block;
+    width: 100%;
+
+  }
+ a:hover{
+  color:rgba(3, 91, 255, 0.84);
+ 
+  }

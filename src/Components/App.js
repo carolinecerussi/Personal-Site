@@ -13,6 +13,7 @@ import Skills from './Skills.js';
 import Carousel from "./Carousel.jsx"
 import Swiper from './Swiper.js';
 import ImageCarouselApp from './ImageCarouselApp.jsx';
+import Grid2 from './Grid2.jsx';
 function App() {
 
 
@@ -25,6 +26,7 @@ function App() {
       <Back />
       <Header />
       <Rainbow />
+      <Grid2 />
       <ProjectGrid />
       <Skills />
       <ImageCarouselApp />

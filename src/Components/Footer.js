@@ -4,7 +4,21 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Map from './Map';
 import ImageCarouselApp from './ImageCarouselApp';
+const columnStyle = {
+  float:'left',
+  display:'inline-block',
+  backgroundColor:'green',
+  textAlign: 'left',
+  marginTop: '20px',
+  marginLeft:'8%',
+  fontWeight:'300',
+  float:'left',
 
+}
+const rowStyle = {
+  display: 'flex',
+
+}
 function Footer() {
   const form = useRef()
   const sendEmail = (e) => {
@@ -26,51 +40,25 @@ function Footer() {
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
         />
         <h2> Questions? Comments? </h2>
+
         <form ref={form} onSubmit={sendEmail} className="--form-control --card --flex-center --dir-column">
+
           <p>Name:
             <input name="user_name" type="text" required />
             <br />
             Email:
             <input name="user_email" type="text" required />
+            </p>
+
             <br />
+
             Message:
             <input id="message" name="message" type="text" required />
-          </p>
           <button className='button' type="submit" >Send</button>
         </form>
-{/* 
-      <ImageCarouselApp /> */}
-
-
-
-        {/* <div className="slide-container">
-          <div className="footerImages" style={footerImage}> */}
-
-        {/* <Slide>
-
-              {slideImages.map ((slideImage, index) => (
-                <div key={index}>
-                  <div
-                    style={{
-                      ...divStyle,
-                      backgroundImage: `url(${slideImage.url})`,
-                    }}
-                  />
-                </div>
-              ))}
-
-            </Slide> */}
-        {/* </div>;
-        </div> */}
-        {/* <div className="map">
-          <Map />
-        </div> */}
         
       </div>
 
-      {/* <div className="pigeon">
-        <img src={pigeon} width='300px' /> 
-      </div> */}
       <div id="arrow">
       <a href="#homeLink">
         {' '} {'   '}

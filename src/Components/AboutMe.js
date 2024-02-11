@@ -196,7 +196,6 @@ function AboutMe() {
       </div>
       <br />
 
-      <Rainbow />
    
 
     </React.Fragment>
