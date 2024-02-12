@@ -1,65 +1,65 @@
 
   .swatch {
-    display: block;
+    display: flex;
     align-items: center;
-    margin-left: auto;
     margin-bottom: 10%;
-    margin-top: 10%;
     width: 100%;
     background-color: transparent;
-    grid-template-columns: 30vw;
-    overflow: hidden;
+box-sizing: border-box;
+padding-left: 20px;
+
+
     }
   .swatch div {
     width: 32px;
-    height: 150px;
-    border-radius: 10pt;
+    height:120px;
+    border-radius: 15pt;
     border-top: solid 2px rgba(255, 255, 255, 0.2);
     border-left: solid 3px rgba(255, 255, 255, 0.2);
     border-bottom: solid 3px rgba(6, 0, 0, 0.2);
     text-align: center;
-    box-sizing: border-box;
     transform-origin: center 90%;
-    display: inline-block;
+    display: flex;
     backface-visibility: hidden;
     margin-left: -32px;
     transform: rotate(0%);
 
+    box-sizing: border-box;
   }
   .swatch div:before {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     content: "";
-    background-color: #fffefd;
-    display: inline-block;
+    background-color: white;
+    display: inline;
     border-radius: 8px;
     bottom: 5px;
     position: absolute;
-    margin-left: -5px;
+    margin-left: -2px;
   }
 
   .swatch div:nth-child(1) {
-    background-color:  #0264f8f8;
+    background-color:  #99dbc2f8;
     animation: swatch-purple-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatch div:nth-child(2) {
-    background-color: #094ce9e4;
+    background-color: #a58cc5e4;
     animation: swatch-blue-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatch div:nth-child(3) {
-    background-color:  #196dcde4;
+    background-color:  #ff8a23e4;
     animation: swatch-green-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatch div:nth-child(4) {
-    background-color:  #4471a4e4;
+    background-color:  #ff8800e4;
     animation: swatch-yellow-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatch div:nth-child(5) {
-    background-color:  #467fc0e4;
+    background-color:  #147ce4e4;
     animation: swatch-orange-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatch div:nth-child(6) {
-    background-color: #0f4e97e4;
+    background-color: #094cf6e4;
     animation: swatch-red-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   @keyframes swatch-purple-motion {

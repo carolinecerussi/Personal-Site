@@ -13,9 +13,31 @@
     border-radius: 10pt;
     display: block;
     height: auto;
-background-color: #449afce6;
 
-}
+        background: linear-gradient(270deg, #48e2bcac, #0b80eeb7, #f0cd0ad7, rgb(186, 148, 228));
+        background-size: 600% 600%;
+    
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
 .button-div {
     background-color: transparent;
    
@@ -24,7 +46,7 @@ background-color: #449afce6;
     margin-left: 20%;
     border-radius: 10pt;
     display: block;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     height: auto;
 }
 .carousel-detail {

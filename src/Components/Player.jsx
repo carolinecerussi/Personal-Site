@@ -5,9 +5,8 @@ import floral from "../img/floral.mp4";
 
 const videoStyle={
     borderRadius: '15pt',
-    backgroundColor:'red',
   marginBottom:'2%',
-  marginTom: '2%',
+  marginTop: '2%',
 }
 
 function Video() {

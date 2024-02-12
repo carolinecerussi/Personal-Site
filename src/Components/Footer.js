@@ -4,21 +4,7 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Map from './Map';
 import ImageCarouselApp from './ImageCarouselApp';
-const columnStyle = {
-  float:'left',
-  display:'inline-block',
-  backgroundColor:'green',
-  textAlign: 'left',
-  marginTop: '20px',
-  marginLeft:'8%',
-  fontWeight:'300',
-  float:'left',
 
-}
-const rowStyle = {
-  display: 'flex',
-
-}
 function Footer() {
   const form = useRef()
   const sendEmail = (e) => {

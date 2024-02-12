@@ -41,7 +41,7 @@ const smallSkillsStyle = {
     justifyContent: 'center',
     maxWidth: '100vw',
     lineHeight: '16pt',
-  marginBottom:'2%'
+  marginBottom:'4%'
   };
   
 

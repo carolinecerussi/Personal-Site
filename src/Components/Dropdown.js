@@ -34,7 +34,7 @@ margin:'1%'
           <a href="#aboutLink">About Me</a>
         </MenuItem>
         <MenuItem value="Item 2" onClick={handleClicked}>
-          <a href="#projectsLink">Portfolio</a>
+          <a href="#projects-link">Portfolio</a>
 
         </MenuItem>
         <MenuItem value="Item 3" onClick={handleClicked}>
