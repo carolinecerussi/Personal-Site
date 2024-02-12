@@ -19,8 +19,7 @@
 }
 
 
-.button{
-margin-left: 1%;
+.header-button {
   color: black;
   background-color: transparent;
   --outline: 2px dashed rgb(0, 81, 255);
@@ -29,23 +28,28 @@ border-radius: 50pt;
 outline-offset: -2px;
   transition: outline-offset .5s ease;  
 font-family: "Athiti";
-  padding: 1px 18px;
+  padding: 2px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 12pt;
   font-weight: 300;
+  margin-right: 1.2vw;
 
 }
 
-div.buttonStyle{
+.header-button a  {
+  font-size: 13pt;
+}
+
+
+.buttonStyle{
 background-color: transparent;
 justify-content: center;
 display: block;
-
 }
-.button:hover,
-.button:focus  {
+.header-button:hover,
+.header-button:focus  {
     color: rgb(0, 81, 255);
     outline: 2px dashed rgb(0, 81, 255);
     outline-offset: -8px ;

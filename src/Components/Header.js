@@ -14,8 +14,7 @@ function Header() {
         fontFamily: "Athiti",
         textAlign: 'center',
         float: 'left',
-     width:'80vw',
-     marginLeft:'10%',
+     width:'100%',
      
 
     }
@@ -33,9 +32,9 @@ function Header() {
 
                 </div>
                 <div className='buttonStyle' >
-                    <button className="button" type="button" ><p><a href="mailto:cerussicaroline@gmail.com" target="_blank" class="icon-link">Email Me</a></p></button>
-                    <button className="button" type="button" ><p><a href="tel:+1631-375-8024" target='_blank' class="icon-link">Call Me</a></p></button>
-                    <button className="button" type="button" ><p><a href="https://www.linkedin.com/in/caroline-cerussi/" target="_blank" class="icon-link">
+                    <button className="header-button" type="button" ><p><a href="mailto:cerussicaroline@gmail.com" target="_blank" class="icon-link">Email Me</a></p></button>
+                    <button className="header-button" type="button" ><p><a href="tel:+1631-375-8024" target='_blank' class="icon-link">Call Me</a></p></button>
+                    <button className="header-button" type="button" ><p><a href="https://www.linkedin.com/in/caroline-cerussi/" target="_blank" class="icon-link">
                         <p><i class="fa fa-linkedin-square"></i>
                         </p></a></p></button>
                 </div>

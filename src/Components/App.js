@@ -10,8 +10,8 @@ import Footer from './Footer.js';
 import DraggableThing from './DraggableThing.js';
 import Dropdown from './Dropdown';
 import Skills from './Skills.js';
-import Carousel from "./Carousel.jsx"
-import Swiper from './Swiper.js';
+import Carousel from "./Carousel.jsx";
+import Player from "./Player.jsx";
 import ImageCarouselApp from './ImageCarouselApp.jsx';
 import Grid2 from './Grid2.jsx';
 function App() {
@@ -27,10 +27,11 @@ function App() {
       <Header />
       <Rainbow />
       <Grid2 />
-      <ProjectGrid />
+<Rainbow/>
+<ImageCarouselApp />
+
       <Skills />
-      <ImageCarouselApp />
-<Rainbow />
+
       <AboutMe>
         <Map />
       </AboutMe>
@@ -38,6 +39,7 @@ function App() {
       {/* <DraggableThing /> */}
 {/* <Slide /> */}
 <Rainbow />
+<Player />
       <Footer />
     </React.Fragment>
   );

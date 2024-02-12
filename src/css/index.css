@@ -10,9 +10,7 @@
 html {
  font-family: "Athiti";
  justify-content: center;
-text-align: center;
 background: transparent;
-width: 100vw;
 align-items: center;
 }
 
@@ -24,7 +22,6 @@ Index {
   display:inline-flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100vw;
 }
 
 
@@ -34,8 +31,7 @@ div {
   text-align: center;
   grid-template-columns: repeat(1,100%);
 justify-content: center;
-width: 100%;
 justify-content: center;
-
+width: 100%;
 }
 
