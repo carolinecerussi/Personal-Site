@@ -4,7 +4,7 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Map from './Map';
 import ImageCarouselApp from './ImageCarouselApp';
-
+import side from "../img/wink.gif"
 function Footer() {
   const form = useRef()
   const sendEmail = (e) => {
@@ -26,6 +26,8 @@ function Footer() {
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
         />
         <h2> Questions? Comments? </h2>
+        <div className='footer-row'>
+        <div className='footer-column'>
 
         <form ref={form} onSubmit={sendEmail} className="--form-control --card --flex-center --dir-column">
 
@@ -42,18 +44,14 @@ function Footer() {
             <input id="message" name="message" type="text" required />
           <button className='button' type="submit" >Send</button>
         </form>
-        
+        </div>
+       
+        <div className='footer-column'>
       </div>
-
-      <div id="arrow">
-      <a href="#homeLink">
-        {' '} {'   '}
-
-        <i class="fa" >  &#xf106;</i>
-
-
-
-      </a>
+      <div className='caroline-side'>
+        <img src={side}  />
+      </div>
+      </div>
       </div>
     </React.Fragment>
 

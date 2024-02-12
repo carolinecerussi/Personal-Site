@@ -1,43 +1,54 @@
 
-  .swatchPizza {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10%;
-    width: 100%;
-    background-color: transparent;
+.fan-container {
+  background-color: transparent;
+width: 90%;
+display: block;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+}
+
+.swatchPizza {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  width: 90%;
+  margin-right: auto;
+  margin-left: 10%;
+  background-color: transparent;
 box-sizing: border-box;
-padding-left: 20px;
-    }
+height: 170px;
+justify-content: center;
 
-  .swatchPizza div {
-    width: 32px;
-    height:120px;
-    border-radius: 15pt;
-    border-top: solid 2px rgba(255, 255, 255, 0.2);
-    border-left: solid 3px rgba(255, 255, 255, 0.2);
-    border-bottom: solid 3px rgba(6, 0, 0, 0.2);
-    text-align: center;
-    transform-origin: center 90%;
-    display: flex;
-    backface-visibility: hidden;
-    margin-left: -32px;
-    transform: rotate(0%);
-  
-    box-sizing: border-box;
-  
   }
-  
+.swatchPizza div {
+  width: 33px;
+  height:130px;
+  border-radius: 15pt;
+  border-top: solid 2px rgba(255, 255, 255, 0.2);
+  border-left: solid 3px rgba(255, 255, 255, 0.2);
+  border-bottom: solid 3px rgba(6, 0, 0, 0.2);
+  text-align: center;
+  transform-origin: center 90%;
+  display: flex;
+  backface-visibility: hidden;
+  margin-left: -35px;
+  transform: rotate(0%);
+  margin-top: 2%;
+  box-sizing: border;
+  justify-content: center;
 
+}
 .swatchPizza div:before {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   content: "";
-  background-color: #fffefd;
-  display: inline-block;
+  background-color: white;
+  display: block;
   border-radius: 8px;
   bottom: 5px;
   position: absolute;
-  margin-left: -5px;
 }
 
   .swatchPizza  div:nth-child(1) {

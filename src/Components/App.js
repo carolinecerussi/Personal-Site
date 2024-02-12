@@ -7,7 +7,7 @@ import Rainbow from './Rainbow';
 import Back from './Background';
 import ProjectGrid from "./ProjectGrid.js"
 import Footer from './Footer.js';
-import DraggableThing from './DraggableThing.js';
+import Arrow from './BottomArrow.jsx';
 import Dropdown from './Dropdown';
 import Skills from './Skills.js';
 import Carousel from "./Carousel.jsx";
@@ -40,6 +40,7 @@ function App() {
 {/* <Slide /> */}
 <Rainbow />
       <Footer />
+      <Arrow />
     </React.Fragment>
   );
 }

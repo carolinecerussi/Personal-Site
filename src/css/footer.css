@@ -1,27 +1,39 @@
 
 
-
 div.footContainer  {
   color:rgb(27, 27, 27);
    border-radius: 2pt;
-   /* background-color:rgba(249, 143, 51, 0.566); */
+   background-color:transparent(249, 143, 51, 0.566);
    box-sizing: border-box;
-width: 100vw;
+width: 80%;
 justify-content: center;
 display: block;
-text-align: left;
 font-size: 13pt;
-padding-left: 10%;
 padding-top: 2%;
-}
-  
- #arrow a{
-  font-size: 17pt;
-  width: 100;
-  display: block;
-  /* background-color:rgba(249, 143, 51, 0.566); */
+margin-left: auto;
+margin-right: auto;
 
- }
+} 
+  
+.footer-column {
+  width: 50%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+.footer-row {
+  width: 80vw;
+  display: flex;
+  background-color: transparent;
+
+}
+.footer-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* div.map {
   width: 200px;
@@ -50,29 +62,41 @@ margin-top: -250px;
   border-radius: 10pt;
   border-left:2pt solid rgb(255, 111, 8);
   border-bottom:2pt solid rgb(255, 111, 8);
-  width:30vw ;
-
-  padding:5pt;
-  display: flex;
+  width:100% ;
+  padding:4pt;
+  display: block;
   border-right: transparent;
   border-top: transparent;
 }
 
 .footContainer  .button {
-  padding: 6pt;
-  margin-top: 1%;
-  float: left;
+  padding: 7pt;
+  margin-top:20px;
 border-radius: 15pt;
 border:1pt dashed black;
+background-color: transparent;
+display: block;
 }
 
 .footContainer  .button:hover{
   background-color: rgba(251, 125, 57, 0.709);
 
 }
+.caroline-side img {
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  margin-top: 5%;
+  display: inline;
+  align-content: center;
+  margin-bottom: 3%;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+
 
 input#message {
   height: 70px;
-  width:30vw ;
-  
+  width:100% ;
+
 }

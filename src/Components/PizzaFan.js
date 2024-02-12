@@ -4,6 +4,8 @@ import pizzafanstyle from "../css/pizzafan.css";
 function Fan() {
   return (
     <React.Fragment>
+            <div className="fan-container">
+
       <div style={pizzafanstyle} class="swatchPizza">
         <div ></div>
         <div ></div>
@@ -11,6 +13,7 @@ function Fan() {
         <div></div>
         <div></div>
         <div></div>
+      </div>
       </div>
     </React.Fragment>
   )

@@ -4,13 +4,15 @@ import FanStyle from "../css/fan.css";
 function Fan() {
 return(
     <React.Fragment>
-    <div style={FanStyle} class="swatch">
+      <div className="fan-container" >
+    <div style={FanStyle} className="swatch">
   <div ></div>
   <div ></div>
   <div></div>
   <div></div>
   <div></div>
   <div></div>
+</div>
 </div>
 </React.Fragment>
 )

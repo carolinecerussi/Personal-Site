@@ -27,10 +27,9 @@ line-height: 25pt;
     width: 50%;
     transform: translateX(100%);
     animation: scroll-left 20s linear infinite;
-    margin-top: 1%;
     font-size: 9pt;
     line-height: 13pt;
-
+margin-bottom: 1%;
 }
 
 

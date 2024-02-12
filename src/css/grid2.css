@@ -37,12 +37,11 @@ border:1pt black solid;
     color:black;
     font-size: 15pt;
    font-weight: 200;
-   margin-bottom: 3%;
    margin-top: 2%;
    font-family: "athiti";
    background-color: transparent;
    width: 100%;
-   height: 200px;
+   height: 140px;
    box-sizing: border-box;
    text-overflow: scroll;
 }
@@ -57,7 +56,7 @@ padding:5%;
 display: flex;
 text-wrap: pretty;
 width: 90%;
-height: 200px;
+height: 150px;
 overflow:scroll ;
 }
 
@@ -65,7 +64,8 @@ overflow:scroll ;
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 30% 30% 30%; /*Make the grid smaller than the container*/
-}
+width: 100%;
+  }
 
 
 .each-image {
