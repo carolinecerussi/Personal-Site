@@ -1,15 +1,17 @@
 .swatchBook {
-  display: inline-block;
+  display: block;
   align-items: center;
-  margin-left: 10%;
+  margin-left: auto;
   margin-bottom: 10%;
   margin-top: 10%;
-
+  width: 100%;
+  background-color: transparent;
+  grid-template-columns: 30vw;
+  overflow: hidden;
   }
 .swatchBook div {
   width: 32px;
-  height: 12vw;
-  scale: .85;
+  height: 150px;
   border-radius: 10pt;
   border-top: solid 2px rgba(255, 255, 255, 0.2);
   border-left: solid 3px rgba(255, 255, 255, 0.2);

@@ -1,6 +1,8 @@
 import React from "react";
 import ReactPlayer from 'react-player'
-import caroline from "../img/carolinesite.mp4"
+import caroline from "../img/carolinesite.mp4";
+import floral from "../img/floral.mp4";
+
 const videoStyle={
     borderRadius: '15pt',
     backgroundColor:'red',
@@ -19,7 +21,7 @@ function Video() {
             loop={true}
             playing={true} 
             muted={true}
-            url={caroline} 
+            url={floral} 
             width={'100%'}
             />
             </div>

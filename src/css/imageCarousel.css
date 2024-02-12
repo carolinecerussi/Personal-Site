@@ -2,12 +2,11 @@
     position:relative;
     text-align: center;
     font-size:35pt;
-    margin-top: 2%;
-    font-weight: 100;
+    margin-top: 3%;
+    font-weight: 200;
 }
 
 .carousel {
-   
     position: relative;
     width: 60vw;
     margin-left: 20%;
@@ -64,6 +63,7 @@ object-fit: contain;
 font-weight: 100;
 text-align: center;
 width: 100%;
+
 }
 
 button.carousel-button {

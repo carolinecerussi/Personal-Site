@@ -5,8 +5,10 @@
     margin-left: auto;
     margin-bottom: 10%;
     margin-top: 10%;
-width: 100%;
-grid-template-columns: 30vw;
+    width: 100%;
+    background-color: transparent;
+    grid-template-columns: 30vw;
+    overflow: hidden;
     }
   .swatch div {
     width: 32px;

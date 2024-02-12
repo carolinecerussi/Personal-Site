@@ -39,7 +39,6 @@ function App() {
       {/* <DraggableThing /> */}
 {/* <Slide /> */}
 <Rainbow />
-<Player />
       <Footer />
     </React.Fragment>
   );

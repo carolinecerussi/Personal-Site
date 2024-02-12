@@ -14,6 +14,10 @@ backgroundColor: 'transparent',
 display:'block',
 marginLeft: '10vw',
 };
+
+const aStyle = {
+  textAlign:'left',
+}
 const columnStyle = {
   flex: '50%',
   textAlign: 'left',
@@ -26,7 +30,8 @@ const rowStyle = {
   justifyContent: 'center',
   backgroundColor: 'transparent',
   fontWeight:'100',
-  width:'80vw'
+  width:'80vw',
+  textAlign:'left'
 }
 
 const aboutMeWhole = {
@@ -55,7 +60,6 @@ const perogativeStyle = {
   justifyContent: 'center',
   marginTop: '2%',
   alignItems: 'center',
-  textAlign: 'center',
   maxWidth: '100vw',
   width:'80vw',
   marginLeft:'10%',
@@ -76,8 +80,6 @@ lineHeight: '19pt',
 
 
 
-
-
 function AboutMe() {
   return (
 
@@ -95,7 +97,7 @@ function AboutMe() {
           <div className="smallerInfo" style={smallFont}>
 
 
-            <p>
+            <p >
               As an energetic and curious native New Yorker with a love for art, I found my passion for design at Pratt Institute. Throughout my studies, I discovered the fascinating connection between space, color, and functionality. I've always been captivated by the potential of design and technology working together to create amazing products. This curiosity led me to explore front-end development, where I've dived into coding and its transformative abilities.
              Through a comprehensive coding program, I've gained confidence in using various languages like React, HTML, CSS, JavaScript, and C#. Alongside my experience in drafting on SolidWorks, product development, and research, I'm well-equipped to take on exciting opportunities in front-end design and web development. My goal is to craft comprehensive, intuitive, and visually appealing designs that leave a lasting impact.
             </p>
@@ -121,11 +123,12 @@ function AboutMe() {
                   <a
                     href="https://www.ziprecruiter.com/blog/best-career-paths-sagittarius/#:~:text=If%20given%20enough%20flexibility%20and,great%20candidate%20for%20leadership%20roles."
                     target="_blank"
+            style={aStyle}
                     rel="noopener noreferrer"
                   >
                     Sagittarius
                   </a>
-                  <br />
+    
                   <br />
 
                   with a Bachelor's degree of
@@ -158,18 +161,21 @@ function AboutMe() {
                 {/* <h1  style={headerOneStyle}>Contact:</h1> */}
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
-                <a href="tel:+1631-375-8024" target='_blank' >    <h4><i class="fa fa-phone" ></i>: 631 375 8024</h4>
+                <a             style={aStyle}
+                 href="tel:+1631-375-8024" target='_blank' >    <h4><i class="fa fa-phone" ></i>: 631 375 8024</h4>
                 </a>
                 <a
+                            style={aStyle}
                   href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cerussicaroline@gmail.com"
                   target="_blank"
                 >
                   <h4>
-                    {' '} <i class="fa fa-envelope-o" />: Cerussicaroline@ gmail.com
+                    {' '} <i class="fa fa-envelope-o" />: Cerussicaroline@gmail.com
                   </h4>
                 </a>
 
-                <a href="https://github.com/carolinecerussi" target="_blank">
+                <a              style={aStyle}
+                href="https://github.com/carolinecerussi" target="_blank">
                   <h4>
                     <i class="fa fa-github"> </i>
 
@@ -181,6 +187,7 @@ function AboutMe() {
                 Furniture Portfolio</h4>
               </a> */}
                 <a
+                            style={aStyle}
                   href="https://docs.google.com/document/d/e/2PACX-1vQ9WszdgVTh7EU6hghiV9wjkM097J8ip8j5rEjPmAec4BRMxp99P7SQqaI8mHh7SrRAuiMsamsEDGr1/pub"
                   target="_blank"
                 >
