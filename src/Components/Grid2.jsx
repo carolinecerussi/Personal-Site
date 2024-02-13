@@ -1,10 +1,10 @@
 
 import React from 'react'
 import ReactPlayer from 'react-player'
-import floral from "../img/floral.mp4";
+import floral2 from "../img/floral2.mp4";
 import '../css/grid2.css';
 import Finn from "../img/Finn.png";
-import caroline from "../img/carolinesite.mp4"
+import caroline from "../img/caroline.mp4"
 import robot from "../img/robotvideoo.mp4";
 import bookVid from "../img/book.mp4";
 import Fan from "./Fan";
@@ -26,7 +26,7 @@ import caroline2 from "../img/newcaroline2.png";
 
 const videoStyle = {
     borderRadius: '15pt',
-    backgroundColor: 'black',
+    backgroundColor: 'white',
     marginBottom: '40px',
     marginTop: '20px',
     display:'block',
@@ -90,7 +90,7 @@ function Grid2() {
                             loop={true}
                             playing={true}
                             muted={true}
-                            url={floral}
+                            url={floral2}
                             width={'90%'}
                         />
                     </div>

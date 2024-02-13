@@ -47,10 +47,11 @@ function Footer() {
         </div>
        
         <div className='footer-column'>
-      </div>
-      <div className='caroline-side'>
+        <div className='caroline-side'>
         <img src={side}  />
       </div>
+      </div>
+   
       </div>
       </div>
     </React.Fragment>
