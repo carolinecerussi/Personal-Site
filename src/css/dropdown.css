@@ -14,7 +14,7 @@
   font-family: 'Athiti';
   font-size: 11pt;
   border-radius: 15pt;
-
+position: relative;
 
 }
 
@@ -28,12 +28,13 @@
   color: #f2f2f2;
   text-align: right;
   text-decoration: none;
-position: fixed;
+  position: fixed;
 }
 
 .wholeContainer button {
+
   margin:2%;
   border-color: transparent;
   background-color: transparent;
-  
+
 }
