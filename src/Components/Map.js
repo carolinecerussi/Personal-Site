@@ -6,9 +6,24 @@ const containerStyle = {
   width: '200px',
   borderRadius: '50%',
   border: '2.4pt solid black',
-  display: 'inline-block',
-};
+  display: 'block',
+  marginLeft:'auto',
+  marginRight:'auto',
+justifyContent:'center',
+ boxSizing:'border-box',
 
+};
+const mapStyle = {
+
+backgroundColor:'transparent',
+marginTop:'3%',
+display:'block',
+marginLeft:'auto',
+marginRight:'auto',
+width:'40%',
+float:'left',
+justifyContent:'center'
+}
 const center = {
   lat: 45.523064,
   lng: -122.676483,
@@ -45,6 +60,7 @@ function MyComponent() {
     mapTypeId: 'satellite',
   };
   return isLoaded ? (
+    <div style={mapStyle}>
     <GoogleMap
       mapContainerStyle={containerStyle}
       center={center}
@@ -55,7 +71,9 @@ function MyComponent() {
     >
       <>
       </>
-    </GoogleMap>
+    
+  </GoogleMap>
+  </div>
   ) : <></>
 }
 

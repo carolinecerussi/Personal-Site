@@ -7,42 +7,50 @@ import Map from './Map';
 import '../css/aboutme.css';
 const meBoxStyle = {
   justifyContent: 'center',
-  width: '80vw',
+  width: '90%',
   boxSizing: 'border-box',
   lineHeight: '16pt',
 backgroundColor: 'transparent',
 display:'block',
-marginLeft: '10vw',
+marginLeft:'auto',
+marginRight:'auto',
+textWrap:'pretty',
+
 };
 
 const aStyle = {
   textAlign:'left',
 }
 const columnStyle = {
-  flex: '50%',
+  display: 'flex',
+  backgroundColor:'transparent',
   textAlign: 'left',
   marginTop: '20px',
-  marginLeft:'8%',
+  marginLeft:'auto',
+  marginRight:'auto',
   fontWeight:'300',
+  width:'100%'
 }
 const rowStyle = {
   display: 'flex',
   justifyContent: 'center',
   backgroundColor: 'transparent',
   fontWeight:'100',
-  width:'80vw',
-  textAlign:'left'
+  width:'100%',
+  marginLeft:'auto',
+  marginRight:'auto',
+  textAlign:'left',
 }
 
 const aboutMeWhole = {
   justifyContent: 'center',
-  display: 'grid',
+  display: 'block',
   backgroundColor: 'transparent',
   marginBottom: '2%',
   marginTop: '2%',
   boxSizing: 'border-box',
-  // width:'100vw'
-
+  width:'100%',
+  textWrap:'pretty',
 }
 
 const headerOneStyle = {
@@ -51,7 +59,9 @@ const headerOneStyle = {
   marginLeft: '10%',
   backgroundColor: 'transparent',
   display: 'block',
-  fontWeight:'100'
+  fontWeight:'100',
+  marginLeft:'auto',
+  marginRight:'auto'
 }
 
 const perogativeStyle = {
@@ -72,9 +82,11 @@ const smallFont = {
   textAlign: 'left',
   backgroundColor: ' white',
 textWrap:'pretty',
-textIndent:'3%',
+textIndent:'5%',
 fontWeight:'300',
 lineHeight: '19pt',
+width:'100%',
+borderRadius:'8pt',
 
 };
 
@@ -106,13 +118,19 @@ function AboutMe() {
         </div>
 
         <div className="aboutMeBox" style={meBoxStyle}>
+        <Map /> 
           <div className='row' style={rowStyle}>
+        
+      
             <div className='column' style={columnStyle}>
-              <Map />
+   
 
               <p>
-                {' '} <p>
+       
+               <p>
+        
                   <h2 id='hover-portland'>
+                 
                     <i class='fa fa-map-marker' ></i>&nbsp;
                     PORTLAND  OR
                   </h2>
