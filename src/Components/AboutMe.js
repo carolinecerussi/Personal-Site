@@ -18,6 +18,7 @@ textWrap:'pretty',
 
 };
 
+
 const aStyle = {
   textAlign:'left',
 }
@@ -166,6 +167,7 @@ function AboutMe() {
               <h2>Epicodus Coding School </h2>
               React, JavaScript, HTML, CSS, C#
               </p>
+
             </div>
             <div className='column' style={columnStyle}>
               <br ></br>

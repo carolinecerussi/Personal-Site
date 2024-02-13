@@ -27,11 +27,12 @@ import caroline2 from "../img/newcaroline2.png";
 const videoStyle = {
     borderRadius: '15pt',
     backgroundColor: 'white',
-    marginBottom: '40px',
+    marginBottom: '20px',
     marginTop: '20px',
     display:'block',
     boxSixing:'border-box',
-marginLeft: '5%'
+marginLeft: '5%',
+objectFit:'contain'
 }
 
 

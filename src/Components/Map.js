@@ -1,6 +1,7 @@
 import React from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
+
 const containerStyle = {
   height: '200px',
   width: '200px',
@@ -20,9 +21,10 @@ marginTop:'3%',
 display:'block',
 marginLeft:'auto',
 marginRight:'auto',
-width:'40%',
+width:'45%',
 float:'left',
-justifyContent:'center'
+justifyContent:'center',
+boxSizing:'border-box',
 }
 const center = {
   lat: 45.523064,
@@ -60,6 +62,7 @@ function MyComponent() {
     mapTypeId: 'satellite',
   };
   return isLoaded ? (
+    
     <div style={mapStyle}>
     <GoogleMap
       mapContainerStyle={containerStyle}

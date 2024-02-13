@@ -7,20 +7,13 @@ import "../css/dropdown.css";
 export default function Dropdown() {
   const [selected, changeSelected] = useState(null);
 
-//   const menuButton = {
-//     backgroundColor: 'red',
-//     borderColor: 'transparent',
-//     display: 'inline-block',
-//     fontSize: '12pt',
-// position:'fixed',
-// float:'right'
-//   }
 
   function handleClicked(event) {
     //changing the selected value
     changeSelected(event.value);
   }
   return (
+    <div className='bigger'>
     <div className="wholeContainer">
       <Menu menuButton={<button 
       
@@ -47,6 +40,7 @@ export default function Dropdown() {
         </MenuItem>
       </Menu>
       <div> <br /></div>
+    </div>
     </div>
   );
 }

@@ -25,16 +25,18 @@ position: relative;
 .wholeContainer {
   float: right;
   display: block;
-  color: #f2f2f2;
   text-align: right;
   text-decoration: none;
+
+}
+.bigger {
   position: fixed;
+  z-index:15;
 }
 
 .wholeContainer button {
-
+position: relative;
   margin:2%;
   border-color: transparent;
   background-color: transparent;
-
 }
