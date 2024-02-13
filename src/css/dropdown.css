@@ -6,11 +6,6 @@
   margin:3px ;
 }
 
-.MenuIcon {
-position: relative;
-background-color:transparent;
-width: 100%;
-}
 
 .wholeContainer a {
     text-decoration: none;
@@ -19,6 +14,8 @@ width: 100%;
   font-family: 'Athiti';
   font-size: 11pt;
   border-radius: 15pt;
+
+
 }
 
 .wholeContainer a:hover {
@@ -26,13 +23,17 @@ width: 100%;
 
 }
 .wholeContainer {
- 
-    margin-top: 1%;
- align-items: center;
- background-color: transparent;
-    z-index: 9998!important;
-    float:right;
-    display: block;
-    width: 100%;
-    
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  text-decoration: none;
+position: fixed;
+}
+
+.wholeContainer button {
+  margin:2%;
+  border-color: transparent;
+  background-color: transparent;
+  
 }
