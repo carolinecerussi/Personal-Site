@@ -28,13 +28,13 @@ border-radius: 50pt;
 outline-offset: -2px;
   transition: outline-offset .5s ease;  
 font-family: "Athiti";
-  padding: 2px 15px;
+  padding: 1px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12pt;
   font-weight: 300;
-  margin-right: 1.2vw;
+  margin-right: 17px;
 
 }
 
