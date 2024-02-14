@@ -5,7 +5,7 @@ import Map from './Map.js';
 import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';
 import Back from './Background';
-import ProjectGrid from "./ProjectGrid.js"
+import About2 from './AboutMe2.jsx';
 import Footer from './Footer.js';
 import Arrow from './BottomArrow.jsx';
 import Dropdown from './Dropdown';
@@ -25,6 +25,7 @@ function App() {
       {/* <NavBar /> */}
       <Back />
       <Header />
+    
       <Rainbow />
       <Grid2 />
 <Rainbow/>
@@ -32,9 +33,9 @@ function App() {
 
       <Skills />
 
-      <AboutMe>
-        <Map />
-      </AboutMe>
+      <About2 />
+  
+  
      
       {/* <DraggableThing /> */}
 {/* <Slide /> */}

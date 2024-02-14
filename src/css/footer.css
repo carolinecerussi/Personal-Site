@@ -15,17 +15,21 @@ margin-right: auto;
 
 } 
   
-.footer-column {
-  width: 50vw;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: transparent;
-}
 .footer-row {
-  width: 100%;
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
 
+.footer-column {
+  text-align: left;
+  flex: 1; /* Equal width for both columns */
+}
+
+/* Styles for mobile screens */
+@media screen and (max-width: 600px) {
+  .footer-column {
+    flex: 100%; /* Make each column take full width */
+  }
 }
 .footer-row:after {
   content: "";

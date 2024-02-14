@@ -25,7 +25,7 @@ export default function Dropdown() {
 
       </button>} transition>
         <MenuItem value="About Me" onClick={handleClicked}>
-          <a href="#aboutLink">About Me</a>
+          <a href="#about-link">About Me</a>
         </MenuItem>
         <MenuItem value="Item 2" onClick={handleClicked}>
           <a href="#projects-link">Projects</a>

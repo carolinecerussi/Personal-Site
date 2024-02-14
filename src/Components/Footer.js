@@ -2,8 +2,6 @@ import React from 'react';
 import "../css/footer.css";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import Map from './Map';
-import ImageCarouselApp from './ImageCarouselApp';
 import side from "../img/wink.gif"
 function Footer() {
   const form = useRef()

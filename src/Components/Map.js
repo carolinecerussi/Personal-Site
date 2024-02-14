@@ -3,28 +3,22 @@ import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 
 const containerStyle = {
-  height: '200px',
-  width: '200px',
+  height: '190px',
+  width: '190px',
   borderRadius: '50%',
-  border: '2.4pt solid black',
+  border: '2.3pt solid black',
   display: 'block',
-  marginLeft:'auto',
-  marginRight:'auto',
-justifyContent:'center',
  boxSizing:'border-box',
 
 };
 const mapStyle = {
-
 backgroundColor:'transparent',
-marginTop:'3%',
-display:'block',
-marginLeft:'auto',
-marginRight:'auto',
-width:'45%',
-float:'left',
-justifyContent:'center',
+marginBottom:'4%',
+
+width: '100%',
+// marginLeft:'5px',
 boxSizing:'border-box',
+
 }
 const center = {
   lat: 45.523064,

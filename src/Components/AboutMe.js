@@ -131,9 +131,9 @@ function AboutMe() {
        
                <p>
         
-                  <h2 id='hover-portland'>
+                  <h2 >
                  
-                    <i class='fa fa-map-marker' ></i>&nbsp;
+    <i class='portland-marker' ></i>&nbsp;
                     PORTLAND  OR
                   </h2>
 
@@ -146,8 +146,8 @@ function AboutMe() {
             style={aStyle}
                     rel="noopener noreferrer"
                   >
-                      {/* <img  src={sag} /> */}
-                    Sagittarius 
+                  
+                    <em> Sagittarius </em> 
                    </a>
 
                   <br />

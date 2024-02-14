@@ -1,18 +1,11 @@
 
 
 .grid-container {
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 35vw 35vw ; /*Make the grid smaller than the container*/
-    background-color:transparent;
-  font-family: 'athiti';
-  margin-top: 2%;
-  margin-bottom: 4%;
-  width: 100%;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
- div.project {
+ /* div.project {
     background-color: rgba(255, 255, 255, 0.286);
     text-align: center;
   height:auto;  
@@ -23,15 +16,9 @@ border: 1pt dotted black;
 
 align-items: center;
 
-}
+} */
 
-div.project:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-   scale: 1.02;
-   box-shadow: -5px 3px 3px 3px rgba(12, 57, 217, 0.687);
-border:1pt black solid;
-    transition: transform 0.3s;
-}
+
 
 .project-header h1 {
     color:black;
@@ -128,3 +115,33 @@ box-sizing: border-box;
 display: block;
 }
 
+
+
+.project {
+  width: 40%; /* Adjust the width as needed */
+  margin: 2%; /* Adjust the margin as needed */
+  border-radius: 8pt;
+  background-color: rgba(244, 241, 238, 0.576);
+border: 1.2pt black solid
+}
+ .project:hover {
+background-color: rgba(244, 241, 238, 0.576);
+border-radius: 8pt;
+scale: 1.03;
+box-shadow: -5px 3px 3px 3px rgb(41, 88, 228);
+ }
+
+
+/* Define styles for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .project {
+    width: 90%; /* Set width to 100% for smaller screens */
+    margin: 0; /* Remove margin for smaller screens */
+margin-bottom: 4%;
+  }
+  .project:hover {
+    background-color: rgba(244, 241, 238, 0.576);
+    border-radius: 8pt;
+    scale:1;
+     }
+}
