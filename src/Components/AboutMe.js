@@ -1,4 +1,5 @@
 import React from 'react';
+import sag from "../img/sag3.gif";
 import Rainbow from './Rainbow';
 import Slide from "./Slide";
 import Weather from './Weather';
@@ -21,16 +22,16 @@ textWrap:'pretty',
 
 const aStyle = {
   textAlign:'left',
+  
 }
 const columnStyle = {
   display: 'flex',
   backgroundColor:'transparent',
   textAlign: 'left',
-  marginTop: '20px',
   marginLeft:'auto',
   marginRight:'auto',
   fontWeight:'300',
-  width:'100%'
+  width:'100%',
 }
 const rowStyle = {
   display: 'flex',
@@ -51,7 +52,7 @@ const aboutMeWhole = {
   marginTop: '2%',
   boxSizing: 'border-box',
   width:'100%',
-  textWrap:'pretty',
+  textWrap:'wrap',
 }
 
 const headerOneStyle = {
@@ -145,9 +146,10 @@ function AboutMe() {
             style={aStyle}
                     rel="noopener noreferrer"
                   >
-                    Sagittarius
-                  </a>
-    
+                      {/* <img  src={sag} /> */}
+                    Sagittarius 
+                   </a>
+
                   <br />
 
                   with a Bachelor's degree of

@@ -12,7 +12,7 @@
     margin-left: 20%;
     border-radius: 10pt;
     display: block;
-    height: auto;
+    height: 300px;
 
         background: linear-gradient(270deg, #48e2bcac, #0b80eeb7, #f0cd0ad7, rgb(186, 148, 228));
         background-size: 600% 600%;
@@ -80,6 +80,7 @@ padding: 2%;
     box-sizing: border-box;
 height: 200px;
 object-fit: contain;
+
 }
 .carousel-title {
 font-weight: 100;

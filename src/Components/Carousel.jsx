@@ -26,11 +26,15 @@ const handleNext=()=> {
   setPauseAutoPlay(true)
 }
 
-const handlePrev=()=> {
-  setCurrentIndex((prevIndex) => (prevIndex -1) % data.length);
-  setPauseAutoPlay(true);
-
-}
+const handlePrev = () => {
+  setCurrentIndex((prevIndex) => {
+    const newIndex = (prevIndex - 1 + data.length) % data.length;
+    if (newIndex === 0) {
+      setPauseAutoPlay(true);
+    }
+    return newIndex;
+  });
+};
 
   return (
     <React.Fragment>
