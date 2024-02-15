@@ -1,9 +1,7 @@
 import React from 'react';
 import '../css/headerStyle.css';
 import carolineName from '../img/carceru.gif';
-import AboutMe from './AboutMe';
-import ProjectGrid from './ProjectGrid';
-import Rainbow from './Rainbow';
+
 import Border from './Border';
 import Slide from './SlideBanner';
 function Header() {

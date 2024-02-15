@@ -1,6 +1,5 @@
 import Header from './Header';
 import React from 'react';
-import AboutMe from './AboutMe';
 import Map from './Map.js';
 import 'reactjs-popup/dist/index.css';
 import Rainbow from './Rainbow';

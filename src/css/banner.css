@@ -4,7 +4,7 @@
 
 .blink {
     animation: 1.3s infinite blink;
-    color: #ff7700;
+    color: rgba(251, 125, 57, 0.709);
     font-size: 31pt;
     display:block;
     text-align: center;

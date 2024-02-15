@@ -51,7 +51,6 @@ const About2 = () => {
             </div>
 
             <div className="column">
-<br />
                 <h2 id="header-h2">CONTACT:</h2>
         
                 <p id="contact-p">

@@ -14,7 +14,7 @@ const containerStyle = {
 const mapStyle = {
 backgroundColor:'transparent',
 marginBottom:'4%',
-
+marginTop:'5%',
 width: '100%',
 // marginLeft:'5px',
 boxSizing:'border-box',

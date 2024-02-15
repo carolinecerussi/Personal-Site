@@ -25,14 +25,18 @@ import caroline2 from "../img/newcaroline2.png";
 
 
 const videoStyle = {
-    borderRadius: '15pt',
-    backgroundColor: 'white',
+    borderRadius: '6pt',
+    backgroundColor: 'transparent',
     marginBottom: '20px',
     marginTop: '20px',
     display:'block',
     boxSixing:'border-box',
-marginLeft: '5%',
-objectFit:'contain'
+marginLeft:'auto',
+marginRight:'auto',
+objectFit:'cover',
+justifyContent:'center',
+padding:'2.1%',
+
 }
 
 
@@ -62,7 +66,9 @@ function Grid2() {
                             playing={true}
                             muted={true}
                             url={caroline}
-                            width={'90%'}
+                          width={'95%'}
+                         height={'85%'}
+                          
                         />
                     </div>
                         <Fan />
@@ -92,7 +98,8 @@ function Grid2() {
                             playing={true}
                             muted={true}
                             url={floral2}
-                            width={'90%'}
+                            width={'95%'}
+                         height={'85%'}
                         />
                     </div>
                     <PizzaFan />
@@ -120,7 +127,8 @@ function Grid2() {
                             playing={true}
                             muted={true}
                             url={robot}
-                            width={'90%'}
+                            width={'95%'}
+                            height={'85%'}
                         />
                     </div>
                     <RobotFan />
@@ -148,7 +156,8 @@ function Grid2() {
                             playing={true}
                             muted={true}
                             url={bookVid}
-                            width={'90%'}
+                            width={'95%'}
+                            height={'85%'}
                         />
                     </div>
                     <BookFan />

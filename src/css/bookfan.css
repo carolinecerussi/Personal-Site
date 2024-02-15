@@ -10,34 +10,36 @@ overflow: hidden;
 }
 
 .swatchBook {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  margin-left: auto;
-  width: 90%;
+  padding-left: 10%;
+  width: 100%;
   margin-right: auto;
-  margin-left: 10%;
+  margin-left: 0%;
   background-color: transparent;
 box-sizing: border-box;
 height: 170px;
 justify-content: center;
+margin-top: 0;
+margin-bottom: 20px;
 
   }
 .swatchBook div {
-  width: 33px;
-  height:130px;
-  border-radius: 15pt;
-  border-top: solid 2px rgba(255, 255, 255, 0.2);
-  border-left: solid 3px rgba(255, 255, 255, 0.2);
-  border-bottom: solid 3px rgba(6, 0, 0, 0.2);
-  text-align: center;
-  transform-origin: center 90%;
-  display: flex;
-  backface-visibility: hidden;
-  margin-left: -35px;
-  transform: rotate(0%);
-  margin-top: 2%;
-  box-sizing: border;
-  justify-content: center;
+  width: 32px;
+    height:130px;
+    border-radius: 15pt;
+    border-top: solid 2px rgba(255, 255, 255, 0.2);
+    border-left: solid 3px rgba(255, 255, 255, 0.2);
+    border-bottom: solid 3px rgba(6, 0, 0, 0.2);
+    text-align: center;
+    transform-origin: center 90%;
+    display: flex;
+    backface-visibility: hidden;
+    margin-left: -35px;
+    transform: rotate(0%);
+    margin-top: 2%;
+    box-sizing: border;
+    justify-content: center;
 
 }
 .swatchBook div:before {
@@ -67,11 +69,11 @@ justify-content: center;
     animation: swatch-yellow-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatchBook  div:nth-child(5) {
-    background-color:  #9c759fe4;
+    background-color:  #f14515e4;
     animation: swatch-orange-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   .swatchBook  div:nth-child(6) {
-    background-color: #d8b69de4;
+    background-color: #e7bc2ce4;
     animation: swatch-red-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
   @keyframes swatch-purple-motion {

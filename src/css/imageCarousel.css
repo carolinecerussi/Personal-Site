@@ -8,12 +8,13 @@
 
 .carousel {
     position: relative;
-    width: 60vw;
-    margin-left: 20%;
+    width: 65vw;
+margin-left: auto;
+margin-right: auto;
     border-radius: 10pt;
     display: block;
     height: 300px;
-
+    padding-top: 2%;
         background: linear-gradient(270deg, #48e2bcac, #0b80eeb7, #f0cd0ad7, rgb(186, 148, 228));
         background-size: 600% 600%;
     
@@ -50,43 +51,68 @@
     height: auto;
 }
 .carousel-detail {
-    position: relative;
     width: 100%;
     border-radius: 15pt;
     text-overflow: scroll;
 
+    display: block;
 }
 
 .carousel-text {
     font-weight:300 ;
     margin-top: 0%;
     text-wrap: pretty;
-    margin-bottom: 2%;
-    text-overflow: scroll;
+margin-bottom: auto;
     text-align:left;
-    overflow: scroll;
-height: 120px;
-padding: 2%;
+background-color: transparent;
+font-size: 13pt;
+width: 90%;
+height: 115px;
+overflow-y: scroll;
+}
+
+@media screen and (max-width:768px) {
+.carousel-text::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 8pt;
+   background-color: rgba(0, 0, 0, 0.124);
+  }
+  
+  /* Track */
+.carousel-text::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.269);
+    border-radius: 6pt;
+  }
+
+  /* Handle */
+.carousel-text::-webkit-scrollbar-thumb {
+    background-color: rgba(238, 238, 238, 0.32);
+    border-radius: 6pt;
+  
+  } 
 }
 
 
+
 .carousel-img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    margin-top: 2%;
+    margin-bottom: auto;
     align-items: center;
     box-sizing: border-box;
-height: 200px;
 object-fit: contain;
-
+height: 100%;
 }
 .carousel-title {
 font-weight: 100;
 text-align: center;
-width: 100%;
-
+width: 90%;
+font-size: 25pt;
+display: block;
+margin-bottom: 3%;
+padding-top: 2%;
 }
 
 button.carousel-button {
@@ -96,16 +122,19 @@ button.carousel-button {
     border-radius: 15pt;
     border:  transparent ;
 color: black;
-    margin: 2%;
-    font-size: 15pt;
+    margin: 1.5%;
+    font-size: 14pt;
 }
 
 .carousel-link {
     text-decoration: none;
     color: black;
-    margin: 2%;
     box-sizing: border-box;
-    display: grid;
+    display: block;
+    background-color: transparent;
+    width: 90%;
+    margin-top: 2%;
+
 }
 
 .carousel-link:hover {
