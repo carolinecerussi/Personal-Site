@@ -1,11 +1,11 @@
 
 
-div.footContainer  {
+.footContainer  {
   color:rgb(27, 27, 27);
    border-radius: 2pt;
-   background-color:transparent(249, 143, 51, 0.566);
    box-sizing: border-box;
 width: 80%;
+background-color: transparent;
 justify-content: center;
 display: block;
 font-size: 13pt;

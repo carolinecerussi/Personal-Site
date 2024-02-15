@@ -33,7 +33,11 @@ margin-bottom: 1%;
 margin-top: 3%;
 }
 
-
+@media screen and (max-width:768px){
+    .marqueeContainer {
+    scale: .6;
+    }
+}
   
 @keyframes scroll-left {
     0% {

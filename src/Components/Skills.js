@@ -16,7 +16,7 @@ const skillsHeader = {
     justifyContent:'center',
     display:'block',
     textAlign:'center',
-
+marginBottom:'1%'
   }
 const smallSkillsStyle = {
     marginTop: '-1%',
@@ -25,7 +25,7 @@ const smallSkillsStyle = {
     width: '80vw',
     gridTemplateColumns: 'repeat(1,95%)',
     backgroundColor: 'white',
-    borderRadius: '10pt',
+    borderRadius: '6pt',
     fontWeight:'300',
   
   };
@@ -113,7 +113,7 @@ function Skills() {
     </div>
     <br />
     <br />
-   <br />
+
     <h1 style={skillsHeader}>Soft Skills:</h1> 
     <span style={skillSet}><h3>&bull; Strong Communication:</h3></span>
     {' '}

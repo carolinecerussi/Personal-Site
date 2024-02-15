@@ -1,74 +1,127 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Press+Start+2P&display=swap');
 
 .header a {
-    text-decoration: none;
-    color: black;
-    
-}
-.buttonStyle i {
-    font-size: auto;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+font-weight: 300;
+font-family: "athiti";
+text-align: center;
+font-size: 12pt;
 }
 
+
+
 .header a:hover {
-    color: #ff6600;
-    outline-offset: -8px;
-    background-color: transparent;
-    text-align: center;
-    border-radius: 50pt;
+  color: #f48005f7;
+  outline-offset: -8px;
+  background-color: transparent;
+  text-align: center;
+
 }
 
 
 .header-button {
-  color: black;
+  border: 1.5px dashed;
+  border-radius: 50pt;
   background-color: transparent;
-  --outline: 2px dashed rgb(0, 81, 255);
-  border: 2px dashed ;
-border-radius: 50pt;
-outline-offset: -2px;
-  transition: outline-offset .5s ease;  
-font-family: "Athiti";
-  padding: 1px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12pt;
-  font-weight: 300;
-  margin-right: 17px;
-
-}
-
-.header-button a  {
-  font-size: 13pt;
-}
-
-
-.buttonStyle{
-background-color: transparent;
+text-decoration: none;
+--outline: 1.5px dashed rgb(0, 81, 255);
+transition: outline-offset .5s ease;
+margin-inline: 10pt;
+width: 80px;
 justify-content: center;
-display: block;
+  /* color: black;
+  --outline: 1.5px dashed rgb(0, 81, 255);
+  border: 1.5px dashed;
+  border-radius: 50pt;
+  outline-offset: -2px;
+  transition: outline-offset .5s ease;
+  font-family: "Athiti";
+  padding: 1px 12px;
+
+align-self: center;
+margin-left: 2.5%;
+margin-right: 2.5%;
+width: 120px; */
 }
+
+.header-button a {
+  font-size: 12pt;
+  align-content: center;
+}
+
+
+.buttonStyle {
+  background-color: transparent;
+  justify-content: space-around;
+  display: flex;
+  width: auto;
+  margin-left: auto;
+  margin-top: 1.5%;
+  margin-right: auto;
+}
+
 .header-button:hover,
-.header-button:focus  {
-    color: rgb(0, 81, 255);
-    outline: 2px dashed rgb(0, 81, 255);
-    outline-offset: -8px ;
-    background-color: transparent;
-    text-align: center;
-    border-radius: 50pt;  
+.header-button:focus {
+  color: rgb(0, 81, 255);
+  outline: 1.5px dashed rgb(0, 81, 255);
+  outline-offset: -7px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50pt;
 
 }
 
 
-
+.carolineHead p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  background-color: transparent;
+}
 
 .carolineHead img {
-    color: black;
-    background-color: transparent;
-    width: 100%;
-    scale: .85;
-    justify-content: center;
-    text-align: center;
-    display: block;
+  color: black;
+  background-color: transparent;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  height: 45vh;
+  object-fit: contain;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
+@media screen and (max-width:768px) {
+  .buttonStyle {
+    display: grid;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carolineHead img {
+    scale: 1;
+    height: 30vh;
+    object-fit: contain;
+  }
+
+  .header-button {
+    scale: .8;
+    width: 200px;
+  }
+
+  .carolineHead p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11pt;
+
+  }
+
+}

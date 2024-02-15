@@ -11,9 +11,9 @@ function Header() {
         fontSize: '14pt',
         fontFamily: "Athiti",
         textAlign: 'center',
-        float: 'left',
-     width:'100%',
-     
+     width:'90%',
+marginLeft:'auto',
+marginRight:'auto'     
 
     }
 
@@ -26,7 +26,7 @@ function Header() {
                     <img src={carolineName} />
                     <Border />
 
-                    <span style={aboutHead}><p>Front End Developer / Designer / Artist</p></span>;
+                    <span style={aboutHead}><p>Front End Developer / Designer / Artist</p></span>
 
                 </div>
                 <div className='buttonStyle' >

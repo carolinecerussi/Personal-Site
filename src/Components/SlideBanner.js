@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/banner.css';
-import Border from './Border';
 
 function Slide() {
     return (

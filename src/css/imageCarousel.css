@@ -70,7 +70,7 @@ border-radius: 8pt;
 overflow-y: scroll;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
 .carousel-text::-webkit-scrollbar {
     width: 8px;
     border-radius: 8pt;
@@ -89,7 +89,10 @@ overflow-y: scroll;
     border-radius: 6pt;
   
   } 
+
 }
+
+
 
 
 
