@@ -5,7 +5,7 @@ import floral2 from "../img/floral2.mp4";
 import '../css/grid2.css';
 import Finn from "../img/Finn.png";
 import caroline from "../img/caroline.mp4"
-import robot from "../img/robotvideoo.mp4";
+import robot from "../img/robotvideo.mp4";
 import bookVid from "../img/book.mp4";
 import Fan from "./Fan";
 import RobotFan from "./RobotFan";

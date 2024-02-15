@@ -1,5 +1,10 @@
 import React from 'react';
-import '../css/about2.css'; // Import CSS file for styling
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import sagWork from "../img/sag.png";
+import '../css/about2.css'; 
+
+
 import Map from './Map';
 const About2 = () => {
     return (
@@ -23,28 +28,39 @@ const About2 = () => {
                         {' '} PORTLAND  OR
                     </h2>
                     <p>30 year-old <br />  
-                    
-                     <a
-                     className="wavy"
-                        href="https://www.ziprecruiter.com/blog/best-career-paths-sagittarius/#:~:text=If%20given%20enough%20flexibility%20and,great%20candidate%20for%20leadership%20roles."
-                        target="_blank"
-                        id="sag-a"
-                        rel="noopener noreferrer"
-                    >
-                         <span  >S</span>
-                         <span  >a</span>
-                         <span  >g</span>
-                         <span  >i</span>
-                         <span >t</span>
-                         <span >t</span>
-                         <span >a</span>
-                         <span >r</span>
-                         <span >i</span>
-                         <span >u</span>
-                         <span >s</span>
+                    <div className='sag-pop-up'>
+    
+
+                    <Popup trigger=
+                {       <a
+                    className="wavy"
+                   
+                       id="sag-a"
+                       rel="noopener noreferrer"
+                   >
+                        <span  >S</span>
+                        <span  >a</span>
+                        <span  >g</span>
+                        <span  >i</span>
+                        <span >t</span>
+                        <span >t</span>
+                        <span >a</span>
+                        <span >r</span>
+                        <span >i</span>
+                        <span >u</span>
+                        <span >s</span>
 
 
-                    </a>
+                   </a>}
+                position=" center">
+                <div className='sag-pop'>
+                <img src={sagWork} width={'100%'} />
+
+                </div>
+
+            </Popup>
+            </div>
+
                         with a Bachelor's degree of
 
                         <h2>Industrial Design

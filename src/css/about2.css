@@ -13,6 +13,14 @@
     /* margin: 0 auto; Center the container horizontally */
 }
 
+
+.sag-pop img {
+    background-color: rgba(255, 102, 0, 0.676);
+    border-radius: 8pt;
+    padding: 2%;
+    width: 50vw;
+}
+
 .column {
     align-items: start;
 
