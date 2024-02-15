@@ -11,8 +11,9 @@ margin-left: auto;
 margin-right: auto;
     border-radius: 6pt;
     display: flex;
-    height: auto;
+    height: 300px;
     padding-top: 2%;
+    padding:1%;
         background: linear-gradient(270deg, #48e2bcac, #0b80eeb7, #f0cd0ad7, rgb(186, 148, 228));
         background-size: 600% 600%;
     
@@ -38,21 +39,24 @@ margin-right: auto;
     }
 
 .button-div {
-    background-color: transparent;
-   
+    background-color: transparent(255, 255, 255, 0.558);
     position: relative;
-    width: 60vw;
-    margin-left: 20%;
-    border-radius: 10pt;
+    width: 65vw;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6pt;
     display: block;
     margin-bottom: 4%;
     height: auto;
+    padding: 2%;
 }
 .carousel-detail {
-    width: 100%;
-    border-radius: 8pt;
-    overflow-y: scroll;
+    width: 90%;
+    border-radius: 6pt;
+height: auto;
     display: block;
+    margin-right: auto;
+margin-left: auto;
 }
 
 .carousel-text {
@@ -66,11 +70,44 @@ font-size: 13pt;
 width: 90%;
 height: 115px;
 border-radius: 8pt;
-
+margin-right: auto;
+margin-left: auto;
 overflow-y: scroll;
+padding: 1%;
 }
 
-@media (max-width:768px) {
+.carousel img {
+    display: block;
+    background-color: transparent;
+    justify-content: center;
+    width: 340px;
+    height: 150px;
+}
+.carousel .carousel-title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: transparent;
+display: block;
+margin-top: 0px;
+}
+
+@media screen and (max-width:768px) {
+
+.carousel {
+    height: 80vw;
+    width: 80vw;
+}
+.carousel .client-column{
+    display: grid;
+    justify-content: center;
+
+}
+.carousel .client-row {
+    background-color: transparent;
+}
+
 .carousel-text::-webkit-scrollbar {
     width: 8px;
     border-radius: 8pt;

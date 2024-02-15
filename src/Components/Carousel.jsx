@@ -44,14 +44,15 @@ const handlePrev = () => {
   <img src={data[currentIndex].img} width="400px" className={"carousel-img " + (fade && 'fade')} />
   </div>
   <div className="client-row">
-
+    
 <div className="carousel-detail">
   <h2 className="carousel-title">{data[currentIndex].title ? data[currentIndex].title : "Title"}</h2>
   <p className="carousel-text">{data[currentIndex].text ? data[currentIndex].text : "Text"} </p>
   <a className="carousel-link" target="_blank" href={data[currentIndex].link}>&#128279;</a>
-</div>
 
 </div>
+</div>
+
 </div>
 </div>
 
