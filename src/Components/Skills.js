@@ -3,7 +3,11 @@ import Rainbow from "./Rainbow";
 
 
 const skillsHeader = {
-    fontWeight:'100'
+    fontWeight:'100',
+  backgroundColor:'transparent',
+  display:'block',
+ height:'auto',
+ width:'100%',
   }
 
   const bigSkills = {
@@ -11,7 +15,8 @@ const skillsHeader = {
     fontSize:'38pt',
     justifyContent:'center',
     display:'block',
-    textAlign:'center'
+    textAlign:'center',
+
   }
 const smallSkillsStyle = {
     marginTop: '-1%',
@@ -27,8 +32,8 @@ const smallSkillsStyle = {
   
   const skillSet = {
     fontSize: '12pt',
+   
     color: 'rgb(255, 104, 10)',
-    backgroundColor: 'transparent',
   };
   
   const skillsStyle = {
@@ -36,12 +41,12 @@ const smallSkillsStyle = {
     gridTemplateColumns: 'repeat(1,80%)',
     backgroundColor: 'transparent',
     textAlign: 'left',
-    marginTop: '2%',
+    marginTop: '3%',
     width: '100%',
     justifyContent: 'center',
     maxWidth: '100vw',
     lineHeight: '16pt',
-  marginBottom:'4%'
+  marginBottom:'3%'
   };
   
 
@@ -65,13 +70,14 @@ function Skills() {
 
 <div style={skillsStyle} id="skillsLink">
     <h1 style={bigSkills}>SKILLS</h1>
-  <p>
-    <h1 style={skillsHeader}>Hard Skills: </h1>
+  
+    <p>
+  <h1 style={skillsHeader}>Hard Skills: </h1>
 
 
     <p>
-      <br />
-      {' '}{' '}
+
+  
       <span style={skillSet}>
         <h3>&bull; Html, Css, React JS, JavaScript:</h3>
       </span>
@@ -106,8 +112,9 @@ function Skills() {
       Understanding visually appealing and intuitive website designs. Knowledge of wireframing, prototyping, and usability testing.
     </div>
     <br />
-    <br /><br />
-    <h1 style={skillsHeader}>Soft Skills:</h1> <br />
+    <br />
+   <br />
+    <h1 style={skillsHeader}>Soft Skills:</h1> 
     <span style={skillSet}><h3>&bull; Strong Communication:</h3></span>
     {' '}
     <div style={smallSkillsStyle}>
