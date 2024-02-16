@@ -6,7 +6,7 @@ import '../css/grid2.css';
 import Finn from "../img/Finn.png";
 import caroline from "../img/caroline.mp4"
 import robot from "../img/robotvideo.mp4";
-import bookVid from "../img/book.mp4";
+import bookVid from "../img/bookvid.mp4";
 import Fan from "./Fan";
 import RobotFan from "./RobotFan";
 import BookFan from "./BookFan";
